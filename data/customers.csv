@@ -1,0 +1,2401 @@
+customer_id,signup_date,city_tier,age_group,acquisition_channel,loyalty_tier,preferred_category,skin_type,marketing_consent
+CUST00001,2024-04-24,Tier 1,18-24,Instagram,Silver,Makeup,Normal,Yes
+CUST00002,2025-06-01,Tier 2,25-34,Marketplace,Silver,Hair Care,Combination,Yes
+CUST00003,2025-03-08,Tier 1,25-34,Influencer,None,Skin Care,Oily,Yes
+CUST00004,2025-04-15,Tier 3,25-34,Google Search,None,Fragrance,Normal,No
+CUST00005,2024-08-21,Tier 3,35-44,Organic,Gold,Hair Care,Combination,Yes
+CUST00006,2024-09-30,Tier 2,35-44,Instagram,Silver,Baby Care,Dry,Yes
+CUST00007,2025-07-24,Tier 1,18-24,Organic,None,Fragrance,Sensitive,Yes
+CUST00008,2024-11-18,Tier 2,18-24,Organic,Silver,Skin Care,Dry,Yes
+CUST00009,2025-08-20,Tier 1,25-34,Influencer,None,Skin Care,Oily,No
+CUST00010,2025-09-02,Tier 1,18-24,Influencer,None,Wellness,Oily,Yes
+CUST00011,2024-12-14,Tier 2,18-24,Referral,Gold,Fragrance,Sensitive,No
+CUST00012,2024-11-01,Tier 2,35-44,Instagram,None,Skin Care,Normal,No
+CUST00013,2025-01-06,Tier 3,35-44,Google Search,None,Fragrance,Oily,Yes
+CUST00014,2024-05-08,Tier 2,18-24,Referral,None,Fragrance,Combination,No
+CUST00015,2024-11-15,Tier 2,25-34,Google Search,Gold,Hair Care,Dry,Yes
+CUST00016,2024-08-13,Tier 2,18-24,Instagram,None,Skin Care,Sensitive,Yes
+CUST00017,2024-05-15,Tier 3,35-44,Referral,None,Hair Care,Combination,Yes
+CUST00018,2025-04-23,Tier 1,35-44,Marketplace,Silver,Skin Care,NA,Yes
+CUST00019,2025-04-04,Tier 1,18-24,Referral,Gold,Skin Care,Normal,Yes
+CUST00020,2024-04-05,Tier 3,45+,Instagram,None,Skin Care,Combination,No
+CUST00021,2025-04-10,Tier 2,25-34,Marketplace,Silver,Makeup,Combination,Yes
+CUST00022,2025-07-09,Tier 1,18-24,Instagram,None,Wellness,Normal,Yes
+CUST00023,2025-09-01,Tier 3,18-24,Google Search,Gold,Baby Care,Normal,Yes
+CUST00024,2025-06-19,Tier 1,25-34,Marketplace,None,Skin Care,Dry,Yes
+CUST00025,2024-03-15,Tier 2,18-24,Referral,None,Baby Care,Normal,Yes
+CUST00026,2025-01-13,Tier 2,25-34,Referral,None,Wellness,NA,Yes
+CUST00027,2024-04-16,Tier 1,45+,Instagram,None,Baby Care,Sensitive,Yes
+CUST00028,2024-09-27,Tier 1,25-34,Influencer,None,Baby Care,Sensitive,Yes
+CUST00029,2024-06-14,Tier 2,35-44,Referral,None,Skin Care,NA,No
+CUST00030,2024-05-31,Tier 1,25-34,Google Search,Gold,Wellness,Oily,No
+CUST00031,2025-07-27,Tier 1,35-44,Marketplace,None,Wellness,Dry,No
+CUST00032,2024-12-06,Tier 1,35-44,Marketplace,Silver,Skin Care,Dry,No
+CUST00033,2024-08-15,Tier 3,18-24,Google Search,Gold,Fragrance,Dry,Yes
+CUST00034,2024-10-12,Tier 2,25-34,Marketplace,Gold,Hair Care,Oily,Yes
+CUST00035,2024-09-28,Tier 2,18-24,Google Search,Silver,Hair Care,Normal,Yes
+CUST00036,2025-03-22,Tier 3,18-24,Referral,Silver,Makeup,NA,Yes
+CUST00037,2024-11-17,Tier 1,35-44,Influencer,None,Makeup,Sensitive,Yes
+CUST00038,2025-01-23,Tier 3,35-44,Marketplace,None,Baby Care,Oily,Yes
+CUST00039,2024-11-25,Tier 2,25-34,Instagram,None,Wellness,NA,Yes
+CUST00040,2024-12-09,Tier 3,18-24,Instagram,None,Fragrance,Dry,Yes
+CUST00041,2024-03-15,Tier 3,25-34,Referral,Silver,Hair Care,Combination,Yes
+CUST00042,2024-04-19,Tier 1,35-44,Organic,Silver,Hair Care,Normal,Yes
+CUST00043,2025-06-27,Tier 2,45+,Influencer,Gold,Baby Care,NA,No
+CUST00044,2024-06-11,Tier 2,35-44,Google Search,None,Baby Care,Normal,Yes
+CUST00045,2024-08-28,Tier 1,25-34,Referral,None,Skin Care,NA,Yes
+CUST00046,2025-04-22,Tier 1,25-34,Referral,Gold,Baby Care,NA,Yes
+CUST00047,2024-12-26,Tier 1,25-34,Organic,Gold,Baby Care,NA,Yes
+CUST00048,2025-03-22,Tier 1,25-34,Marketplace,Silver,Makeup,Combination,No
+CUST00049,2025-08-29,Tier 1,25-34,Marketplace,None,Hair Care,Oily,Yes
+CUST00050,2025-01-23,Tier 3,25-34,Referral,Gold,Hair Care,NA,Yes
+CUST00051,2024-02-11,Tier 3,35-44,Instagram,None,Skin Care,Dry,Yes
+CUST00052,2024-09-19,Tier 1,35-44,Marketplace,Silver,Skin Care,Dry,No
+CUST00053,2025-01-19,Tier 2,25-34,Instagram,Silver,Baby Care,Oily,Yes
+CUST00054,2025-08-02,Tier 1,35-44,Referral,None,Hair Care,Sensitive,Yes
+CUST00055,2025-01-05,Tier 3,25-34,Marketplace,None,Makeup,NA,Yes
+CUST00056,2025-03-22,Tier 2,35-44,Google Search,None,Wellness,Sensitive,No
+CUST00057,2025-01-23,Tier 2,25-34,Google Search,None,Hair Care,Sensitive,Yes
+CUST00058,2024-01-11,Tier 1,25-34,Google Search,None,Baby Care,Dry,Yes
+CUST00059,2024-04-05,Tier 1,25-34,Google Search,Silver,Hair Care,Normal,Yes
+CUST00060,2025-04-09,Tier 1,25-34,Instagram,None,Skin Care,Normal,No
+CUST00061,2024-10-10,Tier 3,35-44,Referral,None,Skin Care,Dry,Yes
+CUST00062,2024-05-09,Tier 3,25-34,Referral,Silver,Skin Care,Combination,Yes
+CUST00063,2024-12-14,Tier 1,18-24,Influencer,None,Fragrance,Combination,Yes
+CUST00064,2025-07-30,Tier 1,45+,Google Search,None,Hair Care,Normal,No
+CUST00065,2025-03-29,Tier 2,25-34,Referral,None,Skin Care,NA,Yes
+CUST00066,2024-03-24,Tier 1,18-24,Instagram,None,Hair Care,Normal,Yes
+CUST00067,2025-04-09,Tier 1,18-24,Google Search,Silver,Baby Care,Dry,Yes
+CUST00068,2024-05-25,Tier 1,18-24,Google Search,Silver,Baby Care,Sensitive,Yes
+CUST00069,2024-10-05,Tier 2,25-34,Instagram,None,Hair Care,Sensitive,Yes
+CUST00070,2025-08-12,Tier 1,25-34,Organic,Gold,Baby Care,Dry,Yes
+CUST00071,2025-08-22,Tier 3,25-34,Influencer,None,Hair Care,Sensitive,Yes
+CUST00072,2024-10-22,Tier 1,35-44,Organic,None,Skin Care,Sensitive,Yes
+CUST00073,2024-01-02,Tier 2,25-34,Google Search,None,Hair Care,Combination,Yes
+CUST00074,2024-10-21,Tier 2,25-34,Instagram,Platinum,Baby Care,Dry,Yes
+CUST00075,2024-08-18,Tier 3,45+,Referral,None,Fragrance,Combination,No
+CUST00076,2025-05-09,Tier 1,45+,Referral,None,Wellness,Normal,No
+CUST00077,2025-02-28,Tier 3,25-34,Google Search,None,Makeup,Normal,Yes
+CUST00078,2025-05-10,Tier 2,25-34,Referral,None,Hair Care,Dry,No
+CUST00079,2025-02-24,Tier 2,18-24,Marketplace,Silver,Hair Care,NA,No
+CUST00080,2024-05-09,Tier 2,25-34,Organic,Gold,Hair Care,Normal,No
+CUST00081,2024-06-07,Tier 3,18-24,Google Search,Silver,Hair Care,Oily,No
+CUST00082,2024-11-20,Tier 3,25-34,Referral,None,Baby Care,Dry,Yes
+CUST00083,2025-03-20,Tier 2,45+,Marketplace,None,Skin Care,Sensitive,No
+CUST00084,2025-01-18,Tier 1,25-34,Google Search,Silver,Skin Care,Dry,Yes
+CUST00085,2025-08-20,Tier 2,18-24,Google Search,None,Skin Care,Combination,No
+CUST00086,2024-12-19,Tier 1,45+,Influencer,Silver,Hair Care,Sensitive,Yes
+CUST00087,2025-08-08,Tier 1,25-34,Marketplace,None,Fragrance,Combination,Yes
+CUST00088,2024-02-20,Tier 2,45+,Organic,Gold,Makeup,Dry,Yes
+CUST00089,2024-05-20,Tier 3,25-34,Marketplace,None,Hair Care,Normal,Yes
+CUST00090,2025-03-01,Tier 1,18-24,Referral,Platinum,Baby Care,Sensitive,No
+CUST00091,2024-10-29,Tier 1,35-44,Instagram,Platinum,Skin Care,Dry,No
+CUST00092,2025-07-24,Tier 3,25-34,Instagram,None,Hair Care,NA,No
+CUST00093,2025-01-15,Tier 1,18-24,Instagram,Gold,Baby Care,Normal,Yes
+CUST00094,2024-11-05,Tier 1,25-34,Instagram,None,Wellness,Oily,Yes
+CUST00095,2025-07-07,Tier 2,25-34,Instagram,None,Skin Care,Combination,Yes
+CUST00096,2024-08-10,Tier 3,25-34,Organic,None,Makeup,Normal,No
+CUST00097,2024-05-05,Tier 3,45+,Instagram,None,Baby Care,Oily,Yes
+CUST00098,2024-07-29,Tier 2,18-24,Instagram,None,Fragrance,Sensitive,No
+CUST00099,2024-05-28,Tier 2,45+,Organic,None,Fragrance,Dry,Yes
+CUST00100,2024-06-27,Tier 1,25-34,Referral,None,Skin Care,Combination,No
+CUST00101,2024-02-14,Tier 3,35-44,Marketplace,None,Baby Care,Oily,Yes
+CUST00102,2025-05-17,Tier 2,35-44,Organic,None,Skin Care,Dry,Yes
+CUST00103,2025-09-03,Tier 2,25-34,Marketplace,None,Makeup,NA,Yes
+CUST00104,2025-04-07,Tier 1,35-44,Organic,None,Makeup,Sensitive,Yes
+CUST00105,2025-04-30,Tier 3,18-24,Instagram,None,Makeup,Dry,Yes
+CUST00106,2024-05-05,Tier 3,25-34,Influencer,None,Wellness,Oily,No
+CUST00107,2024-08-05,Tier 2,18-24,Organic,None,Baby Care,Oily,No
+CUST00108,2025-07-24,Tier 3,18-24,Organic,None,Skin Care,NA,No
+CUST00109,2024-05-26,Tier 1,25-34,Instagram,Silver,Skin Care,NA,Yes
+CUST00110,2024-11-15,Tier 2,35-44,Referral,None,Skin Care,Dry,No
+CUST00111,2025-03-10,Tier 2,25-34,Google Search,Silver,Skin Care,Combination,Yes
+CUST00112,2024-11-11,Tier 1,18-24,Marketplace,None,Hair Care,Dry,No
+CUST00113,2025-05-24,Tier 1,35-44,Google Search,Silver,Hair Care,NA,No
+CUST00114,2024-01-20,Tier 1,25-34,Google Search,None,Hair Care,NA,Yes
+CUST00115,2025-04-16,Tier 3,35-44,Instagram,Gold,Skin Care,Normal,Yes
+CUST00116,2024-08-14,Tier 1,25-34,Referral,None,Hair Care,Sensitive,Yes
+CUST00117,2024-04-15,Tier 1,18-24,Marketplace,Silver,Baby Care,Dry,No
+CUST00118,2025-08-16,Tier 3,25-34,Referral,Silver,Baby Care,NA,Yes
+CUST00119,2024-10-08,Tier 1,25-34,Instagram,None,Skin Care,Sensitive,No
+CUST00120,2025-08-31,Tier 2,25-34,Referral,Silver,Fragrance,Combination,No
+CUST00121,2025-05-28,Tier 1,18-24,Instagram,Gold,Hair Care,NA,Yes
+CUST00122,2025-03-25,Tier 2,25-34,Google Search,Gold,Hair Care,Sensitive,Yes
+CUST00123,2024-12-03,Tier 2,18-24,Google Search,Silver,Baby Care,Normal,No
+CUST00124,2024-12-24,Tier 2,25-34,Marketplace,None,Makeup,Oily,Yes
+CUST00125,2025-06-23,Tier 2,18-24,Referral,None,Hair Care,Dry,Yes
+CUST00126,2024-06-07,Tier 3,18-24,Instagram,Silver,Fragrance,Normal,Yes
+CUST00127,2025-01-20,Tier 1,18-24,Marketplace,Silver,Wellness,NA,Yes
+CUST00128,2025-03-30,Tier 2,25-34,Organic,None,Skin Care,Combination,No
+CUST00129,2025-03-27,Tier 1,25-34,Google Search,None,Wellness,Dry,No
+CUST00130,2025-01-15,Tier 1,25-34,Organic,Gold,Skin Care,Dry,Yes
+CUST00131,2024-08-15,Tier 3,35-44,Influencer,None,Hair Care,Sensitive,Yes
+CUST00132,2024-04-11,Tier 2,35-44,Organic,None,Skin Care,Combination,Yes
+CUST00133,2024-01-06,Tier 1,45+,Instagram,None,Wellness,Normal,Yes
+CUST00134,2024-02-18,Tier 2,25-34,Marketplace,None,Fragrance,Combination,Yes
+CUST00135,2024-05-27,Tier 1,25-34,Google Search,None,Skin Care,NA,Yes
+CUST00136,2025-06-03,Tier 2,35-44,Instagram,Gold,Skin Care,Combination,No
+CUST00137,2024-12-19,Tier 2,25-34,Instagram,Silver,Makeup,Dry,Yes
+CUST00138,2025-04-20,Tier 2,45+,Instagram,None,Makeup,Combination,Yes
+CUST00139,2024-11-19,Tier 2,45+,Influencer,None,Skin Care,NA,Yes
+CUST00140,2024-12-05,Tier 3,25-34,Referral,None,Hair Care,Combination,Yes
+CUST00141,2025-06-15,Tier 1,25-34,Referral,None,Wellness,Dry,Yes
+CUST00142,2024-11-09,Tier 2,25-34,Instagram,None,Hair Care,NA,No
+CUST00143,2024-02-28,Tier 2,18-24,Google Search,Silver,Makeup,Oily,Yes
+CUST00144,2024-03-09,Tier 2,25-34,Google Search,Gold,Skin Care,Dry,Yes
+CUST00145,2025-08-10,Tier 1,18-24,Google Search,None,Wellness,Oily,No
+CUST00146,2024-09-25,Tier 2,35-44,Instagram,Silver,Makeup,Combination,Yes
+CUST00147,2025-03-31,Tier 3,45+,Influencer,Platinum,Makeup,NA,Yes
+CUST00148,2024-06-27,Tier 2,35-44,Instagram,None,Skin Care,Combination,Yes
+CUST00149,2025-07-18,Tier 3,18-24,Instagram,None,Makeup,Combination,Yes
+CUST00150,2024-11-20,Tier 2,25-34,Marketplace,None,Fragrance,Normal,Yes
+CUST00151,2024-02-26,Tier 2,35-44,Google Search,None,Wellness,Dry,Yes
+CUST00152,2024-09-13,Tier 3,18-24,Google Search,Silver,Baby Care,Oily,Yes
+CUST00153,2025-09-11,Tier 3,25-34,Instagram,Gold,Skin Care,NA,No
+CUST00154,2024-02-01,Tier 2,25-34,Google Search,Gold,Hair Care,NA,Yes
+CUST00155,2025-03-01,Tier 1,25-34,Marketplace,None,Makeup,NA,No
+CUST00156,2025-06-11,Tier 1,25-34,Referral,None,Skin Care,Oily,Yes
+CUST00157,2024-06-12,Tier 3,35-44,Marketplace,None,Skin Care,Normal,Yes
+CUST00158,2025-02-06,Tier 3,25-34,Instagram,None,Skin Care,Combination,Yes
+CUST00159,2024-01-09,Tier 2,35-44,Organic,Silver,Makeup,Sensitive,Yes
+CUST00160,2024-10-22,Tier 2,18-24,Organic,None,Wellness,NA,Yes
+CUST00161,2024-12-13,Tier 1,25-34,Instagram,Silver,Hair Care,Oily,Yes
+CUST00162,2025-04-12,Tier 3,18-24,Instagram,Gold,Hair Care,Combination,No
+CUST00163,2025-06-05,Tier 2,25-34,Google Search,Silver,Hair Care,NA,Yes
+CUST00164,2024-01-28,Tier 1,25-34,Marketplace,Platinum,Baby Care,Dry,No
+CUST00165,2025-01-24,Tier 2,18-24,Instagram,Gold,Skin Care,Oily,Yes
+CUST00166,2025-05-28,Tier 3,35-44,Organic,Silver,Skin Care,Dry,Yes
+CUST00167,2025-01-20,Tier 1,25-34,Influencer,None,Hair Care,NA,Yes
+CUST00168,2024-09-09,Tier 1,25-34,Influencer,Platinum,Makeup,NA,Yes
+CUST00169,2024-10-07,Tier 2,25-34,Referral,Gold,Hair Care,Sensitive,No
+CUST00170,2024-03-21,Tier 2,25-34,Google Search,None,Skin Care,Normal,Yes
+CUST00171,2025-08-23,Tier 1,25-34,Influencer,None,Skin Care,Oily,Yes
+CUST00172,2024-01-06,Tier 3,45+,Instagram,Silver,Fragrance,Combination,Yes
+CUST00173,2024-03-01,Tier 1,45+,Referral,None,Makeup,Oily,No
+CUST00174,2024-02-07,Tier 1,45+,Referral,Gold,Wellness,Sensitive,No
+CUST00175,2024-12-09,Tier 3,25-34,Referral,None,Wellness,Normal,Yes
+CUST00176,2025-04-14,Tier 2,25-34,Instagram,None,Skin Care,NA,No
+CUST00177,2025-03-13,Tier 1,25-34,Marketplace,None,Skin Care,Sensitive,No
+CUST00178,2024-09-30,Tier 1,45+,Marketplace,None,Baby Care,NA,Yes
+CUST00179,2025-05-29,Tier 3,45+,Organic,Silver,Baby Care,Sensitive,Yes
+CUST00180,2025-04-10,Tier 2,35-44,Google Search,None,Hair Care,Normal,No
+CUST00181,2025-09-02,Tier 1,35-44,Referral,Silver,Skin Care,Normal,Yes
+CUST00182,2025-07-03,Tier 1,18-24,Referral,None,Skin Care,Normal,Yes
+CUST00183,2024-05-15,Tier 2,25-34,Instagram,None,Fragrance,NA,Yes
+CUST00184,2024-03-15,Tier 1,18-24,Instagram,Platinum,Wellness,Oily,No
+CUST00185,2024-05-18,Tier 3,35-44,Marketplace,None,Wellness,Combination,Yes
+CUST00186,2025-07-06,Tier 3,18-24,Instagram,Platinum,Hair Care,Dry,No
+CUST00187,2024-11-01,Tier 2,25-34,Referral,None,Skin Care,Combination,Yes
+CUST00188,2024-04-25,Tier 2,18-24,Marketplace,Gold,Fragrance,Dry,Yes
+CUST00189,2024-02-19,Tier 1,25-34,Referral,None,Makeup,Oily,Yes
+CUST00190,2025-08-12,Tier 2,25-34,Marketplace,None,Hair Care,Dry,No
+CUST00191,2025-07-24,Tier 3,45+,Influencer,Silver,Hair Care,Combination,Yes
+CUST00192,2025-06-21,Tier 1,25-34,Instagram,None,Makeup,Combination,Yes
+CUST00193,2025-04-19,Tier 2,45+,Influencer,None,Skin Care,Dry,Yes
+CUST00194,2025-01-14,Tier 2,18-24,Instagram,None,Makeup,Normal,Yes
+CUST00195,2025-07-26,Tier 1,18-24,Influencer,None,Wellness,Dry,No
+CUST00196,2025-05-05,Tier 2,45+,Marketplace,None,Skin Care,Sensitive,No
+CUST00197,2024-09-24,Tier 3,25-34,Referral,Silver,Makeup,Sensitive,No
+CUST00198,2024-08-14,Tier 1,35-44,Referral,Silver,Makeup,Sensitive,Yes
+CUST00199,2025-05-26,Tier 3,25-34,Google Search,Silver,Hair Care,NA,Yes
+CUST00200,2024-06-22,Tier 2,18-24,Instagram,Gold,Wellness,Oily,Yes
+CUST00201,2024-02-19,Tier 1,35-44,Organic,None,Makeup,Oily,Yes
+CUST00202,2025-05-09,Tier 1,25-34,Referral,None,Skin Care,NA,Yes
+CUST00203,2025-03-16,Tier 3,35-44,Instagram,None,Skin Care,Dry,Yes
+CUST00204,2024-03-21,Tier 1,25-34,Referral,Platinum,Skin Care,NA,No
+CUST00205,2024-02-02,Tier 1,18-24,Referral,None,Skin Care,Dry,Yes
+CUST00206,2024-04-07,Tier 3,35-44,Instagram,Gold,Makeup,Normal,Yes
+CUST00207,2025-07-10,Tier 1,25-34,Influencer,None,Wellness,Normal,Yes
+CUST00208,2024-11-02,Tier 1,18-24,Organic,None,Fragrance,Sensitive,Yes
+CUST00209,2024-03-21,Tier 3,25-34,Instagram,None,Fragrance,Sensitive,Yes
+CUST00210,2024-11-30,Tier 1,18-24,Influencer,None,Hair Care,Combination,Yes
+CUST00211,2024-10-29,Tier 2,35-44,Instagram,None,Makeup,NA,Yes
+CUST00212,2024-11-11,Tier 2,25-34,Instagram,None,Hair Care,Normal,Yes
+CUST00213,2024-04-05,Tier 3,25-34,Organic,None,Hair Care,Oily,No
+CUST00214,2025-06-17,Tier 1,18-24,Instagram,None,Hair Care,Oily,Yes
+CUST00215,2025-01-04,Tier 1,25-34,Marketplace,Silver,Skin Care,Oily,Yes
+CUST00216,2025-01-24,Tier 1,35-44,Google Search,Silver,Fragrance,Normal,Yes
+CUST00217,2024-11-17,Tier 1,18-24,Google Search,Silver,Baby Care,Normal,No
+CUST00218,2025-01-08,Tier 2,18-24,Marketplace,None,Makeup,Normal,Yes
+CUST00219,2024-10-25,Tier 1,35-44,Organic,Silver,Makeup,Dry,Yes
+CUST00220,2025-01-21,Tier 3,18-24,Referral,None,Hair Care,NA,Yes
+CUST00221,2025-07-03,Tier 3,25-34,Instagram,None,Makeup,Dry,Yes
+CUST00222,2025-02-13,Tier 1,45+,Organic,None,Skin Care,Dry,Yes
+CUST00223,2025-04-01,Tier 2,25-34,Marketplace,Silver,Skin Care,Oily,Yes
+CUST00224,2024-05-25,Tier 1,25-34,Organic,None,Hair Care,Oily,Yes
+CUST00225,2024-04-27,Tier 1,18-24,Instagram,Silver,Wellness,NA,Yes
+CUST00226,2025-04-18,Tier 1,25-34,Instagram,Silver,Hair Care,Oily,No
+CUST00227,2024-01-05,Tier 1,35-44,Marketplace,Silver,Skin Care,Oily,No
+CUST00228,2024-04-26,Tier 3,25-34,Referral,Silver,Baby Care,Normal,Yes
+CUST00229,2024-06-25,Tier 2,35-44,Google Search,Silver,Skin Care,Dry,Yes
+CUST00230,2024-05-24,Tier 1,25-34,Instagram,None,Skin Care,NA,Yes
+CUST00231,2024-06-19,Tier 1,25-34,Google Search,None,Skin Care,Sensitive,No
+CUST00232,2025-07-29,Tier 2,25-34,Marketplace,None,Fragrance,Combination,Yes
+CUST00233,2024-02-03,Tier 2,25-34,Instagram,None,Makeup,Combination,Yes
+CUST00234,2025-01-10,Tier 2,25-34,Organic,None,Skin Care,Combination,Yes
+CUST00235,2024-02-03,Tier 1,25-34,Organic,None,Wellness,Dry,Yes
+CUST00236,2025-03-14,Tier 1,18-24,Instagram,None,Skin Care,Sensitive,Yes
+CUST00237,2024-10-26,Tier 1,25-34,Organic,Platinum,Makeup,Oily,Yes
+CUST00238,2024-10-10,Tier 1,35-44,Organic,None,Makeup,Dry,No
+CUST00239,2024-10-02,Tier 1,25-34,Instagram,Silver,Makeup,Combination,Yes
+CUST00240,2025-05-14,Tier 1,25-34,Organic,Silver,Makeup,Combination,Yes
+CUST00241,2025-02-11,Tier 2,18-24,Instagram,None,Fragrance,Sensitive,Yes
+CUST00242,2024-02-19,Tier 2,18-24,Organic,None,Wellness,Dry,Yes
+CUST00243,2024-05-15,Tier 1,35-44,Organic,Gold,Skin Care,Sensitive,Yes
+CUST00244,2025-02-09,Tier 2,25-34,Marketplace,None,Skin Care,Oily,Yes
+CUST00245,2025-03-31,Tier 2,18-24,Organic,Platinum,Hair Care,Dry,Yes
+CUST00246,2024-04-15,Tier 3,25-34,Instagram,Silver,Makeup,Dry,Yes
+CUST00247,2024-06-17,Tier 2,25-34,Marketplace,None,Hair Care,NA,Yes
+CUST00248,2024-05-06,Tier 1,25-34,Influencer,None,Skin Care,Sensitive,Yes
+CUST00249,2024-10-18,Tier 2,35-44,Organic,Silver,Hair Care,Normal,Yes
+CUST00250,2024-09-02,Tier 1,25-34,Referral,Silver,Baby Care,Oily,No
+CUST00251,2025-08-05,Tier 2,25-34,Instagram,None,Wellness,Oily,Yes
+CUST00252,2024-03-02,Tier 1,45+,Google Search,Silver,Makeup,Combination,Yes
+CUST00253,2024-10-11,Tier 1,18-24,Influencer,Platinum,Skin Care,Sensitive,Yes
+CUST00254,2024-03-08,Tier 2,25-34,Influencer,None,Skin Care,Combination,Yes
+CUST00255,2024-06-28,Tier 2,18-24,Marketplace,None,Wellness,Normal,Yes
+CUST00256,2024-10-02,Tier 1,35-44,Organic,None,Hair Care,Normal,Yes
+CUST00257,2025-04-11,Tier 1,25-34,Organic,None,Skin Care,Oily,No
+CUST00258,2024-01-03,Tier 3,18-24,Google Search,None,Hair Care,Dry,Yes
+CUST00259,2025-03-05,Tier 1,25-34,Influencer,None,Fragrance,Normal,Yes
+CUST00260,2025-06-12,Tier 3,45+,Instagram,None,Skin Care,Sensitive,Yes
+CUST00261,2025-07-31,Tier 2,35-44,Google Search,None,Wellness,Dry,No
+CUST00262,2025-02-23,Tier 2,18-24,Marketplace,Silver,Skin Care,Sensitive,Yes
+CUST00263,2024-04-16,Tier 3,18-24,Google Search,Platinum,Wellness,Dry,Yes
+CUST00264,2025-06-16,Tier 3,25-34,Referral,Silver,Baby Care,Normal,Yes
+CUST00265,2025-03-21,Tier 1,35-44,Google Search,Gold,Wellness,Combination,Yes
+CUST00266,2024-03-17,Tier 1,45+,Organic,None,Skin Care,Combination,Yes
+CUST00267,2024-07-31,Tier 2,25-34,Organic,None,Fragrance,Sensitive,No
+CUST00268,2024-12-01,Tier 2,18-24,Influencer,None,Skin Care,Sensitive,Yes
+CUST00269,2025-04-08,Tier 2,25-34,Instagram,None,Makeup,Oily,Yes
+CUST00270,2025-02-14,Tier 2,25-34,Marketplace,Silver,Skin Care,Oily,Yes
+CUST00271,2024-05-11,Tier 3,18-24,Organic,None,Wellness,Oily,Yes
+CUST00272,2024-01-31,Tier 2,25-34,Google Search,Gold,Skin Care,Combination,No
+CUST00273,2024-10-29,Tier 3,25-34,Referral,None,Hair Care,Combination,Yes
+CUST00274,2025-07-10,Tier 3,35-44,Organic,None,Baby Care,Combination,Yes
+CUST00275,2024-01-27,Tier 1,25-34,Organic,Silver,Skin Care,Combination,Yes
+CUST00276,2024-04-12,Tier 1,25-34,Referral,Silver,Makeup,Dry,Yes
+CUST00277,2024-06-26,Tier 2,18-24,Organic,Silver,Wellness,Oily,Yes
+CUST00278,2024-07-11,Tier 3,35-44,Influencer,None,Skin Care,Oily,Yes
+CUST00279,2024-01-01,Tier 2,25-34,Organic,None,Skin Care,Sensitive,Yes
+CUST00280,2024-04-23,Tier 3,35-44,Influencer,None,Wellness,Combination,Yes
+CUST00281,2025-03-23,Tier 3,35-44,Marketplace,None,Wellness,NA,No
+CUST00282,2024-06-28,Tier 2,25-34,Google Search,None,Skin Care,NA,No
+CUST00283,2024-02-03,Tier 1,18-24,Organic,Silver,Baby Care,Oily,No
+CUST00284,2024-11-23,Tier 3,18-24,Instagram,Silver,Baby Care,Sensitive,Yes
+CUST00285,2024-09-19,Tier 2,35-44,Instagram,None,Hair Care,Dry,No
+CUST00286,2024-04-13,Tier 3,35-44,Referral,Silver,Skin Care,Combination,Yes
+CUST00287,2024-04-17,Tier 1,18-24,Google Search,Silver,Baby Care,Oily,Yes
+CUST00288,2025-03-17,Tier 1,45+,Organic,None,Skin Care,Dry,No
+CUST00289,2025-07-07,Tier 1,25-34,Instagram,None,Baby Care,Combination,Yes
+CUST00290,2025-09-06,Tier 1,25-34,Instagram,Silver,Wellness,Combination,No
+CUST00291,2024-09-28,Tier 2,18-24,Instagram,Gold,Hair Care,Combination,Yes
+CUST00292,2025-07-31,Tier 2,18-24,Marketplace,None,Hair Care,Normal,Yes
+CUST00293,2025-01-31,Tier 1,35-44,Referral,Gold,Hair Care,Dry,Yes
+CUST00294,2025-05-29,Tier 2,25-34,Referral,Platinum,Skin Care,Combination,Yes
+CUST00295,2024-05-09,Tier 1,18-24,Marketplace,None,Fragrance,Dry,No
+CUST00296,2024-03-09,Tier 2,18-24,Referral,Gold,Hair Care,Oily,No
+CUST00297,2025-02-28,Tier 2,18-24,Marketplace,Platinum,Skin Care,Oily,Yes
+CUST00298,2024-12-18,Tier 1,35-44,Marketplace,None,Hair Care,Dry,Yes
+CUST00299,2024-02-09,Tier 3,25-34,Marketplace,None,Hair Care,Sensitive,No
+CUST00300,2024-10-14,Tier 3,35-44,Marketplace,Platinum,Skin Care,Sensitive,No
+CUST00301,2025-03-02,Tier 1,25-34,Referral,Gold,Hair Care,Combination,No
+CUST00302,2024-06-11,Tier 2,18-24,Google Search,Silver,Baby Care,Normal,Yes
+CUST00303,2024-09-12,Tier 1,18-24,Google Search,None,Hair Care,Combination,Yes
+CUST00304,2025-01-16,Tier 2,25-34,Influencer,None,Baby Care,Sensitive,Yes
+CUST00305,2024-10-18,Tier 1,18-24,Organic,Silver,Skin Care,Dry,Yes
+CUST00306,2024-01-21,Tier 3,35-44,Marketplace,None,Skin Care,Dry,Yes
+CUST00307,2024-11-08,Tier 2,35-44,Google Search,Gold,Fragrance,Combination,Yes
+CUST00308,2025-02-10,Tier 1,25-34,Influencer,Platinum,Fragrance,Normal,Yes
+CUST00309,2024-03-06,Tier 1,25-34,Google Search,None,Baby Care,NA,Yes
+CUST00310,2025-09-06,Tier 1,25-34,Instagram,None,Hair Care,Sensitive,Yes
+CUST00311,2025-08-08,Tier 1,35-44,Marketplace,Silver,Baby Care,Combination,No
+CUST00312,2025-07-25,Tier 1,18-24,Instagram,None,Fragrance,Dry,No
+CUST00313,2024-08-16,Tier 1,35-44,Organic,None,Skin Care,Sensitive,Yes
+CUST00314,2025-08-17,Tier 1,45+,Organic,None,Fragrance,Combination,Yes
+CUST00315,2024-07-24,Tier 3,25-34,Organic,Platinum,Skin Care,NA,Yes
+CUST00316,2024-11-16,Tier 1,25-34,Google Search,Silver,Skin Care,Dry,Yes
+CUST00317,2025-03-15,Tier 3,25-34,Google Search,None,Skin Care,Sensitive,No
+CUST00318,2024-01-19,Tier 2,35-44,Google Search,Silver,Hair Care,Dry,Yes
+CUST00319,2024-02-16,Tier 1,25-34,Marketplace,Silver,Hair Care,NA,No
+CUST00320,2024-07-11,Tier 3,18-24,Organic,None,Skin Care,Dry,Yes
+CUST00321,2024-02-08,Tier 2,25-34,Organic,Silver,Baby Care,Oily,Yes
+CUST00322,2025-03-02,Tier 1,25-34,Google Search,Silver,Skin Care,NA,Yes
+CUST00323,2024-10-03,Tier 2,25-34,Google Search,Gold,Hair Care,Normal,Yes
+CUST00324,2024-07-23,Tier 3,35-44,Influencer,None,Hair Care,Dry,Yes
+CUST00325,2024-12-04,Tier 1,25-34,Instagram,None,Baby Care,Combination,Yes
+CUST00326,2024-04-13,Tier 2,45+,Referral,Platinum,Skin Care,Oily,Yes
+CUST00327,2024-11-16,Tier 1,25-34,Organic,Gold,Skin Care,Dry,Yes
+CUST00328,2024-10-01,Tier 1,35-44,Organic,None,Hair Care,Combination,Yes
+CUST00329,2024-06-19,Tier 2,18-24,Instagram,Gold,Skin Care,Combination,No
+CUST00330,2025-01-23,Tier 2,35-44,Organic,Gold,Makeup,Dry,Yes
+CUST00331,2024-03-05,Tier 1,25-34,Marketplace,Silver,Makeup,Normal,No
+CUST00332,2025-06-15,Tier 2,25-34,Instagram,Silver,Skin Care,Sensitive,Yes
+CUST00333,2024-02-25,Tier 3,18-24,Referral,None,Hair Care,Dry,Yes
+CUST00334,2024-02-21,Tier 2,25-34,Google Search,Silver,Skin Care,Combination,No
+CUST00335,2024-05-01,Tier 2,45+,Instagram,None,Skin Care,Normal,Yes
+CUST00336,2024-11-07,Tier 2,35-44,Marketplace,None,Hair Care,Oily,No
+CUST00337,2025-09-06,Tier 2,25-34,Marketplace,None,Makeup,Dry,Yes
+CUST00338,2025-07-14,Tier 2,25-34,Instagram,None,Skin Care,NA,No
+CUST00339,2024-05-03,Tier 1,45+,Referral,Silver,Makeup,Oily,No
+CUST00340,2024-05-06,Tier 2,35-44,Marketplace,Gold,Skin Care,Combination,Yes
+CUST00341,2025-08-22,Tier 2,25-34,Influencer,None,Baby Care,NA,No
+CUST00342,2024-11-25,Tier 1,25-34,Influencer,Gold,Makeup,Sensitive,Yes
+CUST00343,2024-05-21,Tier 2,25-34,Marketplace,None,Makeup,Sensitive,Yes
+CUST00344,2024-10-24,Tier 3,35-44,Instagram,Silver,Wellness,Dry,Yes
+CUST00345,2024-12-26,Tier 2,25-34,Influencer,Silver,Makeup,Normal,Yes
+CUST00346,2024-01-26,Tier 1,25-34,Instagram,None,Makeup,Sensitive,Yes
+CUST00347,2024-07-27,Tier 1,35-44,Organic,None,Fragrance,NA,Yes
+CUST00348,2025-06-07,Tier 3,35-44,Google Search,Silver,Wellness,Combination,Yes
+CUST00349,2024-02-25,Tier 1,18-24,Marketplace,Silver,Fragrance,Dry,No
+CUST00350,2025-07-13,Tier 1,35-44,Marketplace,None,Hair Care,NA,Yes
+CUST00351,2024-02-11,Tier 2,25-34,Instagram,Silver,Skin Care,Sensitive,Yes
+CUST00352,2025-09-03,Tier 3,18-24,Marketplace,Silver,Hair Care,Normal,Yes
+CUST00353,2024-07-07,Tier 3,25-34,Instagram,None,Hair Care,Sensitive,Yes
+CUST00354,2024-08-11,Tier 2,45+,Referral,None,Makeup,NA,Yes
+CUST00355,2024-09-06,Tier 2,45+,Google Search,Gold,Wellness,Combination,Yes
+CUST00356,2025-01-18,Tier 2,25-34,Referral,None,Baby Care,Sensitive,Yes
+CUST00357,2025-07-04,Tier 2,25-34,Instagram,Silver,Skin Care,NA,Yes
+CUST00358,2025-03-21,Tier 3,25-34,Marketplace,None,Hair Care,Sensitive,Yes
+CUST00359,2024-03-13,Tier 1,25-34,Google Search,None,Baby Care,Combination,Yes
+CUST00360,2024-03-05,Tier 2,35-44,Marketplace,None,Wellness,Oily,Yes
+CUST00361,2025-03-24,Tier 3,25-34,Instagram,None,Skin Care,NA,Yes
+CUST00362,2024-05-27,Tier 3,25-34,Influencer,Gold,Baby Care,Oily,Yes
+CUST00363,2025-09-02,Tier 2,25-34,Instagram,None,Makeup,NA,Yes
+CUST00364,2024-06-13,Tier 2,18-24,Google Search,None,Makeup,Normal,No
+CUST00365,2025-04-17,Tier 1,25-34,Marketplace,None,Skin Care,Normal,Yes
+CUST00366,2024-04-12,Tier 1,25-34,Instagram,None,Hair Care,NA,Yes
+CUST00367,2024-11-19,Tier 1,45+,Google Search,Silver,Makeup,NA,Yes
+CUST00368,2025-05-06,Tier 1,25-34,Google Search,None,Skin Care,Normal,Yes
+CUST00369,2024-07-20,Tier 3,25-34,Instagram,None,Skin Care,Normal,Yes
+CUST00370,2024-08-05,Tier 2,45+,Referral,Platinum,Hair Care,Dry,Yes
+CUST00371,2024-10-24,Tier 2,18-24,Instagram,None,Skin Care,Dry,No
+CUST00372,2025-06-10,Tier 1,18-24,Referral,None,Fragrance,Dry,No
+CUST00373,2025-05-14,Tier 1,25-34,Instagram,Silver,Hair Care,Sensitive,Yes
+CUST00374,2024-11-27,Tier 3,18-24,Marketplace,None,Makeup,Normal,Yes
+CUST00375,2024-03-20,Tier 1,25-34,Influencer,None,Hair Care,Sensitive,Yes
+CUST00376,2024-05-22,Tier 1,25-34,Referral,None,Skin Care,Dry,Yes
+CUST00377,2024-12-04,Tier 2,35-44,Referral,None,Skin Care,Combination,Yes
+CUST00378,2025-06-08,Tier 2,18-24,Instagram,None,Skin Care,Combination,Yes
+CUST00379,2024-10-17,Tier 1,45+,Marketplace,None,Hair Care,Dry,No
+CUST00380,2024-07-05,Tier 2,25-34,Instagram,Silver,Wellness,Normal,Yes
+CUST00381,2024-07-26,Tier 3,25-34,Marketplace,Gold,Baby Care,Dry,Yes
+CUST00382,2025-05-30,Tier 1,35-44,Marketplace,Gold,Baby Care,Oily,No
+CUST00383,2025-01-14,Tier 2,35-44,Referral,Gold,Hair Care,Combination,Yes
+CUST00384,2025-08-12,Tier 1,18-24,Referral,None,Fragrance,Sensitive,Yes
+CUST00385,2024-01-08,Tier 1,25-34,Instagram,Silver,Makeup,Sensitive,Yes
+CUST00386,2024-09-24,Tier 2,35-44,Google Search,None,Makeup,Dry,Yes
+CUST00387,2025-07-22,Tier 3,25-34,Referral,Silver,Hair Care,Dry,No
+CUST00388,2024-06-14,Tier 2,18-24,Organic,Silver,Baby Care,NA,Yes
+CUST00389,2024-04-03,Tier 2,35-44,Marketplace,None,Skin Care,Sensitive,Yes
+CUST00390,2025-06-17,Tier 3,25-34,Instagram,Silver,Skin Care,Combination,Yes
+CUST00391,2024-10-19,Tier 3,18-24,Referral,Silver,Baby Care,NA,Yes
+CUST00392,2024-10-09,Tier 1,35-44,Google Search,Silver,Hair Care,NA,Yes
+CUST00393,2025-07-26,Tier 1,45+,Influencer,None,Baby Care,Dry,Yes
+CUST00394,2025-06-02,Tier 1,18-24,Google Search,Gold,Fragrance,Sensitive,No
+CUST00395,2025-01-21,Tier 2,25-34,Marketplace,Platinum,Hair Care,Combination,No
+CUST00396,2025-01-26,Tier 3,25-34,Marketplace,None,Hair Care,Sensitive,Yes
+CUST00397,2024-04-05,Tier 2,25-34,Google Search,None,Skin Care,Sensitive,Yes
+CUST00398,2024-07-13,Tier 1,25-34,Marketplace,Gold,Skin Care,Dry,No
+CUST00399,2024-05-02,Tier 2,45+,Marketplace,Silver,Makeup,Normal,No
+CUST00400,2025-08-11,Tier 2,35-44,Influencer,Gold,Skin Care,Dry,No
+CUST00401,2025-07-07,Tier 1,18-24,Organic,Silver,Hair Care,Oily,Yes
+CUST00402,2024-08-03,Tier 1,25-34,Google Search,Gold,Skin Care,Sensitive,Yes
+CUST00403,2025-05-25,Tier 1,25-34,Marketplace,None,Hair Care,Combination,Yes
+CUST00404,2024-04-12,Tier 3,35-44,Referral,Gold,Skin Care,NA,Yes
+CUST00405,2025-06-13,Tier 1,25-34,Referral,None,Fragrance,Oily,Yes
+CUST00406,2025-05-02,Tier 1,35-44,Marketplace,None,Hair Care,Normal,No
+CUST00407,2025-09-12,Tier 2,18-24,Marketplace,None,Makeup,Sensitive,Yes
+CUST00408,2024-03-21,Tier 1,25-34,Marketplace,None,Skin Care,Sensitive,Yes
+CUST00409,2024-03-22,Tier 1,18-24,Google Search,None,Skin Care,NA,Yes
+CUST00410,2025-08-24,Tier 2,25-34,Instagram,Gold,Skin Care,Dry,Yes
+CUST00411,2024-06-19,Tier 1,25-34,Influencer,None,Skin Care,Combination,Yes
+CUST00412,2024-03-27,Tier 3,25-34,Google Search,None,Skin Care,NA,Yes
+CUST00413,2024-12-31,Tier 1,35-44,Referral,Platinum,Baby Care,Sensitive,Yes
+CUST00414,2025-08-28,Tier 2,25-34,Marketplace,None,Baby Care,NA,Yes
+CUST00415,2024-04-01,Tier 1,25-34,Google Search,None,Skin Care,Dry,Yes
+CUST00416,2025-05-03,Tier 2,25-34,Organic,Silver,Makeup,Normal,Yes
+CUST00417,2024-06-16,Tier 2,35-44,Organic,None,Skin Care,NA,Yes
+CUST00418,2024-10-05,Tier 2,25-34,Organic,None,Fragrance,Dry,Yes
+CUST00419,2025-05-18,Tier 1,18-24,Instagram,None,Skin Care,Oily,Yes
+CUST00420,2024-04-02,Tier 2,18-24,Google Search,None,Makeup,Sensitive,Yes
+CUST00421,2024-05-29,Tier 2,18-24,Instagram,None,Skin Care,Sensitive,No
+CUST00422,2024-09-11,Tier 3,25-34,Google Search,Platinum,Skin Care,NA,No
+CUST00423,2024-11-15,Tier 1,45+,Marketplace,Silver,Baby Care,Oily,Yes
+CUST00424,2024-08-11,Tier 1,45+,Referral,None,Makeup,Normal,Yes
+CUST00425,2025-05-01,Tier 1,35-44,Organic,None,Hair Care,NA,Yes
+CUST00426,2024-03-02,Tier 1,25-34,Referral,None,Hair Care,Sensitive,No
+CUST00427,2025-03-25,Tier 1,35-44,Google Search,Silver,Skin Care,Oily,Yes
+CUST00428,2024-07-13,Tier 2,25-34,Google Search,None,Fragrance,Normal,No
+CUST00429,2024-10-29,Tier 2,35-44,Referral,Silver,Hair Care,NA,Yes
+CUST00430,2024-09-01,Tier 1,25-34,Influencer,Silver,Skin Care,NA,Yes
+CUST00431,2024-11-25,Tier 2,18-24,Instagram,Gold,Skin Care,Oily,Yes
+CUST00432,2025-02-01,Tier 2,25-34,Marketplace,None,Hair Care,Normal,Yes
+CUST00433,2024-03-22,Tier 2,25-34,Google Search,Silver,Fragrance,Sensitive,No
+CUST00434,2024-03-13,Tier 1,35-44,Instagram,None,Skin Care,Dry,Yes
+CUST00435,2024-07-02,Tier 2,25-34,Marketplace,Silver,Baby Care,NA,Yes
+CUST00436,2024-07-03,Tier 2,25-34,Marketplace,None,Baby Care,Sensitive,No
+CUST00437,2025-02-26,Tier 2,35-44,Marketplace,Silver,Baby Care,Dry,Yes
+CUST00438,2025-04-08,Tier 1,25-34,Marketplace,Platinum,Baby Care,Normal,Yes
+CUST00439,2024-08-07,Tier 1,35-44,Organic,Silver,Skin Care,Normal,Yes
+CUST00440,2025-04-16,Tier 1,25-34,Google Search,Silver,Skin Care,Sensitive,Yes
+CUST00441,2024-11-28,Tier 1,35-44,Organic,Silver,Baby Care,Oily,Yes
+CUST00442,2024-03-21,Tier 3,35-44,Google Search,Gold,Hair Care,Oily,No
+CUST00443,2024-01-12,Tier 2,25-34,Instagram,None,Hair Care,Normal,Yes
+CUST00444,2025-02-06,Tier 2,45+,Referral,None,Hair Care,Combination,Yes
+CUST00445,2025-07-15,Tier 1,25-34,Referral,Silver,Skin Care,Dry,Yes
+CUST00446,2025-07-28,Tier 2,25-34,Google Search,None,Makeup,Sensitive,Yes
+CUST00447,2025-01-09,Tier 1,25-34,Marketplace,None,Hair Care,Sensitive,Yes
+CUST00448,2024-02-15,Tier 1,45+,Marketplace,None,Makeup,Oily,Yes
+CUST00449,2024-10-21,Tier 2,18-24,Instagram,None,Skin Care,Dry,No
+CUST00450,2025-07-15,Tier 2,25-34,Instagram,Silver,Skin Care,Normal,No
+CUST00451,2024-07-24,Tier 2,35-44,Instagram,Silver,Skin Care,Combination,Yes
+CUST00452,2024-04-20,Tier 3,18-24,Marketplace,None,Hair Care,NA,Yes
+CUST00453,2024-07-09,Tier 3,18-24,Referral,Silver,Skin Care,Normal,Yes
+CUST00454,2024-12-26,Tier 1,25-34,Influencer,Platinum,Skin Care,Oily,Yes
+CUST00455,2024-01-31,Tier 3,45+,Instagram,None,Hair Care,Dry,Yes
+CUST00456,2024-08-20,Tier 2,25-34,Referral,None,Baby Care,Combination,Yes
+CUST00457,2024-07-26,Tier 1,35-44,Marketplace,None,Skin Care,Dry,Yes
+CUST00458,2025-06-29,Tier 1,45+,Google Search,Gold,Makeup,Sensitive,No
+CUST00459,2024-10-07,Tier 1,18-24,Instagram,None,Wellness,Normal,Yes
+CUST00460,2024-01-27,Tier 2,25-34,Referral,None,Baby Care,NA,Yes
+CUST00461,2024-06-16,Tier 1,18-24,Organic,None,Skin Care,Combination,Yes
+CUST00462,2024-06-30,Tier 3,45+,Organic,None,Hair Care,Combination,No
+CUST00463,2025-01-24,Tier 1,35-44,Influencer,None,Baby Care,NA,No
+CUST00464,2024-02-13,Tier 1,35-44,Referral,Platinum,Skin Care,Combination,Yes
+CUST00465,2025-02-11,Tier 2,35-44,Google Search,None,Skin Care,Oily,Yes
+CUST00466,2024-04-02,Tier 1,35-44,Organic,Gold,Makeup,Dry,Yes
+CUST00467,2024-07-25,Tier 1,35-44,Google Search,Silver,Makeup,Dry,Yes
+CUST00468,2025-01-06,Tier 2,18-24,Marketplace,Platinum,Baby Care,Dry,Yes
+CUST00469,2025-08-02,Tier 3,35-44,Instagram,None,Makeup,Oily,Yes
+CUST00470,2024-07-04,Tier 1,18-24,Instagram,Silver,Skin Care,Combination,Yes
+CUST00471,2025-05-20,Tier 2,25-34,Referral,None,Skin Care,Normal,Yes
+CUST00472,2024-07-31,Tier 1,18-24,Marketplace,None,Fragrance,NA,Yes
+CUST00473,2024-04-21,Tier 1,25-34,Marketplace,Silver,Makeup,Normal,Yes
+CUST00474,2025-01-03,Tier 1,45+,Google Search,None,Hair Care,Oily,No
+CUST00475,2024-05-04,Tier 1,35-44,Referral,None,Makeup,Normal,Yes
+CUST00476,2024-03-30,Tier 2,25-34,Influencer,Platinum,Skin Care,Normal,No
+CUST00477,2024-05-12,Tier 2,25-34,Marketplace,None,Fragrance,Normal,Yes
+CUST00478,2025-04-21,Tier 1,25-34,Organic,Silver,Wellness,Combination,Yes
+CUST00479,2024-07-25,Tier 1,35-44,Instagram,None,Baby Care,Oily,Yes
+CUST00480,2024-01-30,Tier 1,35-44,Organic,Gold,Hair Care,Combination,No
+CUST00481,2025-07-03,Tier 2,35-44,Organic,Gold,Skin Care,Normal,Yes
+CUST00482,2024-08-01,Tier 1,25-34,Influencer,Silver,Skin Care,Dry,Yes
+CUST00483,2024-06-18,Tier 1,25-34,Marketplace,Gold,Makeup,NA,No
+CUST00484,2024-08-31,Tier 3,25-34,Google Search,None,Skin Care,Sensitive,No
+CUST00485,2024-01-26,Tier 3,35-44,Instagram,None,Hair Care,Normal,Yes
+CUST00486,2025-06-12,Tier 1,35-44,Marketplace,None,Makeup,Normal,Yes
+CUST00487,2024-03-30,Tier 3,25-34,Instagram,Silver,Makeup,Oily,Yes
+CUST00488,2024-07-16,Tier 2,25-34,Organic,Silver,Skin Care,Dry,Yes
+CUST00489,2024-07-30,Tier 2,25-34,Google Search,Gold,Fragrance,Normal,Yes
+CUST00490,2025-03-30,Tier 1,18-24,Influencer,None,Hair Care,Oily,Yes
+CUST00491,2025-04-01,Tier 1,25-34,Organic,Silver,Makeup,Normal,Yes
+CUST00492,2024-04-05,Tier 3,35-44,Referral,None,Makeup,NA,No
+CUST00493,2024-09-21,Tier 1,45+,Marketplace,Silver,Makeup,Sensitive,Yes
+CUST00494,2025-04-17,Tier 1,35-44,Google Search,None,Hair Care,Combination,No
+CUST00495,2024-11-05,Tier 1,25-34,Google Search,Silver,Baby Care,Combination,Yes
+CUST00496,2025-03-21,Tier 1,25-34,Marketplace,None,Makeup,NA,No
+CUST00497,2025-04-19,Tier 1,25-34,Referral,None,Hair Care,Normal,Yes
+CUST00498,2025-05-21,Tier 1,25-34,Instagram,None,Baby Care,NA,No
+CUST00499,2024-10-25,Tier 2,25-34,Instagram,Silver,Hair Care,Normal,No
+CUST00500,2024-12-18,Tier 2,45+,Marketplace,None,Fragrance,Sensitive,Yes
+CUST00501,2025-07-27,Tier 1,35-44,Organic,Gold,Skin Care,NA,Yes
+CUST00502,2025-03-21,Tier 2,25-34,Referral,None,Hair Care,Sensitive,No
+CUST00503,2024-05-17,Tier 2,18-24,Instagram,Gold,Baby Care,Dry,Yes
+CUST00504,2025-09-10,Tier 2,45+,Referral,None,Fragrance,Combination,Yes
+CUST00505,2024-08-30,Tier 1,35-44,Influencer,None,Skin Care,Oily,Yes
+CUST00506,2024-03-22,Tier 2,18-24,Influencer,Platinum,Makeup,Combination,Yes
+CUST00507,2024-03-20,Tier 2,35-44,Referral,Silver,Wellness,Normal,No
+CUST00508,2024-12-05,Tier 3,25-34,Organic,None,Skin Care,Normal,No
+CUST00509,2025-04-29,Tier 2,25-34,Marketplace,None,Makeup,Oily,Yes
+CUST00510,2024-10-11,Tier 2,25-34,Google Search,None,Makeup,Normal,Yes
+CUST00511,2024-06-28,Tier 2,25-34,Referral,Silver,Fragrance,Sensitive,No
+CUST00512,2025-05-22,Tier 1,35-44,Google Search,Silver,Makeup,Dry,Yes
+CUST00513,2024-04-28,Tier 2,18-24,Referral,None,Wellness,Normal,Yes
+CUST00514,2025-06-27,Tier 1,35-44,Influencer,None,Makeup,Normal,Yes
+CUST00515,2025-03-18,Tier 2,25-34,Google Search,None,Fragrance,Sensitive,Yes
+CUST00516,2025-08-25,Tier 2,35-44,Marketplace,Platinum,Hair Care,Oily,Yes
+CUST00517,2024-04-16,Tier 1,35-44,Marketplace,None,Skin Care,Normal,Yes
+CUST00518,2025-09-05,Tier 2,25-34,Instagram,Gold,Skin Care,NA,No
+CUST00519,2024-04-23,Tier 1,35-44,Referral,Gold,Baby Care,Sensitive,No
+CUST00520,2024-09-20,Tier 1,18-24,Organic,None,Hair Care,Oily,Yes
+CUST00521,2024-07-24,Tier 1,25-34,Referral,None,Makeup,Dry,Yes
+CUST00522,2024-02-05,Tier 2,18-24,Google Search,None,Fragrance,Dry,Yes
+CUST00523,2024-06-04,Tier 3,35-44,Referral,None,Wellness,Combination,Yes
+CUST00524,2024-03-12,Tier 1,25-34,Influencer,Silver,Hair Care,Normal,Yes
+CUST00525,2024-02-26,Tier 3,25-34,Instagram,None,Wellness,Oily,No
+CUST00526,2025-07-21,Tier 1,18-24,Instagram,Silver,Fragrance,NA,Yes
+CUST00527,2024-07-13,Tier 1,18-24,Marketplace,Silver,Hair Care,Oily,No
+CUST00528,2025-04-05,Tier 1,45+,Google Search,None,Makeup,Combination,Yes
+CUST00529,2025-07-03,Tier 2,18-24,Influencer,None,Skin Care,NA,Yes
+CUST00530,2024-05-13,Tier 2,18-24,Influencer,Gold,Skin Care,Normal,Yes
+CUST00531,2025-05-24,Tier 2,25-34,Instagram,None,Hair Care,NA,Yes
+CUST00532,2024-05-20,Tier 3,25-34,Instagram,None,Skin Care,Oily,Yes
+CUST00533,2025-07-20,Tier 1,18-24,Marketplace,None,Makeup,NA,Yes
+CUST00534,2024-01-07,Tier 3,18-24,Marketplace,Silver,Skin Care,NA,No
+CUST00535,2024-10-04,Tier 1,25-34,Influencer,Silver,Skin Care,Dry,Yes
+CUST00536,2024-11-04,Tier 1,25-34,Instagram,None,Baby Care,Oily,Yes
+CUST00537,2025-04-20,Tier 2,35-44,Google Search,None,Makeup,NA,No
+CUST00538,2024-02-14,Tier 1,18-24,Instagram,None,Baby Care,Combination,Yes
+CUST00539,2024-01-30,Tier 1,25-34,Organic,Silver,Baby Care,Sensitive,Yes
+CUST00540,2024-04-22,Tier 1,25-34,Marketplace,Gold,Hair Care,Dry,Yes
+CUST00541,2024-08-09,Tier 2,45+,Google Search,None,Makeup,NA,Yes
+CUST00542,2025-08-05,Tier 1,18-24,Organic,None,Skin Care,Sensitive,Yes
+CUST00543,2024-06-23,Tier 2,25-34,Instagram,None,Baby Care,Dry,Yes
+CUST00544,2024-09-09,Tier 2,25-34,Instagram,Gold,Wellness,Normal,No
+CUST00545,2025-05-31,Tier 2,18-24,Referral,Silver,Fragrance,Combination,Yes
+CUST00546,2025-02-20,Tier 1,45+,Google Search,Silver,Skin Care,Combination,Yes
+CUST00547,2025-08-20,Tier 2,18-24,Organic,Gold,Hair Care,Sensitive,Yes
+CUST00548,2025-01-29,Tier 1,35-44,Instagram,None,Skin Care,Normal,Yes
+CUST00549,2024-12-09,Tier 1,35-44,Influencer,Silver,Fragrance,Oily,Yes
+CUST00550,2025-07-26,Tier 2,35-44,Organic,None,Hair Care,Normal,Yes
+CUST00551,2024-08-02,Tier 2,35-44,Google Search,Gold,Hair Care,Combination,Yes
+CUST00552,2025-06-23,Tier 2,35-44,Referral,Gold,Fragrance,Combination,Yes
+CUST00553,2024-03-08,Tier 3,18-24,Instagram,None,Skin Care,Oily,Yes
+CUST00554,2024-07-28,Tier 2,25-34,Google Search,Platinum,Baby Care,Dry,Yes
+CUST00555,2024-07-12,Tier 3,18-24,Instagram,Gold,Baby Care,Combination,Yes
+CUST00556,2025-06-26,Tier 2,35-44,Google Search,None,Makeup,Dry,No
+CUST00557,2024-02-18,Tier 1,18-24,Influencer,Silver,Skin Care,Normal,Yes
+CUST00558,2024-06-06,Tier 1,18-24,Influencer,None,Hair Care,Sensitive,Yes
+CUST00559,2024-12-18,Tier 2,18-24,Influencer,None,Skin Care,Oily,Yes
+CUST00560,2024-11-23,Tier 3,18-24,Referral,None,Baby Care,Sensitive,Yes
+CUST00561,2025-08-10,Tier 3,35-44,Marketplace,Gold,Hair Care,Oily,No
+CUST00562,2024-11-11,Tier 2,18-24,Instagram,None,Hair Care,Normal,Yes
+CUST00563,2024-10-11,Tier 1,18-24,Organic,Silver,Wellness,Normal,Yes
+CUST00564,2024-02-27,Tier 1,45+,Instagram,Gold,Hair Care,Sensitive,Yes
+CUST00565,2025-07-28,Tier 2,18-24,Referral,Platinum,Fragrance,Sensitive,Yes
+CUST00566,2025-02-28,Tier 2,18-24,Instagram,None,Hair Care,Normal,No
+CUST00567,2024-03-31,Tier 2,18-24,Google Search,None,Hair Care,Normal,No
+CUST00568,2025-07-21,Tier 3,25-34,Google Search,Silver,Hair Care,NA,Yes
+CUST00569,2025-04-28,Tier 2,18-24,Google Search,None,Wellness,NA,Yes
+CUST00570,2024-03-09,Tier 1,25-34,Referral,None,Skin Care,NA,Yes
+CUST00571,2025-08-12,Tier 1,18-24,Marketplace,None,Hair Care,NA,Yes
+CUST00572,2024-12-30,Tier 1,18-24,Marketplace,None,Skin Care,NA,Yes
+CUST00573,2024-11-19,Tier 2,35-44,Google Search,Silver,Makeup,Oily,Yes
+CUST00574,2024-10-15,Tier 2,25-34,Google Search,Gold,Skin Care,Dry,Yes
+CUST00575,2025-06-22,Tier 2,35-44,Marketplace,Silver,Hair Care,Oily,Yes
+CUST00576,2025-01-06,Tier 2,18-24,Influencer,None,Wellness,Dry,Yes
+CUST00577,2024-05-25,Tier 1,35-44,Instagram,Platinum,Hair Care,Oily,Yes
+CUST00578,2024-04-20,Tier 2,18-24,Marketplace,None,Wellness,Oily,Yes
+CUST00579,2025-09-08,Tier 3,18-24,Instagram,None,Skin Care,NA,No
+CUST00580,2025-05-27,Tier 2,35-44,Referral,None,Fragrance,Oily,Yes
+CUST00581,2025-07-04,Tier 2,18-24,Influencer,Gold,Fragrance,Combination,Yes
+CUST00582,2024-07-04,Tier 3,35-44,Referral,None,Hair Care,Sensitive,Yes
+CUST00583,2024-10-22,Tier 1,25-34,Google Search,None,Skin Care,Normal,No
+CUST00584,2025-02-21,Tier 3,25-34,Instagram,None,Fragrance,Combination,No
+CUST00585,2024-04-17,Tier 2,25-34,Marketplace,None,Hair Care,NA,Yes
+CUST00586,2024-03-07,Tier 1,25-34,Instagram,Gold,Hair Care,Dry,No
+CUST00587,2025-08-18,Tier 2,25-34,Organic,Gold,Hair Care,NA,Yes
+CUST00588,2025-04-10,Tier 1,18-24,Referral,Silver,Skin Care,Oily,No
+CUST00589,2024-07-02,Tier 2,25-34,Instagram,Silver,Skin Care,Oily,Yes
+CUST00590,2024-10-27,Tier 2,35-44,Google Search,None,Fragrance,Normal,Yes
+CUST00591,2024-05-01,Tier 1,25-34,Google Search,None,Skin Care,Normal,Yes
+CUST00592,2025-03-17,Tier 2,18-24,Referral,None,Makeup,NA,Yes
+CUST00593,2024-06-09,Tier 1,25-34,Referral,Platinum,Baby Care,Sensitive,No
+CUST00594,2024-05-11,Tier 1,35-44,Marketplace,None,Fragrance,Sensitive,Yes
+CUST00595,2024-02-27,Tier 1,35-44,Marketplace,Silver,Wellness,Oily,No
+CUST00596,2024-02-08,Tier 3,25-34,Referral,Gold,Skin Care,NA,Yes
+CUST00597,2024-11-26,Tier 3,25-34,Instagram,Silver,Hair Care,Normal,No
+CUST00598,2025-03-22,Tier 2,18-24,Influencer,None,Fragrance,Dry,Yes
+CUST00599,2024-08-19,Tier 3,25-34,Marketplace,None,Baby Care,Sensitive,Yes
+CUST00600,2024-03-19,Tier 1,25-34,Organic,None,Baby Care,Dry,Yes
+CUST00601,2025-07-14,Tier 1,18-24,Marketplace,Gold,Baby Care,Dry,Yes
+CUST00602,2025-06-29,Tier 3,35-44,Influencer,Gold,Makeup,Oily,Yes
+CUST00603,2024-11-03,Tier 1,35-44,Organic,Gold,Baby Care,Combination,Yes
+CUST00604,2024-08-29,Tier 1,25-34,Instagram,None,Fragrance,Combination,Yes
+CUST00605,2024-07-25,Tier 1,18-24,Google Search,Silver,Baby Care,Dry,Yes
+CUST00606,2024-02-26,Tier 1,35-44,Marketplace,Gold,Wellness,Combination,No
+CUST00607,2024-05-23,Tier 2,25-34,Referral,None,Makeup,Normal,No
+CUST00608,2024-08-31,Tier 2,25-34,Google Search,Gold,Makeup,NA,No
+CUST00609,2024-08-07,Tier 2,45+,Google Search,Silver,Hair Care,Sensitive,Yes
+CUST00610,2024-09-09,Tier 3,45+,Influencer,None,Makeup,Sensitive,Yes
+CUST00611,2024-02-25,Tier 3,35-44,Instagram,None,Hair Care,NA,Yes
+CUST00612,2025-03-29,Tier 3,25-34,Google Search,Platinum,Skin Care,Oily,No
+CUST00613,2024-06-13,Tier 2,45+,Organic,Silver,Hair Care,Oily,Yes
+CUST00614,2025-02-26,Tier 1,45+,Referral,Gold,Skin Care,Dry,Yes
+CUST00615,2025-07-14,Tier 2,35-44,Instagram,None,Baby Care,NA,Yes
+CUST00616,2024-11-08,Tier 1,25-34,Instagram,None,Wellness,NA,No
+CUST00617,2024-11-23,Tier 3,25-34,Instagram,None,Baby Care,Sensitive,No
+CUST00618,2025-01-21,Tier 3,45+,Instagram,Gold,Wellness,NA,Yes
+CUST00619,2024-09-25,Tier 1,35-44,Google Search,None,Skin Care,Oily,No
+CUST00620,2025-06-22,Tier 3,25-34,Referral,Silver,Skin Care,NA,Yes
+CUST00621,2025-05-21,Tier 2,25-34,Instagram,None,Fragrance,NA,Yes
+CUST00622,2024-10-24,Tier 1,45+,Referral,None,Baby Care,NA,Yes
+CUST00623,2025-02-11,Tier 2,35-44,Marketplace,Silver,Skin Care,Oily,Yes
+CUST00624,2024-12-28,Tier 3,45+,Influencer,Silver,Makeup,Oily,Yes
+CUST00625,2025-01-14,Tier 3,18-24,Instagram,None,Skin Care,Combination,No
+CUST00626,2025-06-27,Tier 1,25-34,Google Search,Platinum,Hair Care,Sensitive,No
+CUST00627,2024-09-27,Tier 2,25-34,Instagram,Silver,Hair Care,Dry,Yes
+CUST00628,2024-07-12,Tier 1,18-24,Instagram,None,Makeup,Combination,Yes
+CUST00629,2025-07-28,Tier 2,25-34,Organic,Gold,Skin Care,Oily,Yes
+CUST00630,2024-10-06,Tier 2,25-34,Instagram,Platinum,Skin Care,Normal,Yes
+CUST00631,2024-04-06,Tier 1,35-44,Marketplace,Silver,Hair Care,Normal,No
+CUST00632,2025-04-16,Tier 2,35-44,Referral,Gold,Baby Care,Oily,Yes
+CUST00633,2025-08-05,Tier 3,18-24,Organic,None,Makeup,NA,Yes
+CUST00634,2024-07-01,Tier 2,25-34,Google Search,None,Skin Care,Combination,No
+CUST00635,2024-05-03,Tier 3,25-34,Marketplace,Gold,Wellness,Normal,Yes
+CUST00636,2025-05-16,Tier 1,25-34,Google Search,Silver,Skin Care,Combination,No
+CUST00637,2024-02-11,Tier 3,25-34,Marketplace,Silver,Makeup,Combination,Yes
+CUST00638,2024-03-22,Tier 2,45+,Instagram,None,Wellness,Dry,Yes
+CUST00639,2024-02-16,Tier 2,25-34,Google Search,None,Makeup,Sensitive,Yes
+CUST00640,2025-04-18,Tier 1,18-24,Google Search,None,Fragrance,Sensitive,Yes
+CUST00641,2024-09-28,Tier 3,25-34,Organic,None,Skin Care,Normal,Yes
+CUST00642,2025-02-08,Tier 1,18-24,Referral,Silver,Fragrance,NA,Yes
+CUST00643,2025-01-04,Tier 3,35-44,Marketplace,Silver,Skin Care,Dry,Yes
+CUST00644,2024-01-28,Tier 2,18-24,Marketplace,None,Baby Care,Normal,Yes
+CUST00645,2024-01-23,Tier 3,18-24,Marketplace,None,Hair Care,Oily,No
+CUST00646,2025-02-05,Tier 1,18-24,Marketplace,Silver,Wellness,Combination,No
+CUST00647,2025-05-14,Tier 2,25-34,Marketplace,Gold,Wellness,Combination,Yes
+CUST00648,2025-07-20,Tier 3,18-24,Google Search,None,Hair Care,NA,Yes
+CUST00649,2024-07-15,Tier 2,25-34,Referral,Silver,Makeup,Normal,No
+CUST00650,2025-02-03,Tier 3,45+,Marketplace,Silver,Makeup,Dry,Yes
+CUST00651,2024-05-12,Tier 1,18-24,Referral,Silver,Wellness,Combination,Yes
+CUST00652,2024-09-24,Tier 1,25-34,Organic,Gold,Skin Care,Oily,Yes
+CUST00653,2025-05-13,Tier 1,25-34,Google Search,None,Fragrance,Sensitive,No
+CUST00654,2024-04-16,Tier 3,35-44,Referral,None,Fragrance,Oily,No
+CUST00655,2024-04-14,Tier 1,35-44,Instagram,Silver,Fragrance,Sensitive,Yes
+CUST00656,2024-04-11,Tier 1,18-24,Organic,None,Skin Care,Combination,No
+CUST00657,2024-10-20,Tier 1,25-34,Google Search,Silver,Hair Care,NA,Yes
+CUST00658,2024-05-21,Tier 1,35-44,Google Search,None,Fragrance,NA,Yes
+CUST00659,2025-06-13,Tier 1,45+,Google Search,Platinum,Skin Care,Oily,Yes
+CUST00660,2025-08-11,Tier 2,18-24,Marketplace,Silver,Hair Care,Sensitive,Yes
+CUST00661,2024-11-17,Tier 1,45+,Google Search,None,Wellness,NA,Yes
+CUST00662,2025-03-28,Tier 3,35-44,Organic,None,Skin Care,Sensitive,Yes
+CUST00663,2024-05-09,Tier 2,25-34,Instagram,None,Hair Care,Sensitive,No
+CUST00664,2025-08-29,Tier 3,25-34,Google Search,None,Hair Care,NA,Yes
+CUST00665,2024-02-18,Tier 3,35-44,Referral,None,Skin Care,Sensitive,No
+CUST00666,2025-06-30,Tier 1,35-44,Google Search,Silver,Fragrance,Normal,Yes
+CUST00667,2024-12-01,Tier 1,25-34,Organic,None,Skin Care,Combination,No
+CUST00668,2025-05-02,Tier 1,18-24,Marketplace,None,Baby Care,Combination,No
+CUST00669,2025-05-16,Tier 1,35-44,Instagram,None,Hair Care,Combination,Yes
+CUST00670,2024-08-05,Tier 1,25-34,Instagram,None,Wellness,Oily,Yes
+CUST00671,2024-02-11,Tier 1,25-34,Google Search,None,Skin Care,Oily,No
+CUST00672,2024-11-08,Tier 1,35-44,Organic,None,Skin Care,Sensitive,Yes
+CUST00673,2025-04-08,Tier 3,45+,Referral,Silver,Baby Care,Dry,Yes
+CUST00674,2024-11-29,Tier 2,18-24,Marketplace,None,Wellness,Sensitive,Yes
+CUST00675,2024-03-31,Tier 2,35-44,Referral,Silver,Makeup,Normal,Yes
+CUST00676,2025-07-08,Tier 1,25-34,Referral,None,Hair Care,Oily,Yes
+CUST00677,2024-07-29,Tier 2,25-34,Organic,None,Fragrance,Normal,Yes
+CUST00678,2024-12-14,Tier 1,25-34,Organic,None,Skin Care,Oily,No
+CUST00679,2024-04-01,Tier 3,18-24,Marketplace,None,Wellness,Dry,Yes
+CUST00680,2025-02-26,Tier 1,35-44,Influencer,Gold,Skin Care,Dry,No
+CUST00681,2025-01-29,Tier 1,45+,Google Search,None,Skin Care,Oily,Yes
+CUST00682,2025-08-23,Tier 1,35-44,Referral,Silver,Hair Care,Combination,Yes
+CUST00683,2024-05-25,Tier 3,25-34,Organic,None,Hair Care,Normal,Yes
+CUST00684,2024-10-23,Tier 1,25-34,Instagram,Gold,Skin Care,Sensitive,No
+CUST00685,2025-08-22,Tier 1,35-44,Instagram,None,Skin Care,Oily,Yes
+CUST00686,2024-10-13,Tier 1,35-44,Referral,Silver,Fragrance,Sensitive,Yes
+CUST00687,2024-11-25,Tier 2,25-34,Marketplace,None,Makeup,NA,No
+CUST00688,2024-06-26,Tier 3,25-34,Marketplace,Silver,Baby Care,NA,Yes
+CUST00689,2025-03-31,Tier 1,35-44,Organic,Gold,Hair Care,Dry,No
+CUST00690,2025-01-14,Tier 2,45+,Instagram,None,Skin Care,NA,Yes
+CUST00691,2024-08-14,Tier 2,25-34,Google Search,None,Wellness,NA,Yes
+CUST00692,2024-04-23,Tier 2,35-44,Referral,None,Baby Care,Normal,Yes
+CUST00693,2024-03-07,Tier 3,18-24,Organic,Gold,Makeup,Sensitive,Yes
+CUST00694,2025-06-29,Tier 2,25-34,Organic,None,Hair Care,NA,No
+CUST00695,2025-02-20,Tier 2,25-34,Referral,None,Makeup,NA,Yes
+CUST00696,2024-01-06,Tier 1,25-34,Organic,Silver,Wellness,Dry,No
+CUST00697,2024-06-17,Tier 1,25-34,Marketplace,None,Hair Care,Oily,Yes
+CUST00698,2024-04-20,Tier 3,25-34,Organic,Gold,Hair Care,Dry,No
+CUST00699,2025-04-02,Tier 1,25-34,Instagram,None,Hair Care,NA,Yes
+CUST00700,2024-11-04,Tier 2,25-34,Instagram,None,Skin Care,Combination,Yes
+CUST00701,2024-01-11,Tier 2,25-34,Referral,Silver,Skin Care,NA,No
+CUST00702,2024-07-16,Tier 1,18-24,Marketplace,Silver,Fragrance,Normal,Yes
+CUST00703,2025-03-31,Tier 1,18-24,Instagram,None,Baby Care,Normal,No
+CUST00704,2024-05-29,Tier 1,18-24,Google Search,None,Skin Care,Normal,Yes
+CUST00705,2025-07-26,Tier 2,35-44,Instagram,None,Wellness,Oily,Yes
+CUST00706,2025-09-06,Tier 3,35-44,Referral,None,Skin Care,Sensitive,Yes
+CUST00707,2024-08-12,Tier 2,45+,Marketplace,None,Skin Care,Combination,No
+CUST00708,2024-07-29,Tier 3,25-34,Instagram,None,Hair Care,Normal,Yes
+CUST00709,2025-01-03,Tier 1,18-24,Instagram,None,Fragrance,NA,Yes
+CUST00710,2024-06-29,Tier 3,35-44,Instagram,Silver,Hair Care,Oily,Yes
+CUST00711,2025-01-16,Tier 3,35-44,Influencer,Platinum,Fragrance,NA,Yes
+CUST00712,2024-07-15,Tier 2,25-34,Google Search,None,Baby Care,Oily,No
+CUST00713,2024-06-01,Tier 1,25-34,Organic,Gold,Fragrance,Normal,No
+CUST00714,2024-03-07,Tier 1,18-24,Organic,Silver,Hair Care,Normal,Yes
+CUST00715,2025-05-21,Tier 2,25-34,Marketplace,Silver,Baby Care,Dry,Yes
+CUST00716,2024-11-09,Tier 1,25-34,Instagram,Gold,Skin Care,Oily,Yes
+CUST00717,2025-08-20,Tier 2,18-24,Google Search,None,Hair Care,Sensitive,No
+CUST00718,2024-08-27,Tier 1,25-34,Influencer,None,Hair Care,Normal,Yes
+CUST00719,2024-03-14,Tier 2,25-34,Google Search,Silver,Skin Care,NA,No
+CUST00720,2024-05-21,Tier 2,45+,Marketplace,Gold,Skin Care,Sensitive,Yes
+CUST00721,2025-08-16,Tier 1,35-44,Marketplace,Platinum,Wellness,Combination,Yes
+CUST00722,2025-08-24,Tier 2,35-44,Marketplace,None,Makeup,Sensitive,No
+CUST00723,2025-03-25,Tier 2,25-34,Google Search,None,Skin Care,NA,Yes
+CUST00724,2025-03-05,Tier 2,25-34,Organic,Silver,Skin Care,Normal,Yes
+CUST00725,2024-12-04,Tier 3,25-34,Influencer,None,Hair Care,Combination,Yes
+CUST00726,2024-04-21,Tier 3,25-34,Marketplace,None,Skin Care,NA,Yes
+CUST00727,2024-07-10,Tier 3,18-24,Google Search,None,Skin Care,Normal,Yes
+CUST00728,2025-02-24,Tier 3,25-34,Instagram,None,Makeup,Combination,No
+CUST00729,2025-03-18,Tier 2,35-44,Instagram,None,Hair Care,Dry,Yes
+CUST00730,2024-05-26,Tier 3,25-34,Marketplace,None,Hair Care,Normal,No
+CUST00731,2024-10-21,Tier 3,25-34,Google Search,Gold,Makeup,Combination,Yes
+CUST00732,2025-03-18,Tier 3,25-34,Instagram,None,Hair Care,Oily,Yes
+CUST00733,2024-10-25,Tier 1,35-44,Marketplace,Gold,Wellness,Combination,No
+CUST00734,2024-04-17,Tier 2,25-34,Google Search,None,Skin Care,Oily,Yes
+CUST00735,2025-01-25,Tier 1,25-34,Instagram,None,Skin Care,NA,No
+CUST00736,2024-03-10,Tier 2,18-24,Marketplace,None,Hair Care,Sensitive,No
+CUST00737,2024-10-28,Tier 2,18-24,Instagram,Silver,Skin Care,Sensitive,Yes
+CUST00738,2025-06-29,Tier 2,18-24,Organic,Silver,Baby Care,NA,Yes
+CUST00739,2025-09-04,Tier 2,18-24,Organic,Gold,Hair Care,Dry,Yes
+CUST00740,2024-07-15,Tier 1,35-44,Influencer,None,Fragrance,NA,Yes
+CUST00741,2024-11-30,Tier 2,25-34,Marketplace,Gold,Hair Care,Combination,Yes
+CUST00742,2025-02-15,Tier 1,25-34,Instagram,None,Baby Care,Sensitive,Yes
+CUST00743,2024-11-04,Tier 2,35-44,Influencer,Silver,Makeup,Normal,Yes
+CUST00744,2025-02-01,Tier 3,35-44,Marketplace,None,Baby Care,NA,Yes
+CUST00745,2025-09-15,Tier 2,45+,Referral,Silver,Hair Care,NA,No
+CUST00746,2024-11-12,Tier 2,25-34,Google Search,None,Skin Care,Combination,Yes
+CUST00747,2025-09-04,Tier 2,45+,Organic,None,Hair Care,Oily,Yes
+CUST00748,2024-01-25,Tier 2,25-34,Google Search,None,Skin Care,NA,No
+CUST00749,2025-01-25,Tier 1,25-34,Marketplace,None,Hair Care,Dry,Yes
+CUST00750,2024-06-26,Tier 3,25-34,Influencer,None,Skin Care,NA,Yes
+CUST00751,2025-09-12,Tier 1,25-34,Referral,Silver,Skin Care,Combination,Yes
+CUST00752,2025-03-27,Tier 2,25-34,Referral,None,Wellness,Combination,Yes
+CUST00753,2024-11-03,Tier 1,25-34,Marketplace,None,Hair Care,Combination,Yes
+CUST00754,2025-04-25,Tier 3,18-24,Instagram,Gold,Makeup,Sensitive,Yes
+CUST00755,2025-01-17,Tier 1,25-34,Influencer,None,Fragrance,Oily,Yes
+CUST00756,2024-09-18,Tier 2,35-44,Google Search,Silver,Baby Care,Sensitive,Yes
+CUST00757,2024-09-05,Tier 3,25-34,Google Search,Silver,Skin Care,NA,Yes
+CUST00758,2024-09-17,Tier 2,25-34,Marketplace,None,Skin Care,Oily,Yes
+CUST00759,2024-03-23,Tier 1,25-34,Referral,Gold,Skin Care,Sensitive,Yes
+CUST00760,2025-02-25,Tier 3,35-44,Organic,None,Baby Care,Sensitive,No
+CUST00761,2024-11-11,Tier 1,18-24,Referral,None,Makeup,Combination,Yes
+CUST00762,2025-01-18,Tier 1,18-24,Referral,None,Skin Care,Normal,No
+CUST00763,2024-07-15,Tier 3,25-34,Google Search,Silver,Baby Care,NA,Yes
+CUST00764,2024-12-16,Tier 1,18-24,Referral,Silver,Skin Care,Sensitive,No
+CUST00765,2024-04-09,Tier 3,18-24,Google Search,None,Wellness,Sensitive,No
+CUST00766,2025-01-14,Tier 1,35-44,Google Search,None,Hair Care,Combination,Yes
+CUST00767,2024-04-12,Tier 3,18-24,Google Search,Gold,Wellness,Oily,Yes
+CUST00768,2024-09-11,Tier 2,25-34,Marketplace,None,Hair Care,Dry,Yes
+CUST00769,2025-01-03,Tier 3,35-44,Marketplace,Silver,Skin Care,Combination,Yes
+CUST00770,2025-05-02,Tier 3,45+,Influencer,Silver,Skin Care,Dry,Yes
+CUST00771,2025-05-31,Tier 2,18-24,Instagram,Gold,Wellness,Combination,Yes
+CUST00772,2024-09-03,Tier 1,25-34,Influencer,Silver,Skin Care,NA,Yes
+CUST00773,2024-10-14,Tier 1,25-34,Referral,Gold,Skin Care,Dry,No
+CUST00774,2024-12-06,Tier 3,35-44,Organic,Silver,Baby Care,Combination,No
+CUST00775,2025-07-29,Tier 2,45+,Instagram,None,Skin Care,Oily,Yes
+CUST00776,2024-04-28,Tier 1,25-34,Google Search,None,Makeup,Sensitive,Yes
+CUST00777,2024-11-23,Tier 3,35-44,Influencer,None,Makeup,Normal,Yes
+CUST00778,2024-05-28,Tier 1,35-44,Instagram,Silver,Skin Care,Sensitive,Yes
+CUST00779,2025-09-05,Tier 2,25-34,Marketplace,None,Fragrance,Normal,Yes
+CUST00780,2025-01-20,Tier 3,18-24,Instagram,Silver,Fragrance,Dry,Yes
+CUST00781,2025-05-14,Tier 1,35-44,Organic,Gold,Skin Care,Oily,Yes
+CUST00782,2025-02-04,Tier 2,25-34,Google Search,Silver,Skin Care,Normal,Yes
+CUST00783,2024-02-25,Tier 2,35-44,Referral,None,Skin Care,NA,Yes
+CUST00784,2024-07-19,Tier 1,35-44,Marketplace,None,Makeup,Dry,Yes
+CUST00785,2024-02-27,Tier 3,18-24,Instagram,None,Wellness,NA,Yes
+CUST00786,2024-09-07,Tier 1,18-24,Referral,Silver,Wellness,NA,No
+CUST00787,2024-04-01,Tier 3,35-44,Marketplace,None,Baby Care,Sensitive,Yes
+CUST00788,2025-06-05,Tier 2,25-34,Influencer,None,Makeup,Oily,No
+CUST00789,2025-03-20,Tier 1,25-34,Google Search,Silver,Fragrance,Normal,Yes
+CUST00790,2025-07-03,Tier 2,35-44,Instagram,Gold,Baby Care,NA,Yes
+CUST00791,2024-07-04,Tier 2,35-44,Instagram,None,Hair Care,Oily,Yes
+CUST00792,2024-02-05,Tier 1,18-24,Google Search,Platinum,Skin Care,NA,Yes
+CUST00793,2024-10-27,Tier 2,25-34,Referral,Silver,Baby Care,Sensitive,Yes
+CUST00794,2024-02-15,Tier 1,25-34,Google Search,Gold,Wellness,Normal,Yes
+CUST00795,2025-03-08,Tier 1,18-24,Google Search,Gold,Hair Care,Oily,No
+CUST00796,2024-07-27,Tier 2,18-24,Influencer,Silver,Skin Care,Sensitive,Yes
+CUST00797,2024-06-06,Tier 3,25-34,Google Search,Platinum,Skin Care,Sensitive,Yes
+CUST00798,2024-04-01,Tier 1,25-34,Google Search,Gold,Skin Care,Oily,Yes
+CUST00799,2024-05-06,Tier 2,18-24,Google Search,Gold,Hair Care,Normal,Yes
+CUST00800,2024-04-11,Tier 1,35-44,Influencer,None,Hair Care,NA,Yes
+CUST00801,2025-02-16,Tier 1,25-34,Instagram,None,Skin Care,Dry,Yes
+CUST00802,2025-01-14,Tier 1,35-44,Marketplace,Silver,Skin Care,Sensitive,No
+CUST00803,2024-08-22,Tier 3,25-34,Influencer,None,Hair Care,Oily,Yes
+CUST00804,2025-08-12,Tier 2,18-24,Referral,None,Fragrance,Combination,Yes
+CUST00805,2025-06-29,Tier 1,35-44,Marketplace,Gold,Makeup,NA,Yes
+CUST00806,2025-06-24,Tier 1,35-44,Referral,None,Wellness,Normal,No
+CUST00807,2024-12-27,Tier 2,45+,Google Search,None,Skin Care,NA,Yes
+CUST00808,2024-11-02,Tier 1,25-34,Instagram,Silver,Hair Care,Sensitive,No
+CUST00809,2025-04-19,Tier 3,35-44,Instagram,None,Hair Care,Sensitive,Yes
+CUST00810,2024-12-29,Tier 2,18-24,Instagram,None,Fragrance,Combination,Yes
+CUST00811,2024-08-19,Tier 1,25-34,Google Search,Gold,Baby Care,Sensitive,Yes
+CUST00812,2024-12-28,Tier 1,35-44,Organic,Silver,Skin Care,Sensitive,Yes
+CUST00813,2024-06-13,Tier 3,35-44,Influencer,Platinum,Skin Care,Combination,Yes
+CUST00814,2025-02-13,Tier 3,25-34,Organic,None,Skin Care,Oily,No
+CUST00815,2024-08-30,Tier 3,18-24,Referral,Silver,Skin Care,Combination,Yes
+CUST00816,2024-06-05,Tier 1,35-44,Google Search,None,Skin Care,NA,Yes
+CUST00817,2024-04-15,Tier 2,35-44,Instagram,Platinum,Baby Care,NA,Yes
+CUST00818,2024-07-15,Tier 2,45+,Marketplace,None,Skin Care,Combination,Yes
+CUST00819,2025-03-12,Tier 2,25-34,Marketplace,None,Skin Care,Sensitive,No
+CUST00820,2024-07-05,Tier 1,18-24,Marketplace,None,Hair Care,Normal,Yes
+CUST00821,2024-11-07,Tier 2,18-24,Marketplace,Silver,Skin Care,Sensitive,No
+CUST00822,2025-01-15,Tier 1,25-34,Marketplace,None,Skin Care,NA,No
+CUST00823,2024-07-14,Tier 2,18-24,Instagram,Gold,Baby Care,Sensitive,No
+CUST00824,2024-02-14,Tier 1,18-24,Marketplace,Gold,Makeup,Normal,No
+CUST00825,2025-03-22,Tier 1,18-24,Influencer,None,Skin Care,Normal,Yes
+CUST00826,2024-03-03,Tier 2,35-44,Marketplace,None,Makeup,Normal,No
+CUST00827,2025-02-03,Tier 1,25-34,Instagram,None,Skin Care,NA,Yes
+CUST00828,2025-06-21,Tier 3,25-34,Google Search,None,Skin Care,Dry,Yes
+CUST00829,2024-10-11,Tier 1,45+,Organic,Silver,Skin Care,Dry,Yes
+CUST00830,2025-01-12,Tier 3,25-34,Organic,None,Skin Care,Normal,Yes
+CUST00831,2024-12-30,Tier 3,18-24,Instagram,Platinum,Baby Care,Normal,Yes
+CUST00832,2025-09-10,Tier 3,25-34,Instagram,None,Baby Care,Combination,Yes
+CUST00833,2025-05-05,Tier 1,18-24,Instagram,Gold,Skin Care,Combination,No
+CUST00834,2024-06-30,Tier 2,35-44,Instagram,None,Hair Care,Combination,No
+CUST00835,2024-01-13,Tier 1,25-34,Instagram,Gold,Makeup,NA,No
+CUST00836,2025-09-06,Tier 3,18-24,Influencer,None,Makeup,Sensitive,No
+CUST00837,2025-03-30,Tier 1,35-44,Referral,None,Baby Care,Sensitive,Yes
+CUST00838,2024-10-30,Tier 3,18-24,Google Search,None,Skin Care,Dry,Yes
+CUST00839,2025-01-28,Tier 2,35-44,Influencer,None,Wellness,Dry,Yes
+CUST00840,2024-05-01,Tier 3,25-34,Instagram,None,Skin Care,Combination,Yes
+CUST00841,2024-11-04,Tier 1,25-34,Organic,None,Hair Care,Sensitive,No
+CUST00842,2024-01-03,Tier 3,35-44,Organic,None,Skin Care,Combination,No
+CUST00843,2025-08-14,Tier 2,25-34,Instagram,None,Skin Care,Combination,Yes
+CUST00844,2025-09-08,Tier 1,35-44,Organic,Silver,Skin Care,Combination,Yes
+CUST00845,2024-08-23,Tier 2,25-34,Referral,None,Makeup,NA,Yes
+CUST00846,2024-01-18,Tier 2,25-34,Instagram,None,Wellness,Sensitive,No
+CUST00847,2024-05-27,Tier 2,35-44,Influencer,None,Skin Care,Dry,Yes
+CUST00848,2025-01-21,Tier 2,35-44,Referral,None,Skin Care,Normal,Yes
+CUST00849,2025-01-09,Tier 1,18-24,Instagram,Gold,Hair Care,Dry,Yes
+CUST00850,2025-04-26,Tier 1,25-34,Organic,Silver,Skin Care,Dry,Yes
+CUST00851,2024-06-13,Tier 3,18-24,Marketplace,Gold,Baby Care,Sensitive,No
+CUST00852,2024-06-09,Tier 1,25-34,Google Search,Gold,Makeup,Combination,Yes
+CUST00853,2025-07-26,Tier 1,25-34,Marketplace,None,Baby Care,Combination,No
+CUST00854,2024-07-18,Tier 1,25-34,Google Search,Silver,Hair Care,Dry,Yes
+CUST00855,2024-11-12,Tier 1,18-24,Influencer,None,Skin Care,Normal,Yes
+CUST00856,2024-11-18,Tier 1,18-24,Influencer,Silver,Wellness,Normal,Yes
+CUST00857,2024-04-09,Tier 3,25-34,Referral,None,Makeup,Oily,Yes
+CUST00858,2024-10-24,Tier 2,18-24,Instagram,Silver,Wellness,Dry,No
+CUST00859,2024-06-13,Tier 2,45+,Influencer,Silver,Baby Care,Sensitive,Yes
+CUST00860,2025-03-17,Tier 2,18-24,Marketplace,None,Wellness,Normal,Yes
+CUST00861,2024-01-16,Tier 3,18-24,Referral,Platinum,Makeup,Oily,Yes
+CUST00862,2024-03-10,Tier 1,25-34,Instagram,None,Makeup,Sensitive,No
+CUST00863,2024-05-23,Tier 3,45+,Referral,None,Skin Care,Combination,No
+CUST00864,2024-11-17,Tier 2,25-34,Referral,None,Fragrance,NA,Yes
+CUST00865,2025-07-28,Tier 3,18-24,Google Search,None,Hair Care,Oily,Yes
+CUST00866,2025-04-24,Tier 3,25-34,Referral,None,Makeup,Combination,No
+CUST00867,2025-09-10,Tier 2,25-34,Referral,None,Skin Care,Dry,No
+CUST00868,2025-09-07,Tier 1,35-44,Organic,Silver,Wellness,Dry,Yes
+CUST00869,2024-10-03,Tier 1,25-34,Instagram,None,Skin Care,NA,Yes
+CUST00870,2024-07-07,Tier 1,35-44,Influencer,None,Makeup,Dry,Yes
+CUST00871,2024-06-13,Tier 2,45+,Influencer,None,Fragrance,Normal,No
+CUST00872,2024-05-28,Tier 3,25-34,Influencer,Silver,Makeup,Sensitive,Yes
+CUST00873,2024-11-20,Tier 3,18-24,Google Search,None,Skin Care,Combination,No
+CUST00874,2025-08-15,Tier 1,18-24,Influencer,None,Baby Care,Dry,Yes
+CUST00875,2025-08-13,Tier 1,45+,Google Search,None,Hair Care,Oily,Yes
+CUST00876,2024-12-26,Tier 2,35-44,Influencer,None,Wellness,Combination,Yes
+CUST00877,2025-01-25,Tier 2,25-34,Marketplace,Silver,Makeup,Oily,No
+CUST00878,2025-02-25,Tier 2,18-24,Marketplace,None,Baby Care,Normal,Yes
+CUST00879,2024-08-16,Tier 2,35-44,Instagram,Gold,Wellness,Sensitive,No
+CUST00880,2025-02-09,Tier 1,18-24,Instagram,None,Fragrance,Sensitive,Yes
+CUST00881,2024-01-05,Tier 1,45+,Instagram,None,Hair Care,Normal,No
+CUST00882,2025-03-16,Tier 3,25-34,Instagram,Silver,Fragrance,Normal,Yes
+CUST00883,2025-02-16,Tier 2,45+,Referral,None,Fragrance,Normal,Yes
+CUST00884,2024-09-23,Tier 1,35-44,Google Search,None,Skin Care,Oily,Yes
+CUST00885,2024-03-21,Tier 1,25-34,Marketplace,Platinum,Baby Care,Sensitive,Yes
+CUST00886,2024-09-08,Tier 3,35-44,Google Search,None,Skin Care,Oily,No
+CUST00887,2024-04-15,Tier 3,18-24,Instagram,None,Skin Care,Dry,Yes
+CUST00888,2025-02-04,Tier 3,18-24,Google Search,None,Baby Care,Dry,Yes
+CUST00889,2024-06-13,Tier 1,18-24,Instagram,None,Baby Care,Oily,Yes
+CUST00890,2025-09-06,Tier 1,25-34,Marketplace,Gold,Skin Care,Oily,Yes
+CUST00891,2025-01-08,Tier 1,18-24,Google Search,None,Makeup,Dry,Yes
+CUST00892,2025-07-18,Tier 2,25-34,Organic,None,Wellness,Dry,Yes
+CUST00893,2025-02-06,Tier 3,18-24,Marketplace,None,Skin Care,NA,Yes
+CUST00894,2024-11-22,Tier 2,25-34,Referral,None,Hair Care,NA,No
+CUST00895,2024-09-16,Tier 1,25-34,Organic,Silver,Wellness,Sensitive,Yes
+CUST00896,2024-07-09,Tier 1,25-34,Marketplace,None,Makeup,Oily,Yes
+CUST00897,2025-08-04,Tier 3,35-44,Referral,None,Baby Care,Normal,Yes
+CUST00898,2024-03-17,Tier 2,25-34,Marketplace,None,Fragrance,Dry,Yes
+CUST00899,2025-03-07,Tier 2,18-24,Marketplace,Silver,Skin Care,Oily,Yes
+CUST00900,2025-04-17,Tier 3,25-34,Google Search,Gold,Wellness,Oily,Yes
+CUST00901,2025-03-01,Tier 1,35-44,Marketplace,None,Baby Care,Sensitive,Yes
+CUST00902,2025-05-20,Tier 3,35-44,Instagram,None,Baby Care,Oily,Yes
+CUST00903,2025-03-22,Tier 1,25-34,Marketplace,Silver,Fragrance,Normal,No
+CUST00904,2024-02-14,Tier 3,18-24,Instagram,None,Baby Care,Combination,Yes
+CUST00905,2024-05-09,Tier 1,25-34,Marketplace,Gold,Fragrance,NA,Yes
+CUST00906,2025-05-16,Tier 1,45+,Marketplace,None,Skin Care,Sensitive,Yes
+CUST00907,2024-07-29,Tier 1,35-44,Referral,None,Makeup,Combination,No
+CUST00908,2025-08-27,Tier 2,35-44,Google Search,Gold,Makeup,NA,Yes
+CUST00909,2025-01-07,Tier 2,25-34,Marketplace,None,Hair Care,Oily,Yes
+CUST00910,2024-04-14,Tier 3,18-24,Marketplace,None,Fragrance,Dry,Yes
+CUST00911,2024-05-01,Tier 1,45+,Referral,None,Hair Care,Normal,Yes
+CUST00912,2025-01-26,Tier 2,35-44,Google Search,None,Baby Care,Normal,Yes
+CUST00913,2024-09-11,Tier 1,45+,Instagram,None,Skin Care,Oily,Yes
+CUST00914,2025-02-18,Tier 1,25-34,Marketplace,Gold,Skin Care,Dry,Yes
+CUST00915,2024-10-21,Tier 1,35-44,Referral,Silver,Hair Care,Sensitive,No
+CUST00916,2024-06-19,Tier 3,18-24,Instagram,None,Hair Care,Sensitive,Yes
+CUST00917,2024-01-10,Tier 3,25-34,Marketplace,None,Skin Care,Oily,Yes
+CUST00918,2024-08-21,Tier 1,25-34,Instagram,None,Hair Care,NA,Yes
+CUST00919,2025-05-13,Tier 2,25-34,Organic,None,Hair Care,Normal,No
+CUST00920,2024-04-25,Tier 2,25-34,Marketplace,None,Hair Care,Dry,Yes
+CUST00921,2025-03-17,Tier 2,25-34,Instagram,Gold,Baby Care,Sensitive,No
+CUST00922,2025-06-23,Tier 3,18-24,Google Search,None,Baby Care,Sensitive,Yes
+CUST00923,2024-05-05,Tier 2,25-34,Influencer,Silver,Skin Care,Oily,Yes
+CUST00924,2024-10-23,Tier 2,25-34,Google Search,None,Makeup,Oily,Yes
+CUST00925,2025-05-15,Tier 2,25-34,Marketplace,None,Skin Care,Sensitive,No
+CUST00926,2025-07-28,Tier 1,18-24,Google Search,Platinum,Skin Care,Normal,No
+CUST00927,2024-09-11,Tier 2,35-44,Referral,Platinum,Skin Care,Sensitive,No
+CUST00928,2024-11-26,Tier 1,35-44,Organic,None,Hair Care,Dry,Yes
+CUST00929,2025-07-12,Tier 3,18-24,Organic,None,Baby Care,NA,Yes
+CUST00930,2025-03-13,Tier 3,25-34,Referral,Gold,Skin Care,Combination,Yes
+CUST00931,2025-08-17,Tier 1,25-34,Referral,None,Skin Care,Combination,Yes
+CUST00932,2025-06-14,Tier 1,25-34,Instagram,Gold,Baby Care,Sensitive,Yes
+CUST00933,2024-03-03,Tier 2,18-24,Referral,Silver,Makeup,Normal,Yes
+CUST00934,2024-06-07,Tier 1,25-34,Influencer,None,Hair Care,NA,Yes
+CUST00935,2025-06-16,Tier 1,18-24,Referral,Gold,Hair Care,Oily,No
+CUST00936,2024-08-28,Tier 2,35-44,Organic,Silver,Fragrance,Normal,Yes
+CUST00937,2024-09-03,Tier 2,18-24,Referral,None,Skin Care,NA,Yes
+CUST00938,2025-01-30,Tier 1,35-44,Google Search,None,Skin Care,Combination,Yes
+CUST00939,2025-03-31,Tier 3,18-24,Influencer,None,Makeup,Sensitive,Yes
+CUST00940,2024-08-03,Tier 2,25-34,Google Search,None,Baby Care,Sensitive,Yes
+CUST00941,2024-05-23,Tier 2,25-34,Google Search,None,Wellness,NA,Yes
+CUST00942,2025-06-03,Tier 2,35-44,Instagram,None,Wellness,Sensitive,Yes
+CUST00943,2024-06-11,Tier 2,25-34,Referral,Silver,Hair Care,Dry,No
+CUST00944,2024-06-27,Tier 1,35-44,Influencer,Gold,Skin Care,Sensitive,Yes
+CUST00945,2025-09-13,Tier 1,25-34,Instagram,None,Hair Care,Dry,No
+CUST00946,2025-03-24,Tier 1,35-44,Marketplace,None,Baby Care,Dry,Yes
+CUST00947,2024-02-04,Tier 3,35-44,Google Search,None,Baby Care,Oily,Yes
+CUST00948,2025-06-24,Tier 3,25-34,Referral,None,Hair Care,Normal,No
+CUST00949,2025-01-20,Tier 2,35-44,Instagram,None,Skin Care,Combination,Yes
+CUST00950,2024-10-23,Tier 1,45+,Marketplace,None,Fragrance,Sensitive,Yes
+CUST00951,2025-05-27,Tier 2,25-34,Referral,Gold,Baby Care,Sensitive,Yes
+CUST00952,2024-03-01,Tier 2,18-24,Marketplace,Gold,Makeup,Oily,Yes
+CUST00953,2024-02-06,Tier 1,25-34,Google Search,Silver,Wellness,Normal,Yes
+CUST00954,2025-05-23,Tier 2,25-34,Referral,None,Fragrance,Dry,Yes
+CUST00955,2025-07-01,Tier 1,25-34,Marketplace,None,Hair Care,Combination,No
+CUST00956,2024-05-21,Tier 1,18-24,Marketplace,Gold,Hair Care,Sensitive,Yes
+CUST00957,2024-08-20,Tier 2,25-34,Organic,None,Skin Care,Oily,No
+CUST00958,2025-03-25,Tier 1,18-24,Google Search,Silver,Skin Care,Sensitive,Yes
+CUST00959,2024-03-19,Tier 2,25-34,Referral,Silver,Hair Care,Dry,Yes
+CUST00960,2024-09-07,Tier 1,25-34,Marketplace,None,Skin Care,Combination,Yes
+CUST00961,2024-05-20,Tier 2,35-44,Google Search,None,Skin Care,NA,No
+CUST00962,2025-04-09,Tier 1,45+,Organic,None,Baby Care,Sensitive,No
+CUST00963,2025-05-22,Tier 1,18-24,Referral,None,Hair Care,NA,Yes
+CUST00964,2024-12-22,Tier 3,45+,Marketplace,None,Fragrance,Sensitive,No
+CUST00965,2025-03-20,Tier 3,35-44,Influencer,Silver,Fragrance,Normal,Yes
+CUST00966,2025-07-01,Tier 2,25-34,Referral,None,Skin Care,Combination,Yes
+CUST00967,2024-10-14,Tier 3,35-44,Instagram,None,Baby Care,Sensitive,Yes
+CUST00968,2024-09-13,Tier 3,35-44,Marketplace,None,Baby Care,Sensitive,No
+CUST00969,2024-01-10,Tier 3,25-34,Referral,Gold,Skin Care,Oily,Yes
+CUST00970,2024-03-06,Tier 1,25-34,Organic,None,Hair Care,Dry,Yes
+CUST00971,2024-04-27,Tier 1,25-34,Referral,None,Hair Care,Normal,Yes
+CUST00972,2024-09-20,Tier 3,18-24,Organic,None,Skin Care,Dry,Yes
+CUST00973,2024-08-30,Tier 2,18-24,Organic,Silver,Skin Care,Combination,No
+CUST00974,2024-12-09,Tier 3,45+,Google Search,Gold,Skin Care,Oily,Yes
+CUST00975,2024-01-27,Tier 1,18-24,Google Search,Silver,Makeup,Normal,Yes
+CUST00976,2024-06-02,Tier 3,25-34,Instagram,None,Wellness,Dry,Yes
+CUST00977,2025-07-05,Tier 3,35-44,Referral,None,Hair Care,Normal,Yes
+CUST00978,2024-09-06,Tier 3,25-34,Influencer,None,Hair Care,Oily,Yes
+CUST00979,2024-03-22,Tier 2,25-34,Influencer,Silver,Baby Care,Combination,No
+CUST00980,2025-07-04,Tier 3,25-34,Marketplace,Silver,Baby Care,Sensitive,Yes
+CUST00981,2024-05-31,Tier 2,25-34,Organic,Gold,Fragrance,Oily,Yes
+CUST00982,2025-04-26,Tier 1,35-44,Instagram,None,Makeup,Oily,Yes
+CUST00983,2024-12-28,Tier 2,18-24,Google Search,None,Hair Care,Sensitive,Yes
+CUST00984,2024-12-29,Tier 3,45+,Marketplace,Silver,Hair Care,Combination,Yes
+CUST00985,2025-06-05,Tier 3,18-24,Marketplace,None,Baby Care,Combination,Yes
+CUST00986,2024-04-09,Tier 2,25-34,Instagram,None,Baby Care,Normal,No
+CUST00987,2024-07-01,Tier 1,45+,Influencer,Gold,Makeup,Combination,Yes
+CUST00988,2024-10-18,Tier 1,18-24,Referral,None,Skin Care,Sensitive,No
+CUST00989,2024-05-24,Tier 2,18-24,Referral,None,Baby Care,Oily,No
+CUST00990,2024-01-27,Tier 1,25-34,Influencer,None,Hair Care,Dry,No
+CUST00991,2024-05-02,Tier 2,25-34,Google Search,Gold,Wellness,NA,Yes
+CUST00992,2024-08-15,Tier 1,35-44,Referral,None,Baby Care,Normal,Yes
+CUST00993,2024-02-09,Tier 3,25-34,Organic,None,Fragrance,NA,No
+CUST00994,2024-09-08,Tier 1,18-24,Influencer,Silver,Skin Care,Dry,Yes
+CUST00995,2024-03-31,Tier 3,45+,Marketplace,None,Skin Care,Normal,Yes
+CUST00996,2025-01-24,Tier 1,25-34,Google Search,None,Wellness,Sensitive,No
+CUST00997,2025-02-05,Tier 2,25-34,Google Search,None,Wellness,Sensitive,Yes
+CUST00998,2024-06-29,Tier 1,25-34,Instagram,Silver,Makeup,Combination,No
+CUST00999,2024-01-30,Tier 2,25-34,Organic,Silver,Skin Care,Sensitive,Yes
+CUST01000,2025-02-12,Tier 1,25-34,Referral,None,Baby Care,Oily,Yes
+CUST01001,2024-07-30,Tier 1,35-44,Influencer,Silver,Skin Care,Normal,Yes
+CUST01002,2024-12-07,Tier 2,45+,Referral,Silver,Hair Care,Sensitive,Yes
+CUST01003,2024-08-22,Tier 1,25-34,Google Search,None,Baby Care,Dry,No
+CUST01004,2024-04-14,Tier 3,25-34,Instagram,None,Skin Care,NA,No
+CUST01005,2025-01-21,Tier 1,25-34,Marketplace,None,Skin Care,Oily,Yes
+CUST01006,2025-07-08,Tier 1,25-34,Marketplace,Silver,Skin Care,Normal,No
+CUST01007,2024-11-05,Tier 1,25-34,Google Search,Silver,Hair Care,Sensitive,Yes
+CUST01008,2024-10-18,Tier 2,45+,Google Search,None,Hair Care,Combination,No
+CUST01009,2025-08-14,Tier 1,45+,Instagram,None,Baby Care,NA,Yes
+CUST01010,2025-07-28,Tier 3,18-24,Referral,None,Skin Care,Normal,No
+CUST01011,2024-03-01,Tier 1,35-44,Google Search,None,Skin Care,Sensitive,Yes
+CUST01012,2024-08-02,Tier 3,35-44,Referral,None,Baby Care,Sensitive,Yes
+CUST01013,2024-03-24,Tier 2,45+,Instagram,None,Skin Care,Normal,No
+CUST01014,2024-02-09,Tier 2,35-44,Marketplace,None,Skin Care,Normal,Yes
+CUST01015,2024-10-04,Tier 2,25-34,Google Search,Silver,Skin Care,Normal,Yes
+CUST01016,2025-09-11,Tier 2,25-34,Influencer,Gold,Makeup,Dry,Yes
+CUST01017,2024-07-02,Tier 1,18-24,Influencer,None,Skin Care,NA,Yes
+CUST01018,2025-08-31,Tier 1,18-24,Referral,None,Baby Care,Dry,Yes
+CUST01019,2024-11-09,Tier 2,25-34,Influencer,None,Baby Care,Dry,Yes
+CUST01020,2024-09-26,Tier 1,25-34,Referral,Silver,Hair Care,Normal,No
+CUST01021,2025-04-29,Tier 1,18-24,Instagram,None,Wellness,Normal,Yes
+CUST01022,2024-02-23,Tier 3,18-24,Referral,None,Hair Care,Oily,Yes
+CUST01023,2024-12-29,Tier 2,25-34,Referral,Gold,Fragrance,Dry,No
+CUST01024,2025-07-27,Tier 2,25-34,Google Search,None,Fragrance,NA,Yes
+CUST01025,2024-12-20,Tier 1,35-44,Referral,Platinum,Wellness,Combination,Yes
+CUST01026,2025-01-04,Tier 1,25-34,Google Search,None,Hair Care,Sensitive,Yes
+CUST01027,2025-05-05,Tier 3,25-34,Marketplace,None,Skin Care,Normal,No
+CUST01028,2025-04-10,Tier 2,25-34,Organic,Silver,Fragrance,Oily,Yes
+CUST01029,2024-06-30,Tier 1,35-44,Google Search,Gold,Skin Care,NA,Yes
+CUST01030,2024-07-17,Tier 2,25-34,Google Search,Silver,Fragrance,NA,Yes
+CUST01031,2024-01-15,Tier 1,45+,Organic,Silver,Skin Care,Normal,Yes
+CUST01032,2025-09-15,Tier 2,18-24,Instagram,Silver,Fragrance,Oily,Yes
+CUST01033,2024-03-29,Tier 2,25-34,Instagram,None,Makeup,Dry,Yes
+CUST01034,2024-01-11,Tier 1,18-24,Instagram,Silver,Skin Care,NA,Yes
+CUST01035,2024-05-15,Tier 1,25-34,Google Search,None,Baby Care,Combination,Yes
+CUST01036,2024-10-29,Tier 2,25-34,Instagram,None,Hair Care,NA,Yes
+CUST01037,2025-08-22,Tier 2,25-34,Instagram,Silver,Hair Care,NA,No
+CUST01038,2024-10-02,Tier 2,18-24,Google Search,None,Skin Care,Oily,Yes
+CUST01039,2024-11-26,Tier 1,25-34,Marketplace,None,Makeup,NA,Yes
+CUST01040,2024-12-10,Tier 1,25-34,Influencer,None,Hair Care,Dry,No
+CUST01041,2025-03-21,Tier 2,35-44,Google Search,Silver,Baby Care,Combination,Yes
+CUST01042,2025-06-03,Tier 2,18-24,Google Search,None,Baby Care,Dry,Yes
+CUST01043,2025-06-20,Tier 3,18-24,Marketplace,None,Hair Care,Oily,No
+CUST01044,2025-04-14,Tier 2,25-34,Marketplace,None,Skin Care,Sensitive,Yes
+CUST01045,2024-09-07,Tier 2,18-24,Organic,None,Skin Care,Oily,Yes
+CUST01046,2025-01-20,Tier 2,35-44,Organic,None,Skin Care,Dry,Yes
+CUST01047,2025-03-10,Tier 2,25-34,Google Search,Silver,Wellness,Oily,Yes
+CUST01048,2024-12-14,Tier 1,25-34,Marketplace,None,Skin Care,Dry,Yes
+CUST01049,2024-12-13,Tier 1,25-34,Instagram,None,Makeup,Combination,Yes
+CUST01050,2025-06-13,Tier 2,35-44,Instagram,Silver,Skin Care,Combination,No
+CUST01051,2025-01-28,Tier 1,35-44,Marketplace,Silver,Hair Care,Oily,Yes
+CUST01052,2025-04-06,Tier 3,25-34,Marketplace,Gold,Wellness,Oily,No
+CUST01053,2024-03-22,Tier 1,18-24,Influencer,Silver,Skin Care,Normal,No
+CUST01054,2024-05-04,Tier 2,35-44,Instagram,Silver,Hair Care,Combination,Yes
+CUST01055,2024-07-02,Tier 1,25-34,Referral,None,Skin Care,Oily,Yes
+CUST01056,2024-03-27,Tier 1,25-34,Instagram,None,Fragrance,Sensitive,No
+CUST01057,2025-06-20,Tier 1,25-34,Google Search,None,Baby Care,NA,Yes
+CUST01058,2024-03-21,Tier 2,25-34,Google Search,None,Skin Care,NA,Yes
+CUST01059,2025-03-19,Tier 3,45+,Referral,Platinum,Baby Care,Normal,No
+CUST01060,2025-04-29,Tier 3,18-24,Google Search,Silver,Skin Care,Normal,Yes
+CUST01061,2024-10-06,Tier 1,18-24,Organic,Silver,Skin Care,Combination,Yes
+CUST01062,2024-01-19,Tier 1,35-44,Marketplace,Silver,Baby Care,Combination,Yes
+CUST01063,2025-07-25,Tier 1,18-24,Google Search,None,Hair Care,NA,Yes
+CUST01064,2025-02-16,Tier 3,18-24,Influencer,Silver,Baby Care,Sensitive,Yes
+CUST01065,2024-11-18,Tier 2,25-34,Instagram,Silver,Baby Care,Normal,Yes
+CUST01066,2025-07-23,Tier 3,35-44,Google Search,None,Hair Care,Oily,Yes
+CUST01067,2024-07-01,Tier 2,35-44,Influencer,Platinum,Baby Care,Sensitive,No
+CUST01068,2025-01-06,Tier 2,25-34,Marketplace,Silver,Baby Care,Normal,Yes
+CUST01069,2025-04-20,Tier 3,25-34,Instagram,Gold,Hair Care,Oily,Yes
+CUST01070,2024-04-10,Tier 2,25-34,Influencer,None,Baby Care,Normal,Yes
+CUST01071,2025-08-07,Tier 3,35-44,Google Search,None,Baby Care,Combination,Yes
+CUST01072,2025-02-02,Tier 3,25-34,Organic,None,Hair Care,Dry,Yes
+CUST01073,2024-10-27,Tier 1,18-24,Referral,None,Makeup,Combination,No
+CUST01074,2024-04-23,Tier 3,35-44,Organic,Gold,Skin Care,NA,No
+CUST01075,2025-06-16,Tier 3,45+,Instagram,None,Skin Care,NA,Yes
+CUST01076,2024-01-25,Tier 3,25-34,Instagram,Silver,Fragrance,NA,No
+CUST01077,2025-03-26,Tier 1,25-34,Instagram,None,Fragrance,Oily,No
+CUST01078,2024-09-05,Tier 1,35-44,Instagram,Silver,Skin Care,NA,Yes
+CUST01079,2025-03-31,Tier 2,25-34,Google Search,None,Skin Care,Dry,Yes
+CUST01080,2025-01-06,Tier 1,35-44,Marketplace,None,Hair Care,NA,Yes
+CUST01081,2024-05-30,Tier 3,25-34,Google Search,None,Fragrance,Normal,Yes
+CUST01082,2025-06-13,Tier 2,25-34,Instagram,None,Skin Care,Normal,Yes
+CUST01083,2024-06-22,Tier 2,35-44,Referral,None,Makeup,Oily,Yes
+CUST01084,2024-05-02,Tier 1,25-34,Referral,Gold,Wellness,NA,No
+CUST01085,2024-07-26,Tier 1,25-34,Marketplace,Gold,Hair Care,Sensitive,Yes
+CUST01086,2024-02-27,Tier 2,25-34,Google Search,Silver,Skin Care,NA,No
+CUST01087,2025-09-15,Tier 1,25-34,Marketplace,Silver,Wellness,Dry,Yes
+CUST01088,2025-08-18,Tier 1,25-34,Organic,None,Makeup,Oily,Yes
+CUST01089,2025-07-09,Tier 2,25-34,Google Search,None,Hair Care,Oily,Yes
+CUST01090,2025-04-12,Tier 1,45+,Google Search,None,Baby Care,Sensitive,Yes
+CUST01091,2025-06-28,Tier 1,25-34,Referral,None,Hair Care,Dry,Yes
+CUST01092,2024-06-16,Tier 2,18-24,Marketplace,None,Fragrance,Sensitive,Yes
+CUST01093,2024-08-25,Tier 2,18-24,Google Search,None,Skin Care,Sensitive,No
+CUST01094,2024-07-15,Tier 3,35-44,Organic,Silver,Skin Care,Normal,No
+CUST01095,2024-10-02,Tier 1,25-34,Influencer,Gold,Hair Care,Sensitive,Yes
+CUST01096,2025-03-11,Tier 2,25-34,Instagram,Gold,Skin Care,Combination,Yes
+CUST01097,2024-01-20,Tier 1,35-44,Marketplace,None,Fragrance,Oily,Yes
+CUST01098,2024-07-23,Tier 2,35-44,Referral,None,Skin Care,Dry,Yes
+CUST01099,2024-02-17,Tier 1,35-44,Influencer,Silver,Skin Care,Normal,Yes
+CUST01100,2025-07-04,Tier 3,25-34,Instagram,None,Makeup,Sensitive,No
+CUST01101,2025-08-26,Tier 1,25-34,Instagram,None,Baby Care,NA,Yes
+CUST01102,2024-03-10,Tier 2,35-44,Marketplace,Gold,Hair Care,Combination,No
+CUST01103,2025-01-05,Tier 2,25-34,Marketplace,None,Makeup,Oily,Yes
+CUST01104,2024-02-19,Tier 1,35-44,Influencer,None,Baby Care,Oily,No
+CUST01105,2024-10-16,Tier 2,25-34,Marketplace,None,Wellness,Oily,Yes
+CUST01106,2025-04-24,Tier 3,25-34,Marketplace,Silver,Hair Care,Sensitive,Yes
+CUST01107,2024-12-04,Tier 2,18-24,Google Search,None,Makeup,Combination,No
+CUST01108,2025-02-03,Tier 1,18-24,Referral,None,Skin Care,NA,No
+CUST01109,2025-08-11,Tier 3,45+,Marketplace,None,Skin Care,Dry,Yes
+CUST01110,2024-02-10,Tier 2,35-44,Influencer,None,Hair Care,Dry,Yes
+CUST01111,2024-08-26,Tier 1,45+,Google Search,None,Fragrance,Combination,Yes
+CUST01112,2024-08-01,Tier 2,25-34,Google Search,None,Hair Care,Oily,Yes
+CUST01113,2024-05-04,Tier 1,18-24,Influencer,Silver,Hair Care,Sensitive,Yes
+CUST01114,2025-05-04,Tier 1,25-34,Referral,None,Fragrance,Combination,No
+CUST01115,2024-03-07,Tier 3,25-34,Google Search,Platinum,Skin Care,NA,No
+CUST01116,2024-11-27,Tier 3,18-24,Instagram,None,Hair Care,Dry,Yes
+CUST01117,2024-10-27,Tier 1,25-34,Instagram,None,Wellness,Dry,No
+CUST01118,2024-04-22,Tier 1,35-44,Instagram,None,Hair Care,Sensitive,Yes
+CUST01119,2025-04-26,Tier 3,18-24,Influencer,None,Hair Care,Normal,No
+CUST01120,2024-08-16,Tier 3,18-24,Instagram,None,Wellness,Normal,Yes
+CUST01121,2025-05-02,Tier 3,25-34,Instagram,Silver,Hair Care,Normal,Yes
+CUST01122,2025-08-07,Tier 1,18-24,Instagram,Gold,Skin Care,Oily,No
+CUST01123,2024-09-12,Tier 1,25-34,Marketplace,None,Wellness,NA,Yes
+CUST01124,2024-05-14,Tier 1,25-34,Instagram,Silver,Fragrance,NA,No
+CUST01125,2024-07-05,Tier 2,18-24,Organic,None,Hair Care,Oily,Yes
+CUST01126,2025-08-14,Tier 3,25-34,Referral,None,Hair Care,NA,Yes
+CUST01127,2024-07-09,Tier 3,25-34,Referral,None,Makeup,NA,No
+CUST01128,2025-03-12,Tier 3,25-34,Instagram,None,Hair Care,Oily,Yes
+CUST01129,2025-04-08,Tier 3,25-34,Instagram,Gold,Hair Care,Combination,No
+CUST01130,2024-08-15,Tier 1,35-44,Marketplace,None,Makeup,Normal,No
+CUST01131,2024-08-23,Tier 3,35-44,Instagram,None,Makeup,NA,Yes
+CUST01132,2024-06-04,Tier 3,25-34,Referral,None,Skin Care,Combination,Yes
+CUST01133,2025-04-24,Tier 2,25-34,Google Search,None,Makeup,NA,Yes
+CUST01134,2024-03-01,Tier 1,35-44,Referral,None,Wellness,Dry,Yes
+CUST01135,2024-09-11,Tier 1,35-44,Influencer,None,Fragrance,Oily,No
+CUST01136,2024-05-25,Tier 2,35-44,Instagram,None,Hair Care,Oily,No
+CUST01137,2024-05-07,Tier 2,25-34,Instagram,Gold,Makeup,NA,Yes
+CUST01138,2024-09-18,Tier 2,18-24,Marketplace,Gold,Makeup,Combination,No
+CUST01139,2025-09-09,Tier 3,45+,Google Search,Gold,Hair Care,NA,No
+CUST01140,2024-10-13,Tier 2,35-44,Influencer,Silver,Hair Care,NA,No
+CUST01141,2025-05-12,Tier 2,25-34,Marketplace,Silver,Skin Care,NA,Yes
+CUST01142,2025-01-26,Tier 1,18-24,Organic,Silver,Skin Care,Oily,Yes
+CUST01143,2025-09-10,Tier 1,25-34,Marketplace,None,Makeup,Combination,Yes
+CUST01144,2025-03-18,Tier 1,35-44,Referral,None,Wellness,Oily,Yes
+CUST01145,2024-09-16,Tier 2,25-34,Google Search,Platinum,Skin Care,Oily,Yes
+CUST01146,2024-06-13,Tier 2,18-24,Referral,None,Hair Care,Sensitive,No
+CUST01147,2024-12-26,Tier 2,25-34,Organic,None,Fragrance,Oily,No
+CUST01148,2024-07-09,Tier 1,35-44,Organic,None,Hair Care,Combination,No
+CUST01149,2024-04-24,Tier 1,18-24,Referral,Silver,Skin Care,Normal,Yes
+CUST01150,2024-04-02,Tier 3,35-44,Marketplace,Gold,Skin Care,Sensitive,Yes
+CUST01151,2024-10-27,Tier 3,25-34,Google Search,None,Fragrance,Dry,Yes
+CUST01152,2024-08-12,Tier 1,25-34,Marketplace,None,Skin Care,Dry,No
+CUST01153,2025-07-23,Tier 2,25-34,Google Search,Gold,Baby Care,NA,Yes
+CUST01154,2025-01-07,Tier 1,35-44,Google Search,Gold,Wellness,Sensitive,Yes
+CUST01155,2024-09-09,Tier 2,35-44,Instagram,Gold,Wellness,NA,Yes
+CUST01156,2024-12-22,Tier 2,35-44,Referral,Platinum,Hair Care,Normal,No
+CUST01157,2024-03-07,Tier 1,45+,Referral,None,Skin Care,Sensitive,Yes
+CUST01158,2024-10-09,Tier 3,25-34,Marketplace,Silver,Hair Care,NA,No
+CUST01159,2024-11-13,Tier 2,25-34,Google Search,None,Fragrance,Combination,Yes
+CUST01160,2024-01-07,Tier 1,45+,Marketplace,Silver,Makeup,Oily,Yes
+CUST01161,2024-09-11,Tier 2,45+,Influencer,Gold,Skin Care,Combination,No
+CUST01162,2025-01-31,Tier 1,35-44,Referral,Gold,Skin Care,Sensitive,Yes
+CUST01163,2024-07-07,Tier 1,25-34,Google Search,Silver,Skin Care,Combination,No
+CUST01164,2025-07-24,Tier 1,18-24,Instagram,Platinum,Baby Care,Oily,Yes
+CUST01165,2025-01-18,Tier 3,35-44,Instagram,Silver,Skin Care,Dry,No
+CUST01166,2025-01-18,Tier 3,25-34,Marketplace,Gold,Skin Care,Dry,No
+CUST01167,2024-05-03,Tier 1,35-44,Google Search,None,Skin Care,Normal,Yes
+CUST01168,2024-12-11,Tier 3,45+,Referral,None,Hair Care,Oily,Yes
+CUST01169,2025-05-17,Tier 1,18-24,Google Search,Gold,Wellness,NA,Yes
+CUST01170,2024-11-24,Tier 2,45+,Marketplace,None,Makeup,NA,Yes
+CUST01171,2025-03-12,Tier 1,25-34,Referral,None,Hair Care,Combination,Yes
+CUST01172,2024-02-26,Tier 1,25-34,Influencer,None,Baby Care,Normal,Yes
+CUST01173,2024-02-18,Tier 1,45+,Google Search,None,Fragrance,NA,No
+CUST01174,2025-01-14,Tier 1,35-44,Instagram,None,Skin Care,Dry,Yes
+CUST01175,2024-01-16,Tier 1,18-24,Influencer,None,Skin Care,Dry,Yes
+CUST01176,2025-02-03,Tier 1,35-44,Organic,None,Skin Care,Dry,Yes
+CUST01177,2024-11-13,Tier 3,18-24,Marketplace,None,Makeup,Combination,No
+CUST01178,2025-05-14,Tier 1,25-34,Marketplace,None,Makeup,Dry,Yes
+CUST01179,2025-05-15,Tier 2,18-24,Instagram,Silver,Wellness,NA,No
+CUST01180,2025-08-06,Tier 2,25-34,Google Search,Gold,Skin Care,Oily,Yes
+CUST01181,2025-04-25,Tier 1,25-34,Instagram,None,Skin Care,NA,No
+CUST01182,2024-05-26,Tier 2,25-34,Marketplace,None,Wellness,Dry,No
+CUST01183,2024-09-13,Tier 1,45+,Instagram,Silver,Hair Care,Dry,No
+CUST01184,2024-12-09,Tier 2,25-34,Organic,None,Skin Care,Normal,Yes
+CUST01185,2024-04-24,Tier 1,35-44,Referral,Silver,Skin Care,Sensitive,Yes
+CUST01186,2025-01-25,Tier 1,18-24,Google Search,None,Fragrance,NA,Yes
+CUST01187,2025-05-02,Tier 2,45+,Google Search,Silver,Hair Care,NA,Yes
+CUST01188,2025-04-10,Tier 3,25-34,Referral,Gold,Skin Care,Sensitive,Yes
+CUST01189,2024-06-13,Tier 1,25-34,Organic,None,Hair Care,NA,No
+CUST01190,2024-12-27,Tier 1,18-24,Organic,None,Hair Care,Combination,Yes
+CUST01191,2025-06-26,Tier 1,18-24,Instagram,None,Fragrance,NA,No
+CUST01192,2025-02-22,Tier 1,25-34,Google Search,None,Baby Care,Combination,Yes
+CUST01193,2024-02-22,Tier 1,18-24,Organic,Silver,Wellness,Combination,Yes
+CUST01194,2024-06-25,Tier 2,25-34,Referral,None,Hair Care,Dry,Yes
+CUST01195,2025-05-13,Tier 3,25-34,Marketplace,Silver,Fragrance,NA,Yes
+CUST01196,2024-02-24,Tier 1,25-34,Influencer,None,Makeup,Dry,Yes
+CUST01197,2025-04-02,Tier 2,25-34,Google Search,None,Baby Care,Dry,Yes
+CUST01198,2025-07-29,Tier 2,25-34,Influencer,Silver,Wellness,Oily,Yes
+CUST01199,2024-05-18,Tier 2,35-44,Referral,Silver,Baby Care,Sensitive,No
+CUST01200,2025-05-18,Tier 2,45+,Organic,Platinum,Fragrance,Oily,Yes
+CUST01201,2024-04-23,Tier 3,45+,Marketplace,Platinum,Hair Care,NA,No
+CUST01202,2025-05-21,Tier 3,18-24,Google Search,None,Fragrance,Dry,Yes
+CUST01203,2024-11-22,Tier 1,45+,Instagram,None,Hair Care,Combination,Yes
+CUST01204,2024-03-23,Tier 1,25-34,Organic,Gold,Skin Care,Normal,Yes
+CUST01205,2024-02-06,Tier 1,35-44,Google Search,None,Hair Care,Combination,Yes
+CUST01206,2025-07-19,Tier 1,18-24,Instagram,None,Makeup,NA,No
+CUST01207,2024-05-11,Tier 1,35-44,Instagram,None,Skin Care,Dry,No
+CUST01208,2024-12-15,Tier 2,35-44,Instagram,Silver,Fragrance,Combination,Yes
+CUST01209,2024-02-27,Tier 1,35-44,Marketplace,None,Skin Care,Oily,Yes
+CUST01210,2024-03-22,Tier 2,25-34,Instagram,Silver,Makeup,Combination,Yes
+CUST01211,2024-03-03,Tier 2,25-34,Instagram,Platinum,Skin Care,Normal,Yes
+CUST01212,2024-07-11,Tier 1,18-24,Influencer,None,Baby Care,Normal,Yes
+CUST01213,2024-09-13,Tier 2,35-44,Referral,Silver,Wellness,Sensitive,Yes
+CUST01214,2024-03-02,Tier 3,25-34,Instagram,Silver,Makeup,Oily,No
+CUST01215,2025-01-05,Tier 2,35-44,Influencer,None,Makeup,Sensitive,Yes
+CUST01216,2025-05-15,Tier 3,25-34,Instagram,Silver,Skin Care,Sensitive,Yes
+CUST01217,2025-02-16,Tier 3,25-34,Referral,None,Makeup,Combination,No
+CUST01218,2024-06-01,Tier 1,25-34,Organic,Silver,Skin Care,Normal,No
+CUST01219,2024-10-04,Tier 1,25-34,Google Search,None,Wellness,Normal,Yes
+CUST01220,2025-03-21,Tier 1,45+,Influencer,None,Wellness,Oily,No
+CUST01221,2025-06-15,Tier 3,45+,Google Search,None,Hair Care,Dry,Yes
+CUST01222,2025-09-05,Tier 1,18-24,Marketplace,Silver,Fragrance,Sensitive,Yes
+CUST01223,2024-09-09,Tier 1,18-24,Instagram,Gold,Hair Care,Combination,No
+CUST01224,2024-07-18,Tier 3,45+,Organic,None,Wellness,NA,Yes
+CUST01225,2025-04-26,Tier 1,35-44,Organic,None,Skin Care,Sensitive,Yes
+CUST01226,2024-09-29,Tier 1,18-24,Instagram,Silver,Makeup,Sensitive,No
+CUST01227,2024-12-01,Tier 2,25-34,Referral,Silver,Wellness,Combination,No
+CUST01228,2024-07-11,Tier 2,45+,Instagram,Silver,Makeup,Dry,Yes
+CUST01229,2024-01-12,Tier 1,25-34,Google Search,None,Baby Care,Combination,Yes
+CUST01230,2025-01-26,Tier 2,25-34,Marketplace,None,Skin Care,Sensitive,Yes
+CUST01231,2024-11-26,Tier 1,45+,Organic,None,Hair Care,Sensitive,No
+CUST01232,2024-11-27,Tier 1,25-34,Organic,None,Skin Care,Normal,No
+CUST01233,2024-05-15,Tier 3,25-34,Instagram,None,Skin Care,NA,Yes
+CUST01234,2025-02-26,Tier 1,25-34,Google Search,None,Hair Care,Combination,Yes
+CUST01235,2024-06-11,Tier 3,18-24,Google Search,None,Baby Care,Normal,Yes
+CUST01236,2024-02-13,Tier 1,18-24,Instagram,Gold,Hair Care,Sensitive,Yes
+CUST01237,2024-10-23,Tier 2,25-34,Marketplace,None,Skin Care,Normal,Yes
+CUST01238,2024-03-23,Tier 1,25-34,Organic,None,Skin Care,Normal,Yes
+CUST01239,2025-01-18,Tier 1,25-34,Instagram,Silver,Hair Care,Sensitive,No
+CUST01240,2025-04-01,Tier 2,25-34,Referral,None,Skin Care,Oily,Yes
+CUST01241,2025-08-06,Tier 1,35-44,Marketplace,None,Baby Care,Sensitive,Yes
+CUST01242,2024-09-15,Tier 1,18-24,Instagram,Gold,Fragrance,Dry,Yes
+CUST01243,2025-02-04,Tier 1,25-34,Referral,None,Skin Care,NA,No
+CUST01244,2024-02-01,Tier 3,25-34,Influencer,Gold,Hair Care,Combination,No
+CUST01245,2024-07-14,Tier 2,45+,Google Search,None,Baby Care,Sensitive,No
+CUST01246,2024-07-28,Tier 2,18-24,Influencer,Silver,Fragrance,Combination,Yes
+CUST01247,2025-08-16,Tier 1,35-44,Instagram,None,Skin Care,NA,Yes
+CUST01248,2025-05-24,Tier 2,25-34,Instagram,None,Fragrance,NA,Yes
+CUST01249,2025-05-05,Tier 1,18-24,Marketplace,Platinum,Skin Care,NA,Yes
+CUST01250,2025-03-21,Tier 2,25-34,Organic,Silver,Makeup,Sensitive,Yes
+CUST01251,2024-06-16,Tier 3,25-34,Marketplace,None,Hair Care,NA,Yes
+CUST01252,2024-12-21,Tier 1,35-44,Marketplace,Gold,Makeup,Combination,Yes
+CUST01253,2024-12-06,Tier 2,45+,Referral,None,Makeup,Oily,Yes
+CUST01254,2024-12-15,Tier 3,25-34,Instagram,Silver,Skin Care,Dry,No
+CUST01255,2025-05-28,Tier 2,25-34,Referral,None,Baby Care,Dry,No
+CUST01256,2024-11-29,Tier 3,35-44,Referral,None,Baby Care,Combination,Yes
+CUST01257,2024-04-18,Tier 2,25-34,Instagram,Silver,Makeup,NA,Yes
+CUST01258,2024-05-27,Tier 2,45+,Google Search,Silver,Hair Care,Dry,Yes
+CUST01259,2024-02-01,Tier 1,25-34,Organic,Silver,Skin Care,Combination,No
+CUST01260,2025-09-03,Tier 1,25-34,Instagram,None,Baby Care,Combination,Yes
+CUST01261,2025-05-26,Tier 1,25-34,Marketplace,Gold,Hair Care,Normal,No
+CUST01262,2025-05-17,Tier 1,45+,Influencer,Silver,Skin Care,Sensitive,Yes
+CUST01263,2024-04-06,Tier 2,25-34,Google Search,Platinum,Skin Care,Sensitive,Yes
+CUST01264,2024-04-07,Tier 1,18-24,Organic,Silver,Wellness,Combination,Yes
+CUST01265,2025-07-02,Tier 1,25-34,Marketplace,Silver,Hair Care,Combination,Yes
+CUST01266,2024-04-22,Tier 3,35-44,Instagram,None,Skin Care,Combination,No
+CUST01267,2024-02-14,Tier 1,25-34,Organic,Silver,Hair Care,NA,Yes
+CUST01268,2024-05-22,Tier 3,18-24,Marketplace,None,Hair Care,NA,Yes
+CUST01269,2025-07-10,Tier 2,18-24,Google Search,None,Hair Care,Oily,Yes
+CUST01270,2025-06-03,Tier 3,45+,Organic,None,Skin Care,Normal,Yes
+CUST01271,2025-07-24,Tier 1,25-34,Organic,None,Hair Care,Normal,Yes
+CUST01272,2025-02-04,Tier 1,18-24,Organic,None,Makeup,Normal,Yes
+CUST01273,2024-09-06,Tier 3,35-44,Instagram,None,Hair Care,Oily,Yes
+CUST01274,2024-03-13,Tier 1,18-24,Referral,Gold,Skin Care,Normal,No
+CUST01275,2025-02-27,Tier 1,35-44,Instagram,None,Skin Care,Combination,Yes
+CUST01276,2025-01-17,Tier 2,25-34,Organic,Silver,Skin Care,Normal,No
+CUST01277,2024-06-10,Tier 2,25-34,Referral,None,Baby Care,Combination,Yes
+CUST01278,2024-02-10,Tier 1,25-34,Referral,Silver,Wellness,Sensitive,No
+CUST01279,2025-04-26,Tier 1,25-34,Organic,Silver,Makeup,NA,Yes
+CUST01280,2024-04-03,Tier 3,35-44,Referral,Silver,Skin Care,NA,Yes
+CUST01281,2024-11-16,Tier 1,45+,Instagram,None,Wellness,Dry,No
+CUST01282,2025-03-10,Tier 1,35-44,Marketplace,Silver,Fragrance,NA,Yes
+CUST01283,2024-11-24,Tier 2,18-24,Referral,None,Makeup,Sensitive,Yes
+CUST01284,2024-07-06,Tier 3,35-44,Google Search,None,Makeup,Normal,Yes
+CUST01285,2024-05-07,Tier 3,45+,Influencer,None,Skin Care,Sensitive,No
+CUST01286,2024-10-10,Tier 2,25-34,Google Search,Platinum,Baby Care,Combination,Yes
+CUST01287,2024-07-04,Tier 2,18-24,Influencer,None,Skin Care,Oily,Yes
+CUST01288,2025-03-09,Tier 3,18-24,Referral,None,Hair Care,Normal,Yes
+CUST01289,2025-09-10,Tier 1,25-34,Referral,Gold,Skin Care,Normal,Yes
+CUST01290,2025-01-27,Tier 2,18-24,Influencer,None,Makeup,Sensitive,No
+CUST01291,2024-09-04,Tier 1,25-34,Instagram,None,Skin Care,Dry,Yes
+CUST01292,2025-04-01,Tier 1,18-24,Instagram,Silver,Hair Care,NA,No
+CUST01293,2024-10-05,Tier 2,18-24,Referral,Gold,Hair Care,Oily,Yes
+CUST01294,2025-01-16,Tier 1,18-24,Organic,Silver,Skin Care,Combination,Yes
+CUST01295,2024-10-24,Tier 1,35-44,Organic,Platinum,Makeup,Normal,Yes
+CUST01296,2025-02-02,Tier 1,25-34,Instagram,None,Hair Care,Combination,Yes
+CUST01297,2024-09-23,Tier 1,25-34,Organic,Silver,Baby Care,Dry,No
+CUST01298,2024-04-02,Tier 1,35-44,Marketplace,None,Skin Care,Normal,No
+CUST01299,2024-10-12,Tier 1,35-44,Google Search,None,Skin Care,Oily,Yes
+CUST01300,2024-06-29,Tier 2,25-34,Referral,None,Skin Care,Dry,Yes
+CUST01301,2024-07-02,Tier 2,25-34,Referral,None,Skin Care,Normal,No
+CUST01302,2024-10-05,Tier 1,25-34,Referral,None,Skin Care,Oily,Yes
+CUST01303,2025-01-11,Tier 1,25-34,Google Search,None,Skin Care,Dry,Yes
+CUST01304,2024-05-19,Tier 2,18-24,Organic,Silver,Hair Care,Normal,No
+CUST01305,2025-06-16,Tier 2,25-34,Marketplace,Silver,Makeup,Normal,No
+CUST01306,2024-02-07,Tier 2,18-24,Google Search,None,Baby Care,Combination,Yes
+CUST01307,2024-01-17,Tier 2,18-24,Marketplace,None,Baby Care,NA,Yes
+CUST01308,2024-08-20,Tier 1,45+,Google Search,Silver,Hair Care,Dry,Yes
+CUST01309,2024-04-13,Tier 1,25-34,Referral,None,Baby Care,Combination,Yes
+CUST01310,2024-02-11,Tier 3,45+,Referral,None,Skin Care,Normal,Yes
+CUST01311,2024-10-03,Tier 2,18-24,Marketplace,None,Hair Care,Sensitive,No
+CUST01312,2024-02-22,Tier 2,35-44,Organic,Silver,Hair Care,Normal,Yes
+CUST01313,2024-03-09,Tier 1,45+,Organic,None,Makeup,NA,No
+CUST01314,2024-04-05,Tier 1,25-34,Instagram,None,Skin Care,Dry,Yes
+CUST01315,2024-06-04,Tier 2,25-34,Influencer,None,Wellness,Dry,No
+CUST01316,2025-04-24,Tier 1,45+,Marketplace,None,Makeup,Sensitive,Yes
+CUST01317,2024-09-21,Tier 2,25-34,Influencer,Silver,Baby Care,Sensitive,Yes
+CUST01318,2024-10-12,Tier 2,35-44,Google Search,Silver,Hair Care,Sensitive,Yes
+CUST01319,2025-02-18,Tier 2,18-24,Organic,None,Fragrance,Normal,Yes
+CUST01320,2024-06-05,Tier 2,45+,Referral,None,Hair Care,Normal,Yes
+CUST01321,2024-03-08,Tier 3,35-44,Instagram,None,Hair Care,Combination,Yes
+CUST01322,2024-08-29,Tier 3,25-34,Influencer,None,Skin Care,Combination,No
+CUST01323,2024-06-12,Tier 2,25-34,Organic,None,Skin Care,NA,Yes
+CUST01324,2024-06-04,Tier 1,45+,Instagram,None,Wellness,Sensitive,Yes
+CUST01325,2024-03-30,Tier 3,18-24,Google Search,None,Baby Care,Oily,Yes
+CUST01326,2025-02-04,Tier 2,35-44,Google Search,None,Fragrance,Oily,No
+CUST01327,2024-09-23,Tier 2,18-24,Referral,None,Skin Care,Sensitive,Yes
+CUST01328,2025-04-08,Tier 2,25-34,Google Search,Silver,Hair Care,Dry,No
+CUST01329,2025-04-17,Tier 1,18-24,Instagram,Silver,Skin Care,Oily,No
+CUST01330,2024-12-06,Tier 2,35-44,Marketplace,None,Skin Care,NA,Yes
+CUST01331,2024-08-02,Tier 2,35-44,Google Search,None,Hair Care,Oily,Yes
+CUST01332,2025-05-24,Tier 3,25-34,Organic,Gold,Hair Care,Sensitive,No
+CUST01333,2025-08-03,Tier 1,35-44,Organic,None,Skin Care,Oily,Yes
+CUST01334,2024-09-02,Tier 2,25-34,Google Search,None,Skin Care,Oily,No
+CUST01335,2025-01-16,Tier 1,25-34,Organic,Platinum,Skin Care,Dry,Yes
+CUST01336,2025-06-27,Tier 2,25-34,Marketplace,Gold,Skin Care,NA,No
+CUST01337,2025-07-05,Tier 2,45+,Google Search,None,Baby Care,Oily,Yes
+CUST01338,2025-09-15,Tier 3,25-34,Organic,None,Skin Care,NA,No
+CUST01339,2025-02-08,Tier 2,25-34,Instagram,Gold,Hair Care,Combination,Yes
+CUST01340,2025-07-02,Tier 2,35-44,Google Search,None,Wellness,NA,No
+CUST01341,2025-08-17,Tier 2,18-24,Google Search,None,Skin Care,Combination,Yes
+CUST01342,2025-03-15,Tier 2,18-24,Influencer,None,Skin Care,NA,No
+CUST01343,2024-06-14,Tier 1,45+,Instagram,None,Wellness,Sensitive,No
+CUST01344,2024-06-08,Tier 3,35-44,Instagram,None,Makeup,Sensitive,No
+CUST01345,2025-07-01,Tier 1,25-34,Marketplace,None,Skin Care,Oily,Yes
+CUST01346,2024-01-19,Tier 2,45+,Influencer,Silver,Wellness,Dry,Yes
+CUST01347,2025-05-05,Tier 2,45+,Google Search,None,Hair Care,Combination,Yes
+CUST01348,2024-07-13,Tier 2,25-34,Marketplace,Silver,Wellness,NA,Yes
+CUST01349,2025-04-13,Tier 2,25-34,Instagram,None,Hair Care,Oily,Yes
+CUST01350,2024-12-12,Tier 3,25-34,Influencer,Gold,Skin Care,Oily,Yes
+CUST01351,2025-05-21,Tier 2,25-34,Organic,None,Fragrance,NA,Yes
+CUST01352,2024-04-19,Tier 1,18-24,Influencer,None,Skin Care,Combination,No
+CUST01353,2025-06-27,Tier 2,25-34,Marketplace,None,Skin Care,Sensitive,Yes
+CUST01354,2025-09-09,Tier 1,25-34,Instagram,Platinum,Makeup,Sensitive,No
+CUST01355,2024-08-25,Tier 1,18-24,Organic,Silver,Wellness,Oily,No
+CUST01356,2024-10-31,Tier 2,45+,Instagram,None,Wellness,Sensitive,No
+CUST01357,2024-02-23,Tier 1,18-24,Influencer,None,Fragrance,Oily,Yes
+CUST01358,2025-08-28,Tier 3,45+,Google Search,None,Skin Care,Normal,Yes
+CUST01359,2024-05-09,Tier 3,18-24,Organic,None,Wellness,Oily,Yes
+CUST01360,2024-07-11,Tier 1,25-34,Referral,Silver,Hair Care,Normal,Yes
+CUST01361,2025-08-15,Tier 1,25-34,Organic,None,Hair Care,NA,Yes
+CUST01362,2024-09-16,Tier 2,35-44,Organic,Silver,Wellness,Dry,Yes
+CUST01363,2024-03-14,Tier 1,35-44,Instagram,Gold,Baby Care,NA,Yes
+CUST01364,2024-12-15,Tier 1,18-24,Marketplace,Silver,Fragrance,Sensitive,No
+CUST01365,2024-07-25,Tier 1,35-44,Google Search,None,Makeup,NA,Yes
+CUST01366,2024-01-04,Tier 1,25-34,Organic,Gold,Makeup,Normal,Yes
+CUST01367,2024-10-13,Tier 2,18-24,Referral,Silver,Skin Care,Combination,Yes
+CUST01368,2024-10-09,Tier 3,35-44,Google Search,None,Hair Care,Dry,Yes
+CUST01369,2025-07-18,Tier 3,25-34,Instagram,Silver,Baby Care,NA,Yes
+CUST01370,2025-02-17,Tier 2,18-24,Organic,None,Skin Care,Dry,No
+CUST01371,2025-06-26,Tier 2,45+,Influencer,None,Wellness,Sensitive,No
+CUST01372,2025-05-07,Tier 1,18-24,Google Search,Silver,Skin Care,Sensitive,Yes
+CUST01373,2025-08-01,Tier 1,25-34,Referral,None,Skin Care,Oily,No
+CUST01374,2025-05-19,Tier 3,25-34,Instagram,None,Baby Care,Dry,Yes
+CUST01375,2024-03-15,Tier 3,18-24,Referral,Silver,Skin Care,Dry,Yes
+CUST01376,2025-02-22,Tier 1,18-24,Marketplace,None,Skin Care,Sensitive,No
+CUST01377,2025-09-04,Tier 2,25-34,Organic,None,Makeup,Normal,Yes
+CUST01378,2025-05-16,Tier 1,35-44,Google Search,None,Skin Care,Normal,Yes
+CUST01379,2024-12-31,Tier 2,35-44,Instagram,Silver,Wellness,Normal,Yes
+CUST01380,2024-02-16,Tier 1,35-44,Instagram,None,Hair Care,NA,Yes
+CUST01381,2024-07-28,Tier 2,25-34,Organic,Gold,Hair Care,NA,Yes
+CUST01382,2025-01-18,Tier 1,18-24,Organic,None,Skin Care,Dry,Yes
+CUST01383,2024-06-19,Tier 2,25-34,Referral,Silver,Wellness,Normal,No
+CUST01384,2024-06-10,Tier 2,35-44,Marketplace,None,Hair Care,Dry,Yes
+CUST01385,2024-08-07,Tier 3,45+,Organic,None,Skin Care,Normal,Yes
+CUST01386,2024-05-09,Tier 1,45+,Marketplace,Gold,Skin Care,Combination,Yes
+CUST01387,2024-02-24,Tier 2,25-34,Instagram,None,Wellness,Normal,No
+CUST01388,2024-03-26,Tier 2,25-34,Google Search,None,Skin Care,Dry,Yes
+CUST01389,2024-08-13,Tier 1,35-44,Instagram,None,Hair Care,NA,Yes
+CUST01390,2024-10-09,Tier 1,45+,Instagram,None,Skin Care,NA,Yes
+CUST01391,2024-06-17,Tier 3,35-44,Marketplace,None,Skin Care,Oily,Yes
+CUST01392,2025-09-11,Tier 1,18-24,Google Search,None,Skin Care,Normal,Yes
+CUST01393,2024-05-31,Tier 2,25-34,Referral,None,Wellness,Oily,Yes
+CUST01394,2024-02-13,Tier 2,25-34,Referral,None,Skin Care,Oily,Yes
+CUST01395,2024-12-15,Tier 2,18-24,Google Search,None,Hair Care,Oily,Yes
+CUST01396,2024-11-25,Tier 1,25-34,Google Search,None,Baby Care,NA,Yes
+CUST01397,2024-07-31,Tier 2,25-34,Marketplace,None,Hair Care,Oily,No
+CUST01398,2025-06-22,Tier 1,18-24,Google Search,None,Skin Care,Combination,Yes
+CUST01399,2024-01-06,Tier 2,25-34,Influencer,Silver,Baby Care,Combination,Yes
+CUST01400,2024-07-11,Tier 1,25-34,Google Search,None,Skin Care,NA,Yes
+CUST01401,2024-11-10,Tier 1,25-34,Google Search,None,Makeup,Sensitive,No
+CUST01402,2024-09-14,Tier 3,18-24,Organic,None,Wellness,Combination,Yes
+CUST01403,2024-02-13,Tier 3,18-24,Marketplace,None,Baby Care,Dry,Yes
+CUST01404,2024-03-27,Tier 1,25-34,Organic,Gold,Hair Care,Normal,Yes
+CUST01405,2025-01-12,Tier 2,25-34,Referral,Gold,Skin Care,NA,No
+CUST01406,2024-12-14,Tier 2,18-24,Instagram,Gold,Skin Care,Dry,Yes
+CUST01407,2024-09-20,Tier 3,25-34,Instagram,Silver,Fragrance,Oily,Yes
+CUST01408,2024-05-06,Tier 2,25-34,Instagram,Silver,Baby Care,Dry,Yes
+CUST01409,2024-02-10,Tier 3,35-44,Marketplace,Gold,Wellness,Normal,No
+CUST01410,2024-04-07,Tier 2,25-34,Google Search,None,Fragrance,Oily,Yes
+CUST01411,2024-01-31,Tier 1,25-34,Google Search,None,Fragrance,Normal,No
+CUST01412,2025-05-24,Tier 1,25-34,Influencer,None,Makeup,Combination,No
+CUST01413,2024-12-20,Tier 1,18-24,Google Search,None,Skin Care,Normal,Yes
+CUST01414,2024-08-24,Tier 2,25-34,Organic,Silver,Makeup,Combination,Yes
+CUST01415,2025-09-08,Tier 1,25-34,Referral,None,Hair Care,Oily,Yes
+CUST01416,2024-05-13,Tier 1,25-34,Marketplace,Gold,Baby Care,Sensitive,Yes
+CUST01417,2024-02-17,Tier 1,25-34,Marketplace,None,Fragrance,Oily,No
+CUST01418,2025-01-04,Tier 3,25-34,Instagram,Gold,Skin Care,Dry,Yes
+CUST01419,2024-06-28,Tier 1,35-44,Google Search,None,Hair Care,Normal,Yes
+CUST01420,2025-03-10,Tier 2,35-44,Instagram,None,Baby Care,Sensitive,Yes
+CUST01421,2025-07-21,Tier 2,18-24,Referral,None,Skin Care,Combination,No
+CUST01422,2025-02-21,Tier 1,18-24,Google Search,Silver,Skin Care,NA,Yes
+CUST01423,2025-06-03,Tier 2,25-34,Marketplace,Silver,Skin Care,Dry,No
+CUST01424,2024-06-18,Tier 2,25-34,Referral,Gold,Hair Care,Normal,Yes
+CUST01425,2025-07-19,Tier 2,25-34,Marketplace,Silver,Makeup,Combination,Yes
+CUST01426,2025-08-16,Tier 3,25-34,Google Search,None,Skin Care,Oily,No
+CUST01427,2024-07-18,Tier 3,45+,Instagram,Gold,Fragrance,Dry,Yes
+CUST01428,2025-07-27,Tier 1,45+,Marketplace,None,Baby Care,Dry,Yes
+CUST01429,2024-02-01,Tier 1,25-34,Instagram,None,Wellness,Dry,Yes
+CUST01430,2025-01-05,Tier 3,25-34,Referral,Silver,Baby Care,Oily,No
+CUST01431,2025-02-21,Tier 1,35-44,Instagram,Silver,Baby Care,Sensitive,Yes
+CUST01432,2025-01-02,Tier 1,25-34,Marketplace,None,Baby Care,Normal,Yes
+CUST01433,2024-01-16,Tier 3,25-34,Instagram,Gold,Fragrance,Dry,No
+CUST01434,2024-05-03,Tier 1,25-34,Google Search,None,Skin Care,Sensitive,No
+CUST01435,2024-06-17,Tier 1,25-34,Instagram,Gold,Hair Care,Combination,No
+CUST01436,2025-01-31,Tier 1,25-34,Marketplace,Silver,Hair Care,Oily,Yes
+CUST01437,2024-10-12,Tier 2,18-24,Instagram,Silver,Skin Care,Combination,No
+CUST01438,2025-03-29,Tier 2,25-34,Instagram,None,Baby Care,Sensitive,Yes
+CUST01439,2024-06-15,Tier 3,18-24,Organic,Silver,Makeup,Combination,Yes
+CUST01440,2024-04-04,Tier 2,35-44,Marketplace,None,Hair Care,Oily,No
+CUST01441,2024-09-26,Tier 3,18-24,Marketplace,None,Wellness,Dry,Yes
+CUST01442,2024-11-17,Tier 3,25-34,Instagram,Gold,Hair Care,Combination,Yes
+CUST01443,2024-06-17,Tier 1,35-44,Instagram,None,Skin Care,Combination,Yes
+CUST01444,2025-05-22,Tier 3,25-34,Google Search,None,Hair Care,NA,Yes
+CUST01445,2024-06-21,Tier 1,35-44,Instagram,None,Hair Care,Oily,Yes
+CUST01446,2024-09-13,Tier 1,35-44,Referral,Gold,Wellness,NA,No
+CUST01447,2024-01-15,Tier 2,35-44,Organic,Gold,Baby Care,Dry,Yes
+CUST01448,2024-06-24,Tier 1,25-34,Organic,Silver,Makeup,Combination,Yes
+CUST01449,2025-07-06,Tier 1,25-34,Referral,None,Wellness,Combination,Yes
+CUST01450,2024-01-24,Tier 2,25-34,Referral,Silver,Hair Care,Oily,Yes
+CUST01451,2024-08-29,Tier 2,45+,Organic,Gold,Skin Care,Oily,Yes
+CUST01452,2024-08-17,Tier 1,25-34,Instagram,Platinum,Makeup,NA,Yes
+CUST01453,2024-04-17,Tier 1,35-44,Instagram,None,Baby Care,Dry,Yes
+CUST01454,2025-04-12,Tier 3,35-44,Referral,None,Makeup,Dry,Yes
+CUST01455,2024-01-17,Tier 1,45+,Influencer,Gold,Makeup,Normal,Yes
+CUST01456,2025-09-04,Tier 1,35-44,Influencer,Silver,Skin Care,Normal,Yes
+CUST01457,2024-03-27,Tier 2,25-34,Referral,None,Fragrance,Oily,Yes
+CUST01458,2025-07-11,Tier 1,25-34,Instagram,Silver,Baby Care,Oily,No
+CUST01459,2024-03-06,Tier 2,35-44,Referral,Silver,Hair Care,Normal,Yes
+CUST01460,2024-06-06,Tier 1,35-44,Referral,None,Wellness,Oily,No
+CUST01461,2024-07-09,Tier 3,35-44,Google Search,Silver,Fragrance,NA,No
+CUST01462,2024-12-05,Tier 2,35-44,Instagram,None,Skin Care,Normal,Yes
+CUST01463,2024-07-05,Tier 1,45+,Marketplace,None,Hair Care,Normal,Yes
+CUST01464,2025-06-29,Tier 3,35-44,Organic,Gold,Skin Care,Dry,Yes
+CUST01465,2025-02-18,Tier 1,18-24,Marketplace,None,Baby Care,Sensitive,No
+CUST01466,2025-02-02,Tier 2,18-24,Google Search,Silver,Fragrance,Dry,Yes
+CUST01467,2025-05-31,Tier 2,18-24,Google Search,None,Baby Care,Normal,Yes
+CUST01468,2024-11-24,Tier 2,35-44,Google Search,None,Skin Care,Sensitive,Yes
+CUST01469,2025-08-13,Tier 3,18-24,Influencer,Silver,Skin Care,Dry,Yes
+CUST01470,2024-02-08,Tier 1,18-24,Google Search,None,Skin Care,Oily,Yes
+CUST01471,2025-01-09,Tier 1,25-34,Google Search,Silver,Wellness,Oily,Yes
+CUST01472,2024-09-29,Tier 1,45+,Organic,Silver,Skin Care,Oily,Yes
+CUST01473,2024-05-04,Tier 2,35-44,Referral,Silver,Fragrance,Combination,Yes
+CUST01474,2025-07-25,Tier 1,35-44,Instagram,None,Hair Care,Combination,Yes
+CUST01475,2025-03-01,Tier 2,35-44,Referral,None,Skin Care,Combination,Yes
+CUST01476,2024-10-13,Tier 1,25-34,Marketplace,Platinum,Makeup,Sensitive,No
+CUST01477,2024-11-07,Tier 3,45+,Influencer,Silver,Hair Care,Sensitive,Yes
+CUST01478,2024-06-08,Tier 1,35-44,Instagram,Silver,Skin Care,Dry,Yes
+CUST01479,2024-11-29,Tier 1,35-44,Instagram,None,Skin Care,Dry,Yes
+CUST01480,2024-10-17,Tier 3,25-34,Referral,None,Baby Care,NA,Yes
+CUST01481,2024-08-15,Tier 3,25-34,Organic,Silver,Skin Care,Combination,Yes
+CUST01482,2024-06-20,Tier 1,45+,Influencer,None,Skin Care,Dry,Yes
+CUST01483,2024-03-05,Tier 2,18-24,Organic,Silver,Baby Care,Normal,Yes
+CUST01484,2024-09-07,Tier 2,25-34,Instagram,None,Hair Care,Normal,Yes
+CUST01485,2025-04-11,Tier 1,18-24,Google Search,None,Skin Care,Sensitive,Yes
+CUST01486,2025-08-07,Tier 1,45+,Marketplace,None,Makeup,NA,No
+CUST01487,2024-04-14,Tier 2,25-34,Instagram,None,Skin Care,Combination,Yes
+CUST01488,2024-08-10,Tier 2,45+,Influencer,Gold,Wellness,Sensitive,Yes
+CUST01489,2024-08-07,Tier 3,35-44,Influencer,Silver,Makeup,NA,No
+CUST01490,2024-05-27,Tier 1,25-34,Marketplace,Silver,Skin Care,Normal,No
+CUST01491,2024-09-30,Tier 2,25-34,Marketplace,Silver,Fragrance,Dry,Yes
+CUST01492,2024-12-06,Tier 1,25-34,Organic,Silver,Baby Care,NA,Yes
+CUST01493,2025-08-19,Tier 1,25-34,Instagram,None,Skin Care,Dry,Yes
+CUST01494,2024-04-25,Tier 2,18-24,Organic,None,Wellness,Normal,Yes
+CUST01495,2024-04-10,Tier 1,18-24,Marketplace,Silver,Skin Care,Dry,Yes
+CUST01496,2025-09-13,Tier 2,35-44,Referral,None,Fragrance,Combination,Yes
+CUST01497,2025-01-16,Tier 1,35-44,Instagram,None,Wellness,Oily,Yes
+CUST01498,2024-03-24,Tier 3,35-44,Referral,None,Skin Care,Dry,No
+CUST01499,2024-04-05,Tier 1,18-24,Referral,Silver,Makeup,Normal,No
+CUST01500,2024-10-10,Tier 2,25-34,Instagram,Silver,Skin Care,Oily,Yes
+CUST01501,2025-05-26,Tier 3,18-24,Instagram,None,Skin Care,Dry,Yes
+CUST01502,2025-04-16,Tier 2,25-34,Instagram,None,Makeup,NA,Yes
+CUST01503,2024-07-04,Tier 2,18-24,Instagram,None,Hair Care,NA,No
+CUST01504,2024-08-07,Tier 2,18-24,Referral,None,Baby Care,NA,Yes
+CUST01505,2025-06-17,Tier 2,18-24,Google Search,None,Skin Care,Normal,Yes
+CUST01506,2024-01-09,Tier 1,25-34,Instagram,Silver,Hair Care,Oily,No
+CUST01507,2024-12-24,Tier 3,35-44,Instagram,Silver,Baby Care,Dry,Yes
+CUST01508,2025-08-20,Tier 1,25-34,Instagram,Platinum,Skin Care,Sensitive,Yes
+CUST01509,2025-01-31,Tier 3,25-34,Instagram,None,Wellness,NA,No
+CUST01510,2025-03-08,Tier 2,18-24,Referral,None,Skin Care,Dry,Yes
+CUST01511,2025-03-17,Tier 2,25-34,Google Search,None,Fragrance,Normal,Yes
+CUST01512,2024-06-11,Tier 2,35-44,Marketplace,None,Makeup,Sensitive,Yes
+CUST01513,2025-02-19,Tier 2,45+,Organic,None,Hair Care,Sensitive,Yes
+CUST01514,2024-12-22,Tier 2,25-34,Instagram,None,Hair Care,Oily,Yes
+CUST01515,2024-02-15,Tier 2,25-34,Organic,None,Skin Care,Oily,No
+CUST01516,2025-04-05,Tier 2,25-34,Instagram,None,Hair Care,Normal,Yes
+CUST01517,2024-04-19,Tier 1,18-24,Marketplace,Platinum,Makeup,Combination,Yes
+CUST01518,2024-02-25,Tier 1,25-34,Instagram,None,Fragrance,Sensitive,No
+CUST01519,2025-02-14,Tier 2,18-24,Instagram,None,Skin Care,Normal,No
+CUST01520,2025-09-02,Tier 1,25-34,Instagram,None,Skin Care,NA,No
+CUST01521,2025-03-26,Tier 3,45+,Organic,None,Skin Care,Sensitive,Yes
+CUST01522,2025-05-01,Tier 1,18-24,Google Search,None,Skin Care,Sensitive,Yes
+CUST01523,2025-04-02,Tier 2,25-34,Instagram,None,Skin Care,NA,Yes
+CUST01524,2025-07-30,Tier 3,35-44,Marketplace,None,Skin Care,Dry,Yes
+CUST01525,2024-09-18,Tier 2,25-34,Organic,None,Fragrance,Combination,No
+CUST01526,2024-08-17,Tier 1,25-34,Marketplace,Silver,Fragrance,Combination,Yes
+CUST01527,2024-04-11,Tier 2,18-24,Influencer,None,Baby Care,Dry,Yes
+CUST01528,2025-06-11,Tier 2,35-44,Marketplace,Gold,Wellness,Combination,No
+CUST01529,2025-03-17,Tier 3,35-44,Instagram,None,Skin Care,Combination,No
+CUST01530,2024-02-26,Tier 2,35-44,Marketplace,Silver,Makeup,Sensitive,Yes
+CUST01531,2024-03-26,Tier 2,25-34,Marketplace,None,Baby Care,Normal,Yes
+CUST01532,2024-01-23,Tier 2,35-44,Marketplace,Platinum,Wellness,Normal,Yes
+CUST01533,2025-02-12,Tier 1,35-44,Instagram,Silver,Hair Care,Sensitive,Yes
+CUST01534,2025-06-03,Tier 3,25-34,Referral,None,Skin Care,Normal,Yes
+CUST01535,2024-07-03,Tier 1,35-44,Instagram,Silver,Skin Care,NA,Yes
+CUST01536,2025-08-27,Tier 1,25-34,Marketplace,None,Hair Care,Combination,No
+CUST01537,2025-05-03,Tier 1,35-44,Instagram,None,Makeup,Sensitive,No
+CUST01538,2025-03-13,Tier 3,18-24,Marketplace,None,Skin Care,NA,Yes
+CUST01539,2025-04-16,Tier 3,25-34,Marketplace,Silver,Skin Care,NA,Yes
+CUST01540,2025-01-20,Tier 1,25-34,Google Search,Silver,Skin Care,Combination,Yes
+CUST01541,2024-12-12,Tier 1,18-24,Influencer,None,Makeup,NA,Yes
+CUST01542,2025-08-10,Tier 2,45+,Google Search,None,Makeup,Dry,Yes
+CUST01543,2025-05-06,Tier 3,18-24,Referral,Silver,Skin Care,Oily,Yes
+CUST01544,2024-04-25,Tier 2,25-34,Marketplace,None,Makeup,Normal,Yes
+CUST01545,2025-02-21,Tier 1,18-24,Marketplace,Gold,Hair Care,Dry,Yes
+CUST01546,2024-12-06,Tier 2,35-44,Influencer,None,Wellness,Sensitive,Yes
+CUST01547,2024-02-02,Tier 2,35-44,Google Search,Silver,Hair Care,Oily,Yes
+CUST01548,2024-03-07,Tier 1,35-44,Google Search,None,Makeup,NA,Yes
+CUST01549,2025-02-14,Tier 2,25-34,Instagram,None,Skin Care,Normal,No
+CUST01550,2024-07-08,Tier 2,45+,Influencer,None,Baby Care,Normal,Yes
+CUST01551,2025-07-16,Tier 3,25-34,Google Search,None,Fragrance,Oily,Yes
+CUST01552,2024-02-20,Tier 2,18-24,Marketplace,Silver,Skin Care,NA,No
+CUST01553,2024-02-15,Tier 1,25-34,Instagram,Silver,Skin Care,Normal,Yes
+CUST01554,2024-11-17,Tier 3,25-34,Marketplace,None,Baby Care,Sensitive,Yes
+CUST01555,2025-08-31,Tier 2,25-34,Organic,None,Wellness,Sensitive,Yes
+CUST01556,2024-10-07,Tier 2,35-44,Referral,None,Hair Care,Oily,Yes
+CUST01557,2024-11-14,Tier 3,25-34,Referral,None,Baby Care,Oily,Yes
+CUST01558,2024-08-14,Tier 2,18-24,Marketplace,None,Skin Care,Sensitive,Yes
+CUST01559,2024-07-07,Tier 1,35-44,Google Search,None,Baby Care,Normal,Yes
+CUST01560,2025-03-11,Tier 1,18-24,Instagram,None,Wellness,Combination,Yes
+CUST01561,2025-02-14,Tier 1,18-24,Instagram,None,Skin Care,Sensitive,Yes
+CUST01562,2025-05-30,Tier 1,35-44,Organic,Silver,Wellness,Oily,No
+CUST01563,2025-06-12,Tier 2,45+,Referral,None,Skin Care,Oily,Yes
+CUST01564,2024-01-14,Tier 1,45+,Instagram,Silver,Makeup,Dry,Yes
+CUST01565,2024-06-17,Tier 2,18-24,Instagram,Silver,Hair Care,Dry,Yes
+CUST01566,2025-06-29,Tier 2,18-24,Influencer,Silver,Hair Care,Sensitive,No
+CUST01567,2024-08-26,Tier 3,25-34,Google Search,Silver,Wellness,Oily,Yes
+CUST01568,2024-10-19,Tier 1,25-34,Instagram,None,Fragrance,Oily,Yes
+CUST01569,2024-10-19,Tier 2,35-44,Marketplace,Platinum,Makeup,Normal,No
+CUST01570,2025-02-11,Tier 1,35-44,Google Search,Silver,Makeup,Combination,Yes
+CUST01571,2024-06-22,Tier 3,35-44,Google Search,None,Baby Care,Oily,Yes
+CUST01572,2024-12-02,Tier 1,35-44,Google Search,Platinum,Wellness,Sensitive,Yes
+CUST01573,2024-08-22,Tier 1,25-34,Google Search,None,Wellness,NA,No
+CUST01574,2025-02-09,Tier 2,25-34,Referral,None,Hair Care,Dry,Yes
+CUST01575,2024-09-25,Tier 3,25-34,Instagram,None,Hair Care,Oily,Yes
+CUST01576,2024-04-19,Tier 2,18-24,Marketplace,Silver,Makeup,Dry,Yes
+CUST01577,2025-06-08,Tier 3,35-44,Marketplace,Silver,Baby Care,Combination,No
+CUST01578,2025-09-05,Tier 3,18-24,Google Search,None,Skin Care,Combination,Yes
+CUST01579,2024-08-26,Tier 1,18-24,Marketplace,Silver,Makeup,Combination,Yes
+CUST01580,2025-07-24,Tier 2,25-34,Instagram,None,Baby Care,Oily,Yes
+CUST01581,2024-01-31,Tier 3,25-34,Influencer,None,Wellness,Normal,No
+CUST01582,2024-08-05,Tier 1,18-24,Organic,None,Skin Care,Oily,Yes
+CUST01583,2024-04-27,Tier 1,18-24,Organic,Silver,Fragrance,NA,Yes
+CUST01584,2024-10-29,Tier 1,18-24,Instagram,None,Makeup,Normal,Yes
+CUST01585,2025-08-26,Tier 1,25-34,Referral,None,Makeup,Normal,Yes
+CUST01586,2025-08-25,Tier 2,25-34,Instagram,None,Makeup,Oily,Yes
+CUST01587,2024-10-12,Tier 3,45+,Marketplace,None,Skin Care,Oily,No
+CUST01588,2025-02-03,Tier 1,25-34,Instagram,Silver,Wellness,Sensitive,No
+CUST01589,2024-08-18,Tier 1,45+,Referral,None,Hair Care,Normal,Yes
+CUST01590,2025-01-11,Tier 2,35-44,Referral,None,Skin Care,Dry,Yes
+CUST01591,2025-02-01,Tier 3,25-34,Referral,None,Baby Care,Normal,No
+CUST01592,2025-05-11,Tier 1,35-44,Instagram,Silver,Hair Care,Sensitive,Yes
+CUST01593,2025-08-31,Tier 1,25-34,Instagram,None,Makeup,Sensitive,Yes
+CUST01594,2024-07-10,Tier 1,25-34,Instagram,Gold,Makeup,Normal,Yes
+CUST01595,2024-12-09,Tier 3,25-34,Instagram,None,Skin Care,Oily,Yes
+CUST01596,2024-03-17,Tier 2,18-24,Organic,None,Skin Care,Normal,Yes
+CUST01597,2024-06-15,Tier 3,18-24,Google Search,Silver,Hair Care,NA,No
+CUST01598,2024-09-29,Tier 1,45+,Referral,Silver,Hair Care,Oily,Yes
+CUST01599,2024-05-24,Tier 3,18-24,Referral,None,Baby Care,NA,Yes
+CUST01600,2024-12-16,Tier 3,25-34,Referral,None,Skin Care,Combination,No
+CUST01601,2024-10-13,Tier 1,18-24,Referral,Gold,Fragrance,Dry,Yes
+CUST01602,2025-03-05,Tier 3,18-24,Referral,Gold,Makeup,Oily,Yes
+CUST01603,2024-03-01,Tier 2,18-24,Influencer,Silver,Fragrance,Oily,No
+CUST01604,2024-02-14,Tier 1,35-44,Organic,Silver,Skin Care,Normal,Yes
+CUST01605,2025-08-30,Tier 1,25-34,Influencer,None,Makeup,NA,Yes
+CUST01606,2024-12-01,Tier 1,35-44,Marketplace,Silver,Baby Care,Combination,Yes
+CUST01607,2024-05-14,Tier 1,25-34,Referral,None,Fragrance,Oily,No
+CUST01608,2025-04-30,Tier 1,18-24,Referral,None,Makeup,Oily,Yes
+CUST01609,2025-02-16,Tier 1,25-34,Referral,None,Wellness,NA,Yes
+CUST01610,2024-12-11,Tier 1,35-44,Referral,None,Skin Care,Normal,Yes
+CUST01611,2024-08-12,Tier 3,45+,Organic,Gold,Hair Care,Normal,Yes
+CUST01612,2024-11-01,Tier 1,25-34,Instagram,None,Hair Care,Combination,No
+CUST01613,2024-12-09,Tier 1,25-34,Google Search,None,Skin Care,Oily,Yes
+CUST01614,2024-04-19,Tier 2,18-24,Google Search,None,Wellness,Oily,No
+CUST01615,2025-06-03,Tier 1,45+,Influencer,None,Hair Care,Sensitive,Yes
+CUST01616,2024-06-30,Tier 1,18-24,Marketplace,None,Skin Care,Sensitive,Yes
+CUST01617,2024-03-25,Tier 1,35-44,Influencer,Silver,Wellness,Sensitive,No
+CUST01618,2024-02-21,Tier 1,18-24,Instagram,Silver,Skin Care,Sensitive,No
+CUST01619,2024-12-13,Tier 1,18-24,Influencer,None,Makeup,NA,Yes
+CUST01620,2024-12-28,Tier 2,35-44,Google Search,None,Skin Care,Oily,Yes
+CUST01621,2024-08-09,Tier 2,45+,Instagram,Silver,Baby Care,Oily,Yes
+CUST01622,2024-02-16,Tier 2,25-34,Organic,None,Baby Care,NA,Yes
+CUST01623,2024-06-27,Tier 1,45+,Marketplace,None,Hair Care,Normal,Yes
+CUST01624,2025-02-21,Tier 2,45+,Referral,Silver,Hair Care,Combination,No
+CUST01625,2025-01-31,Tier 2,35-44,Instagram,Silver,Skin Care,Combination,Yes
+CUST01626,2024-08-11,Tier 2,35-44,Google Search,Silver,Wellness,Sensitive,No
+CUST01627,2024-06-09,Tier 1,25-34,Instagram,None,Skin Care,Combination,Yes
+CUST01628,2024-07-07,Tier 2,25-34,Google Search,Silver,Baby Care,NA,No
+CUST01629,2024-11-11,Tier 1,25-34,Instagram,Silver,Baby Care,NA,No
+CUST01630,2024-01-06,Tier 3,25-34,Referral,None,Skin Care,Oily,Yes
+CUST01631,2024-08-13,Tier 2,35-44,Instagram,Gold,Hair Care,Combination,Yes
+CUST01632,2025-07-10,Tier 3,25-34,Organic,None,Baby Care,Normal,No
+CUST01633,2024-09-03,Tier 3,25-34,Instagram,None,Makeup,Combination,Yes
+CUST01634,2025-04-19,Tier 2,35-44,Instagram,Gold,Skin Care,Sensitive,No
+CUST01635,2024-07-12,Tier 3,25-34,Instagram,Silver,Makeup,Dry,Yes
+CUST01636,2025-08-09,Tier 2,45+,Marketplace,None,Hair Care,Oily,Yes
+CUST01637,2024-03-24,Tier 3,35-44,Referral,None,Wellness,Dry,Yes
+CUST01638,2024-02-21,Tier 2,35-44,Influencer,None,Makeup,NA,Yes
+CUST01639,2024-06-07,Tier 2,25-34,Organic,Silver,Skin Care,Sensitive,No
+CUST01640,2025-05-03,Tier 1,18-24,Referral,Silver,Baby Care,NA,No
+CUST01641,2024-03-01,Tier 1,25-34,Referral,None,Skin Care,Dry,No
+CUST01642,2025-01-03,Tier 2,25-34,Marketplace,Silver,Makeup,NA,Yes
+CUST01643,2024-06-01,Tier 1,18-24,Marketplace,None,Fragrance,Dry,Yes
+CUST01644,2024-05-13,Tier 1,25-34,Organic,None,Hair Care,Oily,Yes
+CUST01645,2024-08-24,Tier 2,45+,Referral,None,Baby Care,Normal,Yes
+CUST01646,2024-06-14,Tier 1,45+,Marketplace,Silver,Wellness,Oily,Yes
+CUST01647,2024-06-11,Tier 3,25-34,Instagram,Gold,Skin Care,Dry,No
+CUST01648,2025-01-31,Tier 1,25-34,Instagram,Gold,Wellness,Combination,Yes
+CUST01649,2025-01-12,Tier 1,45+,Influencer,None,Wellness,Oily,Yes
+CUST01650,2025-06-08,Tier 1,35-44,Instagram,Silver,Makeup,Sensitive,Yes
+CUST01651,2024-07-20,Tier 2,35-44,Instagram,None,Hair Care,Oily,Yes
+CUST01652,2024-06-21,Tier 2,25-34,Organic,None,Wellness,Sensitive,Yes
+CUST01653,2024-12-17,Tier 2,45+,Google Search,Silver,Skin Care,Normal,No
+CUST01654,2025-05-19,Tier 2,45+,Marketplace,None,Baby Care,Combination,Yes
+CUST01655,2024-03-27,Tier 2,25-34,Google Search,None,Baby Care,Dry,No
+CUST01656,2025-04-16,Tier 1,45+,Google Search,None,Baby Care,Dry,Yes
+CUST01657,2024-09-03,Tier 2,18-24,Google Search,Silver,Hair Care,Oily,Yes
+CUST01658,2025-02-03,Tier 2,45+,Google Search,None,Hair Care,Normal,Yes
+CUST01659,2024-12-09,Tier 1,45+,Instagram,None,Hair Care,Sensitive,Yes
+CUST01660,2024-03-06,Tier 3,25-34,Instagram,None,Skin Care,Oily,Yes
+CUST01661,2024-11-09,Tier 3,25-34,Instagram,None,Skin Care,Sensitive,Yes
+CUST01662,2024-09-02,Tier 3,18-24,Google Search,None,Makeup,Normal,No
+CUST01663,2024-10-19,Tier 2,18-24,Google Search,None,Skin Care,Dry,No
+CUST01664,2024-11-12,Tier 3,18-24,Referral,None,Baby Care,Combination,Yes
+CUST01665,2025-06-30,Tier 2,25-34,Referral,None,Hair Care,Dry,Yes
+CUST01666,2024-04-04,Tier 2,45+,Google Search,None,Fragrance,NA,Yes
+CUST01667,2025-04-16,Tier 3,25-34,Marketplace,Silver,Skin Care,Combination,Yes
+CUST01668,2024-01-26,Tier 1,35-44,Google Search,Silver,Skin Care,Combination,Yes
+CUST01669,2025-02-20,Tier 2,18-24,Instagram,Gold,Baby Care,Oily,No
+CUST01670,2025-03-25,Tier 1,45+,Influencer,None,Baby Care,NA,No
+CUST01671,2024-07-01,Tier 1,35-44,Instagram,None,Fragrance,Dry,Yes
+CUST01672,2024-05-06,Tier 1,35-44,Google Search,Silver,Makeup,Combination,No
+CUST01673,2024-12-20,Tier 1,25-34,Organic,None,Makeup,Normal,Yes
+CUST01674,2024-09-09,Tier 2,25-34,Influencer,None,Fragrance,NA,Yes
+CUST01675,2025-03-29,Tier 2,25-34,Organic,Silver,Skin Care,Sensitive,Yes
+CUST01676,2024-08-15,Tier 1,35-44,Instagram,None,Hair Care,Oily,Yes
+CUST01677,2024-02-16,Tier 1,25-34,Referral,Gold,Makeup,Dry,No
+CUST01678,2024-05-07,Tier 1,18-24,Marketplace,Gold,Wellness,Dry,No
+CUST01679,2024-04-01,Tier 2,45+,Organic,Silver,Wellness,Sensitive,Yes
+CUST01680,2025-03-29,Tier 1,35-44,Instagram,Platinum,Skin Care,NA,No
+CUST01681,2024-01-18,Tier 2,25-34,Google Search,Platinum,Hair Care,NA,No
+CUST01682,2024-07-07,Tier 3,18-24,Google Search,None,Fragrance,Normal,No
+CUST01683,2025-02-02,Tier 3,25-34,Organic,None,Makeup,Oily,No
+CUST01684,2025-05-18,Tier 3,25-34,Instagram,Silver,Skin Care,Normal,No
+CUST01685,2024-01-14,Tier 1,35-44,Organic,None,Makeup,Normal,No
+CUST01686,2025-04-29,Tier 1,25-34,Google Search,None,Hair Care,Sensitive,Yes
+CUST01687,2024-03-09,Tier 2,25-34,Marketplace,None,Baby Care,NA,Yes
+CUST01688,2024-04-03,Tier 1,25-34,Influencer,Silver,Hair Care,Combination,Yes
+CUST01689,2024-05-20,Tier 1,18-24,Influencer,Silver,Skin Care,NA,Yes
+CUST01690,2024-03-16,Tier 2,45+,Marketplace,None,Wellness,Combination,Yes
+CUST01691,2025-06-19,Tier 1,25-34,Referral,Gold,Skin Care,Normal,No
+CUST01692,2024-01-29,Tier 1,25-34,Referral,None,Baby Care,NA,Yes
+CUST01693,2025-08-08,Tier 2,45+,Google Search,None,Skin Care,Combination,Yes
+CUST01694,2025-08-15,Tier 1,25-34,Instagram,None,Skin Care,Oily,Yes
+CUST01695,2024-10-05,Tier 2,45+,Referral,Gold,Hair Care,NA,Yes
+CUST01696,2024-11-09,Tier 2,25-34,Referral,None,Baby Care,Normal,Yes
+CUST01697,2024-07-25,Tier 1,25-34,Marketplace,None,Fragrance,Oily,Yes
+CUST01698,2024-07-22,Tier 2,18-24,Influencer,None,Baby Care,Combination,Yes
+CUST01699,2024-05-20,Tier 1,25-34,Google Search,None,Hair Care,Combination,Yes
+CUST01700,2024-06-13,Tier 2,25-34,Referral,None,Skin Care,Sensitive,Yes
+CUST01701,2025-08-06,Tier 2,35-44,Google Search,None,Baby Care,Dry,Yes
+CUST01702,2024-10-26,Tier 1,35-44,Google Search,None,Fragrance,Normal,Yes
+CUST01703,2025-09-14,Tier 2,25-34,Organic,None,Hair Care,Dry,Yes
+CUST01704,2025-07-28,Tier 1,18-24,Marketplace,None,Skin Care,NA,Yes
+CUST01705,2025-06-29,Tier 3,25-34,Marketplace,Gold,Skin Care,Dry,Yes
+CUST01706,2024-05-12,Tier 1,18-24,Organic,Silver,Hair Care,Sensitive,No
+CUST01707,2025-02-26,Tier 2,25-34,Marketplace,Gold,Skin Care,Dry,Yes
+CUST01708,2025-01-25,Tier 1,45+,Marketplace,None,Fragrance,Dry,No
+CUST01709,2024-07-27,Tier 2,35-44,Organic,Gold,Baby Care,Normal,Yes
+CUST01710,2025-04-27,Tier 2,45+,Referral,Silver,Wellness,Normal,Yes
+CUST01711,2024-07-12,Tier 1,25-34,Google Search,None,Skin Care,Normal,Yes
+CUST01712,2024-07-14,Tier 1,35-44,Marketplace,None,Fragrance,Dry,Yes
+CUST01713,2024-04-20,Tier 1,18-24,Referral,None,Hair Care,NA,Yes
+CUST01714,2024-01-29,Tier 3,18-24,Influencer,Silver,Makeup,Dry,Yes
+CUST01715,2024-06-05,Tier 2,35-44,Marketplace,Platinum,Hair Care,Sensitive,Yes
+CUST01716,2024-11-22,Tier 1,18-24,Organic,Gold,Wellness,Dry,Yes
+CUST01717,2024-12-12,Tier 2,18-24,Marketplace,Silver,Makeup,Dry,Yes
+CUST01718,2024-01-10,Tier 1,18-24,Google Search,Platinum,Skin Care,Oily,Yes
+CUST01719,2024-03-10,Tier 1,35-44,Influencer,Silver,Hair Care,Oily,Yes
+CUST01720,2024-12-21,Tier 1,35-44,Organic,None,Skin Care,Sensitive,Yes
+CUST01721,2025-08-18,Tier 1,25-34,Referral,None,Skin Care,NA,No
+CUST01722,2025-04-14,Tier 3,18-24,Marketplace,Silver,Wellness,Oily,Yes
+CUST01723,2024-05-15,Tier 3,25-34,Instagram,Silver,Makeup,Sensitive,Yes
+CUST01724,2025-05-02,Tier 2,25-34,Google Search,None,Skin Care,Normal,No
+CUST01725,2025-07-08,Tier 3,25-34,Referral,Silver,Hair Care,Dry,Yes
+CUST01726,2025-09-05,Tier 3,18-24,Organic,None,Hair Care,Normal,Yes
+CUST01727,2024-09-10,Tier 2,25-34,Referral,Silver,Skin Care,Dry,Yes
+CUST01728,2025-04-13,Tier 1,45+,Marketplace,Platinum,Baby Care,NA,Yes
+CUST01729,2025-04-10,Tier 3,35-44,Referral,Silver,Makeup,Dry,Yes
+CUST01730,2024-09-14,Tier 1,35-44,Google Search,Gold,Makeup,Combination,Yes
+CUST01731,2024-09-17,Tier 2,25-34,Instagram,None,Fragrance,Dry,Yes
+CUST01732,2024-09-23,Tier 2,25-34,Organic,None,Skin Care,NA,Yes
+CUST01733,2024-10-28,Tier 3,25-34,Organic,None,Fragrance,Combination,Yes
+CUST01734,2024-01-22,Tier 1,35-44,Google Search,Silver,Makeup,NA,Yes
+CUST01735,2025-04-03,Tier 2,25-34,Influencer,None,Baby Care,Dry,Yes
+CUST01736,2024-10-01,Tier 3,18-24,Referral,Silver,Skin Care,Sensitive,Yes
+CUST01737,2025-07-09,Tier 3,18-24,Instagram,Silver,Baby Care,Dry,Yes
+CUST01738,2025-02-24,Tier 1,18-24,Google Search,Silver,Makeup,Combination,Yes
+CUST01739,2025-02-22,Tier 2,18-24,Google Search,Silver,Skin Care,Combination,Yes
+CUST01740,2025-07-18,Tier 1,25-34,Marketplace,None,Baby Care,Oily,Yes
+CUST01741,2024-06-09,Tier 2,18-24,Instagram,None,Wellness,Dry,No
+CUST01742,2024-04-25,Tier 2,35-44,Organic,None,Baby Care,Combination,Yes
+CUST01743,2024-11-30,Tier 2,25-34,Google Search,Platinum,Makeup,NA,Yes
+CUST01744,2025-05-24,Tier 2,25-34,Google Search,None,Hair Care,NA,No
+CUST01745,2024-11-14,Tier 1,35-44,Referral,None,Skin Care,Dry,Yes
+CUST01746,2024-07-02,Tier 1,18-24,Google Search,None,Skin Care,Normal,Yes
+CUST01747,2025-05-12,Tier 3,45+,Referral,Gold,Fragrance,Oily,Yes
+CUST01748,2025-08-25,Tier 3,25-34,Google Search,Silver,Skin Care,Dry,Yes
+CUST01749,2024-08-12,Tier 2,35-44,Instagram,Silver,Skin Care,Oily,Yes
+CUST01750,2024-12-10,Tier 1,18-24,Organic,None,Baby Care,Sensitive,No
+CUST01751,2025-07-17,Tier 3,35-44,Referral,None,Hair Care,Normal,Yes
+CUST01752,2025-04-06,Tier 2,25-34,Instagram,None,Hair Care,Dry,No
+CUST01753,2025-05-28,Tier 1,25-34,Organic,Gold,Skin Care,Combination,Yes
+CUST01754,2025-07-09,Tier 2,45+,Organic,None,Hair Care,Dry,Yes
+CUST01755,2024-03-17,Tier 2,18-24,Organic,None,Skin Care,Normal,Yes
+CUST01756,2024-08-17,Tier 1,25-34,Marketplace,Silver,Skin Care,Combination,Yes
+CUST01757,2025-02-19,Tier 2,45+,Google Search,Silver,Hair Care,NA,No
+CUST01758,2025-07-05,Tier 3,25-34,Organic,None,Skin Care,Dry,Yes
+CUST01759,2025-05-30,Tier 1,35-44,Marketplace,None,Baby Care,Dry,Yes
+CUST01760,2024-01-18,Tier 3,45+,Instagram,None,Hair Care,Combination,Yes
+CUST01761,2024-04-06,Tier 2,18-24,Google Search,None,Baby Care,Dry,Yes
+CUST01762,2024-01-10,Tier 2,35-44,Organic,None,Baby Care,Combination,Yes
+CUST01763,2025-08-27,Tier 1,45+,Organic,None,Hair Care,Oily,Yes
+CUST01764,2025-05-24,Tier 1,25-34,Marketplace,None,Hair Care,Oily,No
+CUST01765,2024-11-05,Tier 2,18-24,Google Search,None,Wellness,Sensitive,Yes
+CUST01766,2025-01-24,Tier 2,25-34,Instagram,None,Skin Care,Normal,Yes
+CUST01767,2024-11-30,Tier 1,45+,Organic,None,Hair Care,Combination,Yes
+CUST01768,2024-01-19,Tier 1,35-44,Referral,None,Baby Care,Dry,Yes
+CUST01769,2024-02-12,Tier 1,25-34,Organic,None,Baby Care,NA,Yes
+CUST01770,2024-12-21,Tier 3,25-34,Instagram,Gold,Hair Care,Sensitive,No
+CUST01771,2025-02-03,Tier 1,35-44,Marketplace,Gold,Baby Care,NA,Yes
+CUST01772,2024-04-09,Tier 2,25-34,Instagram,None,Baby Care,Sensitive,Yes
+CUST01773,2024-01-20,Tier 2,25-34,Instagram,Gold,Fragrance,Oily,Yes
+CUST01774,2024-05-05,Tier 1,18-24,Google Search,Gold,Skin Care,Normal,Yes
+CUST01775,2025-03-08,Tier 3,25-34,Organic,None,Hair Care,Oily,Yes
+CUST01776,2024-12-18,Tier 2,25-34,Referral,None,Hair Care,Dry,Yes
+CUST01777,2024-08-29,Tier 2,18-24,Marketplace,None,Skin Care,Combination,Yes
+CUST01778,2024-11-29,Tier 1,25-34,Referral,None,Fragrance,Dry,Yes
+CUST01779,2024-05-20,Tier 2,25-34,Instagram,None,Fragrance,Normal,Yes
+CUST01780,2024-04-03,Tier 1,45+,Marketplace,None,Wellness,NA,Yes
+CUST01781,2024-10-04,Tier 2,25-34,Google Search,None,Hair Care,NA,Yes
+CUST01782,2024-06-23,Tier 1,35-44,Marketplace,None,Hair Care,Normal,Yes
+CUST01783,2024-12-10,Tier 2,45+,Marketplace,None,Baby Care,Sensitive,Yes
+CUST01784,2024-08-07,Tier 1,25-34,Referral,None,Makeup,NA,Yes
+CUST01785,2025-08-17,Tier 3,25-34,Referral,None,Skin Care,Normal,Yes
+CUST01786,2024-08-15,Tier 2,18-24,Referral,Gold,Skin Care,Dry,Yes
+CUST01787,2025-03-13,Tier 2,45+,Referral,Gold,Fragrance,Normal,Yes
+CUST01788,2024-01-10,Tier 2,25-34,Instagram,Silver,Hair Care,Oily,Yes
+CUST01789,2024-12-01,Tier 2,35-44,Organic,None,Skin Care,Normal,No
+CUST01790,2024-10-12,Tier 2,35-44,Marketplace,None,Hair Care,Dry,Yes
+CUST01791,2024-08-17,Tier 1,18-24,Marketplace,None,Fragrance,NA,No
+CUST01792,2025-08-24,Tier 3,25-34,Marketplace,None,Baby Care,Normal,Yes
+CUST01793,2024-12-14,Tier 2,18-24,Referral,None,Baby Care,Sensitive,Yes
+CUST01794,2025-06-13,Tier 2,25-34,Influencer,Silver,Makeup,Normal,Yes
+CUST01795,2025-05-17,Tier 2,25-34,Google Search,None,Wellness,NA,Yes
+CUST01796,2025-08-20,Tier 2,25-34,Marketplace,Silver,Baby Care,Oily,No
+CUST01797,2025-04-07,Tier 2,35-44,Influencer,Silver,Baby Care,Sensitive,No
+CUST01798,2024-07-30,Tier 2,25-34,Instagram,Platinum,Wellness,Oily,Yes
+CUST01799,2025-05-29,Tier 2,25-34,Referral,Silver,Baby Care,Normal,No
+CUST01800,2024-12-10,Tier 3,25-34,Instagram,Silver,Baby Care,NA,Yes
+CUST01801,2025-08-13,Tier 1,18-24,Referral,None,Hair Care,Dry,Yes
+CUST01802,2024-11-16,Tier 2,35-44,Instagram,Silver,Wellness,Oily,No
+CUST01803,2024-01-21,Tier 1,35-44,Referral,Silver,Skin Care,Dry,No
+CUST01804,2024-11-10,Tier 3,18-24,Google Search,None,Hair Care,Normal,Yes
+CUST01805,2025-05-29,Tier 1,35-44,Google Search,Gold,Skin Care,NA,Yes
+CUST01806,2025-06-27,Tier 1,25-34,Google Search,Gold,Skin Care,NA,Yes
+CUST01807,2024-12-27,Tier 2,25-34,Marketplace,Silver,Baby Care,Combination,Yes
+CUST01808,2024-03-29,Tier 3,25-34,Organic,None,Hair Care,Dry,Yes
+CUST01809,2024-09-09,Tier 2,25-34,Instagram,None,Hair Care,Dry,Yes
+CUST01810,2025-08-31,Tier 2,25-34,Google Search,None,Wellness,Sensitive,Yes
+CUST01811,2025-02-26,Tier 3,18-24,Marketplace,Silver,Wellness,Sensitive,Yes
+CUST01812,2024-11-02,Tier 1,25-34,Influencer,Platinum,Skin Care,NA,Yes
+CUST01813,2024-09-27,Tier 1,18-24,Referral,Gold,Hair Care,Oily,Yes
+CUST01814,2025-08-15,Tier 1,25-34,Instagram,None,Hair Care,Oily,Yes
+CUST01815,2025-09-13,Tier 2,25-34,Instagram,None,Hair Care,Sensitive,No
+CUST01816,2024-12-25,Tier 2,18-24,Organic,Silver,Baby Care,Combination,Yes
+CUST01817,2024-01-22,Tier 2,25-34,Referral,None,Skin Care,Oily,No
+CUST01818,2024-02-05,Tier 3,18-24,Marketplace,Silver,Wellness,Normal,Yes
+CUST01819,2025-06-08,Tier 1,25-34,Google Search,Silver,Hair Care,Sensitive,Yes
+CUST01820,2024-04-25,Tier 1,45+,Referral,Silver,Hair Care,Oily,Yes
+CUST01821,2024-06-19,Tier 3,45+,Instagram,Gold,Fragrance,Dry,No
+CUST01822,2025-04-17,Tier 1,18-24,Google Search,None,Makeup,Combination,Yes
+CUST01823,2024-06-12,Tier 3,25-34,Google Search,None,Skin Care,Normal,Yes
+CUST01824,2024-05-27,Tier 1,18-24,Influencer,None,Makeup,Normal,Yes
+CUST01825,2025-08-11,Tier 1,25-34,Google Search,Platinum,Fragrance,Dry,Yes
+CUST01826,2024-08-07,Tier 1,18-24,Referral,Silver,Skin Care,Sensitive,Yes
+CUST01827,2025-05-01,Tier 2,18-24,Referral,Silver,Skin Care,Dry,No
+CUST01828,2025-02-04,Tier 1,35-44,Instagram,None,Skin Care,Normal,Yes
+CUST01829,2024-01-31,Tier 2,18-24,Instagram,Gold,Baby Care,Oily,Yes
+CUST01830,2024-02-05,Tier 1,25-34,Instagram,None,Fragrance,Normal,Yes
+CUST01831,2025-05-22,Tier 1,18-24,Organic,None,Fragrance,NA,No
+CUST01832,2024-04-23,Tier 2,25-34,Influencer,None,Fragrance,Combination,Yes
+CUST01833,2024-08-18,Tier 1,35-44,Organic,Gold,Skin Care,Dry,Yes
+CUST01834,2025-08-24,Tier 1,25-34,Influencer,Gold,Makeup,Oily,Yes
+CUST01835,2025-04-30,Tier 1,35-44,Instagram,Silver,Hair Care,NA,Yes
+CUST01836,2024-03-21,Tier 2,25-34,Google Search,None,Wellness,NA,Yes
+CUST01837,2025-07-07,Tier 1,25-34,Instagram,None,Makeup,Sensitive,No
+CUST01838,2025-03-16,Tier 1,25-34,Marketplace,None,Baby Care,Normal,No
+CUST01839,2025-06-10,Tier 1,35-44,Referral,Platinum,Wellness,Normal,Yes
+CUST01840,2024-08-24,Tier 2,25-34,Influencer,Platinum,Skin Care,Oily,Yes
+CUST01841,2024-11-03,Tier 1,18-24,Marketplace,Silver,Wellness,Dry,Yes
+CUST01842,2024-11-29,Tier 1,45+,Google Search,None,Hair Care,Oily,Yes
+CUST01843,2024-11-22,Tier 1,25-34,Marketplace,None,Skin Care,Dry,Yes
+CUST01844,2024-01-15,Tier 1,25-34,Organic,Silver,Skin Care,Oily,Yes
+CUST01845,2025-02-16,Tier 2,25-34,Marketplace,None,Baby Care,Normal,No
+CUST01846,2024-01-24,Tier 3,25-34,Instagram,None,Makeup,Dry,No
+CUST01847,2025-08-18,Tier 3,35-44,Referral,None,Makeup,Oily,Yes
+CUST01848,2024-03-25,Tier 3,45+,Referral,None,Skin Care,Dry,Yes
+CUST01849,2025-08-26,Tier 2,25-34,Google Search,None,Skin Care,Dry,No
+CUST01850,2024-11-21,Tier 2,18-24,Marketplace,Silver,Hair Care,Dry,No
+CUST01851,2024-07-12,Tier 3,25-34,Marketplace,None,Skin Care,Dry,Yes
+CUST01852,2025-08-11,Tier 1,25-34,Marketplace,Silver,Fragrance,Combination,Yes
+CUST01853,2024-09-30,Tier 2,35-44,Organic,Silver,Baby Care,Oily,Yes
+CUST01854,2025-04-02,Tier 2,25-34,Influencer,None,Fragrance,Dry,Yes
+CUST01855,2024-11-28,Tier 2,45+,Organic,None,Wellness,Combination,Yes
+CUST01856,2024-01-18,Tier 1,18-24,Marketplace,Platinum,Baby Care,Dry,Yes
+CUST01857,2024-03-12,Tier 3,25-34,Influencer,None,Skin Care,NA,No
+CUST01858,2025-09-08,Tier 1,18-24,Referral,None,Skin Care,Normal,Yes
+CUST01859,2024-06-28,Tier 3,18-24,Referral,Platinum,Baby Care,Oily,Yes
+CUST01860,2025-06-29,Tier 1,35-44,Marketplace,None,Hair Care,NA,No
+CUST01861,2024-11-08,Tier 3,25-34,Influencer,None,Skin Care,NA,Yes
+CUST01862,2024-12-06,Tier 1,25-34,Marketplace,Silver,Wellness,NA,Yes
+CUST01863,2025-03-07,Tier 3,18-24,Referral,None,Hair Care,Oily,No
+CUST01864,2025-02-07,Tier 1,25-34,Google Search,None,Fragrance,Sensitive,No
+CUST01865,2024-10-09,Tier 3,45+,Marketplace,None,Wellness,Normal,Yes
+CUST01866,2025-04-29,Tier 1,25-34,Instagram,None,Skin Care,Oily,Yes
+CUST01867,2025-05-27,Tier 3,25-34,Influencer,None,Hair Care,Sensitive,No
+CUST01868,2025-01-22,Tier 3,25-34,Instagram,None,Baby Care,Sensitive,Yes
+CUST01869,2024-06-25,Tier 1,18-24,Marketplace,Silver,Baby Care,Oily,No
+CUST01870,2024-07-19,Tier 1,25-34,Instagram,None,Fragrance,Combination,Yes
+CUST01871,2025-05-27,Tier 2,35-44,Instagram,None,Hair Care,Normal,No
+CUST01872,2024-01-19,Tier 1,25-34,Instagram,None,Skin Care,Sensitive,Yes
+CUST01873,2024-07-09,Tier 1,25-34,Marketplace,None,Baby Care,Normal,Yes
+CUST01874,2025-06-01,Tier 3,25-34,Instagram,None,Makeup,Oily,Yes
+CUST01875,2024-02-20,Tier 3,18-24,Instagram,None,Skin Care,Combination,No
+CUST01876,2024-04-11,Tier 2,25-34,Marketplace,None,Makeup,Oily,No
+CUST01877,2024-12-29,Tier 2,35-44,Marketplace,None,Hair Care,Oily,Yes
+CUST01878,2025-06-20,Tier 1,25-34,Instagram,None,Skin Care,Combination,Yes
+CUST01879,2025-04-28,Tier 2,45+,Marketplace,Gold,Baby Care,Oily,Yes
+CUST01880,2024-08-20,Tier 3,25-34,Instagram,None,Makeup,Oily,No
+CUST01881,2024-07-26,Tier 3,35-44,Marketplace,Platinum,Skin Care,Combination,No
+CUST01882,2024-02-11,Tier 1,25-34,Organic,Gold,Skin Care,Sensitive,Yes
+CUST01883,2024-12-26,Tier 3,25-34,Instagram,None,Skin Care,Sensitive,Yes
+CUST01884,2024-07-09,Tier 3,18-24,Google Search,None,Wellness,Normal,Yes
+CUST01885,2025-02-11,Tier 1,35-44,Organic,Silver,Hair Care,Combination,Yes
+CUST01886,2025-01-08,Tier 3,35-44,Influencer,None,Skin Care,Oily,No
+CUST01887,2024-01-05,Tier 1,25-34,Instagram,None,Wellness,NA,Yes
+CUST01888,2024-08-04,Tier 2,35-44,Marketplace,Gold,Baby Care,Sensitive,Yes
+CUST01889,2024-11-04,Tier 2,45+,Marketplace,Silver,Fragrance,Sensitive,No
+CUST01890,2025-01-21,Tier 1,25-34,Organic,None,Hair Care,Sensitive,Yes
+CUST01891,2024-12-03,Tier 2,25-34,Instagram,None,Fragrance,Sensitive,No
+CUST01892,2025-06-01,Tier 2,35-44,Referral,Gold,Hair Care,Dry,Yes
+CUST01893,2024-05-20,Tier 1,25-34,Referral,None,Fragrance,Dry,Yes
+CUST01894,2024-12-15,Tier 1,25-34,Organic,Silver,Makeup,Normal,Yes
+CUST01895,2024-10-26,Tier 2,25-34,Influencer,Silver,Hair Care,Combination,Yes
+CUST01896,2025-04-16,Tier 3,18-24,Referral,None,Fragrance,NA,Yes
+CUST01897,2024-03-03,Tier 2,18-24,Google Search,None,Skin Care,Dry,No
+CUST01898,2024-11-28,Tier 2,35-44,Google Search,None,Skin Care,Sensitive,No
+CUST01899,2025-04-06,Tier 2,18-24,Google Search,None,Hair Care,Sensitive,Yes
+CUST01900,2024-05-27,Tier 1,25-34,Organic,None,Hair Care,NA,Yes
+CUST01901,2025-01-01,Tier 1,25-34,Referral,Silver,Fragrance,Normal,Yes
+CUST01902,2025-06-13,Tier 2,45+,Google Search,Silver,Skin Care,NA,Yes
+CUST01903,2024-01-27,Tier 3,35-44,Marketplace,None,Skin Care,Combination,No
+CUST01904,2025-03-15,Tier 2,45+,Google Search,Silver,Makeup,Combination,Yes
+CUST01905,2025-05-26,Tier 1,35-44,Instagram,Gold,Baby Care,Oily,Yes
+CUST01906,2025-05-03,Tier 1,18-24,Organic,None,Skin Care,Oily,Yes
+CUST01907,2024-04-18,Tier 3,35-44,Organic,Silver,Hair Care,Normal,Yes
+CUST01908,2024-10-28,Tier 3,18-24,Google Search,None,Fragrance,Combination,Yes
+CUST01909,2025-03-11,Tier 1,45+,Marketplace,Silver,Skin Care,Dry,No
+CUST01910,2024-01-15,Tier 3,18-24,Google Search,Silver,Skin Care,Oily,Yes
+CUST01911,2024-01-20,Tier 3,45+,Instagram,Gold,Hair Care,Oily,No
+CUST01912,2024-07-22,Tier 1,18-24,Referral,None,Skin Care,Normal,Yes
+CUST01913,2024-10-12,Tier 2,35-44,Google Search,None,Baby Care,Normal,Yes
+CUST01914,2024-06-09,Tier 2,35-44,Marketplace,Platinum,Hair Care,NA,Yes
+CUST01915,2024-06-10,Tier 2,45+,Referral,None,Fragrance,Oily,No
+CUST01916,2025-07-30,Tier 1,35-44,Organic,Silver,Hair Care,NA,Yes
+CUST01917,2024-11-07,Tier 1,25-34,Referral,Silver,Baby Care,Sensitive,Yes
+CUST01918,2024-11-04,Tier 1,35-44,Referral,None,Hair Care,Oily,Yes
+CUST01919,2025-08-01,Tier 3,45+,Marketplace,None,Makeup,Sensitive,No
+CUST01920,2024-02-03,Tier 2,25-34,Influencer,Silver,Skin Care,Dry,Yes
+CUST01921,2024-06-20,Tier 1,25-34,Instagram,None,Baby Care,Sensitive,Yes
+CUST01922,2024-08-19,Tier 1,45+,Organic,Silver,Skin Care,Combination,Yes
+CUST01923,2024-08-01,Tier 2,25-34,Google Search,Gold,Skin Care,Dry,Yes
+CUST01924,2025-07-04,Tier 2,18-24,Marketplace,Platinum,Skin Care,Dry,No
+CUST01925,2025-08-16,Tier 3,18-24,Marketplace,None,Wellness,Normal,Yes
+CUST01926,2025-05-23,Tier 1,25-34,Referral,Silver,Skin Care,Oily,No
+CUST01927,2024-04-05,Tier 3,25-34,Google Search,Platinum,Skin Care,Dry,Yes
+CUST01928,2025-01-16,Tier 1,25-34,Influencer,Gold,Skin Care,Sensitive,Yes
+CUST01929,2025-01-27,Tier 3,18-24,Marketplace,Gold,Hair Care,Combination,No
+CUST01930,2025-06-29,Tier 1,45+,Instagram,None,Skin Care,Oily,Yes
+CUST01931,2024-11-21,Tier 1,18-24,Organic,None,Baby Care,Sensitive,Yes
+CUST01932,2025-08-28,Tier 1,25-34,Referral,Platinum,Hair Care,NA,Yes
+CUST01933,2024-08-29,Tier 1,35-44,Organic,None,Wellness,Oily,Yes
+CUST01934,2025-07-09,Tier 1,25-34,Referral,None,Baby Care,Dry,No
+CUST01935,2025-03-16,Tier 1,25-34,Marketplace,None,Hair Care,NA,Yes
+CUST01936,2025-06-16,Tier 2,25-34,Organic,Silver,Baby Care,NA,Yes
+CUST01937,2025-05-04,Tier 3,18-24,Instagram,None,Hair Care,Dry,Yes
+CUST01938,2024-11-22,Tier 1,35-44,Marketplace,None,Skin Care,Dry,No
+CUST01939,2025-02-19,Tier 3,18-24,Google Search,None,Hair Care,Normal,No
+CUST01940,2024-06-22,Tier 1,35-44,Google Search,None,Baby Care,Normal,Yes
+CUST01941,2024-06-23,Tier 2,35-44,Instagram,None,Skin Care,Sensitive,No
+CUST01942,2024-07-08,Tier 3,18-24,Marketplace,None,Skin Care,Oily,Yes
+CUST01943,2024-07-24,Tier 1,25-34,Instagram,Gold,Skin Care,Normal,Yes
+CUST01944,2024-01-22,Tier 1,45+,Referral,None,Hair Care,Combination,Yes
+CUST01945,2025-04-30,Tier 3,45+,Google Search,None,Baby Care,Sensitive,Yes
+CUST01946,2024-10-04,Tier 2,25-34,Referral,None,Skin Care,Oily,Yes
+CUST01947,2024-01-13,Tier 3,25-34,Google Search,Silver,Wellness,Sensitive,Yes
+CUST01948,2024-10-21,Tier 2,18-24,Referral,None,Baby Care,Combination,Yes
+CUST01949,2024-02-02,Tier 2,25-34,Organic,Silver,Skin Care,Oily,No
+CUST01950,2024-12-14,Tier 2,18-24,Instagram,None,Fragrance,Normal,Yes
+CUST01951,2024-06-21,Tier 1,25-34,Google Search,Silver,Skin Care,Combination,Yes
+CUST01952,2024-07-20,Tier 1,25-34,Google Search,None,Wellness,Dry,Yes
+CUST01953,2025-01-22,Tier 1,35-44,Referral,None,Makeup,Dry,Yes
+CUST01954,2024-01-13,Tier 1,45+,Google Search,None,Hair Care,Sensitive,Yes
+CUST01955,2024-10-12,Tier 3,25-34,Marketplace,Gold,Skin Care,Dry,Yes
+CUST01956,2025-05-15,Tier 2,35-44,Marketplace,None,Hair Care,Normal,Yes
+CUST01957,2024-03-25,Tier 2,25-34,Marketplace,Gold,Fragrance,Sensitive,No
+CUST01958,2024-08-27,Tier 3,25-34,Influencer,Silver,Hair Care,Sensitive,No
+CUST01959,2025-09-15,Tier 3,25-34,Instagram,None,Makeup,Normal,No
+CUST01960,2025-04-10,Tier 3,25-34,Google Search,None,Skin Care,Combination,No
+CUST01961,2024-09-10,Tier 3,25-34,Marketplace,None,Skin Care,Combination,Yes
+CUST01962,2024-05-03,Tier 1,25-34,Marketplace,None,Fragrance,Combination,No
+CUST01963,2025-06-08,Tier 2,25-34,Referral,None,Makeup,NA,Yes
+CUST01964,2025-08-09,Tier 1,25-34,Organic,Silver,Makeup,Normal,No
+CUST01965,2024-11-26,Tier 3,35-44,Marketplace,None,Skin Care,Oily,Yes
+CUST01966,2024-03-20,Tier 1,25-34,Marketplace,None,Hair Care,Dry,No
+CUST01967,2024-01-16,Tier 3,25-34,Marketplace,None,Fragrance,Normal,Yes
+CUST01968,2025-05-17,Tier 1,18-24,Marketplace,Platinum,Makeup,Dry,Yes
+CUST01969,2025-03-09,Tier 1,35-44,Google Search,None,Skin Care,Oily,Yes
+CUST01970,2024-08-28,Tier 1,45+,Organic,Gold,Hair Care,NA,Yes
+CUST01971,2025-03-04,Tier 3,25-34,Marketplace,None,Hair Care,Normal,Yes
+CUST01972,2024-06-15,Tier 1,45+,Referral,None,Makeup,NA,No
+CUST01973,2024-03-18,Tier 2,25-34,Google Search,None,Wellness,Combination,Yes
+CUST01974,2024-04-26,Tier 2,25-34,Referral,Silver,Wellness,Oily,Yes
+CUST01975,2024-05-25,Tier 2,45+,Instagram,None,Wellness,Oily,Yes
+CUST01976,2024-11-01,Tier 3,18-24,Instagram,None,Baby Care,Normal,Yes
+CUST01977,2025-02-15,Tier 1,18-24,Influencer,None,Baby Care,Sensitive,No
+CUST01978,2024-01-20,Tier 2,25-34,Marketplace,Platinum,Wellness,Dry,Yes
+CUST01979,2025-07-06,Tier 3,18-24,Marketplace,Silver,Fragrance,Combination,No
+CUST01980,2024-01-16,Tier 2,25-34,Organic,None,Skin Care,Oily,Yes
+CUST01981,2024-09-27,Tier 1,25-34,Organic,None,Baby Care,NA,Yes
+CUST01982,2024-01-07,Tier 1,18-24,Marketplace,Silver,Wellness,Dry,Yes
+CUST01983,2024-01-20,Tier 3,25-34,Instagram,None,Hair Care,Oily,Yes
+CUST01984,2024-03-01,Tier 1,25-34,Organic,None,Wellness,Sensitive,Yes
+CUST01985,2024-11-11,Tier 1,18-24,Marketplace,None,Hair Care,Oily,Yes
+CUST01986,2024-10-12,Tier 3,35-44,Organic,Gold,Skin Care,Normal,Yes
+CUST01987,2025-05-25,Tier 1,25-34,Influencer,None,Skin Care,Dry,No
+CUST01988,2025-04-19,Tier 2,25-34,Referral,None,Skin Care,Sensitive,Yes
+CUST01989,2024-06-27,Tier 1,18-24,Google Search,Silver,Hair Care,Dry,No
+CUST01990,2025-02-11,Tier 2,18-24,Influencer,Silver,Skin Care,Sensitive,Yes
+CUST01991,2024-06-07,Tier 2,25-34,Organic,Silver,Skin Care,Sensitive,No
+CUST01992,2025-06-11,Tier 2,25-34,Marketplace,None,Makeup,Oily,Yes
+CUST01993,2024-09-14,Tier 3,35-44,Instagram,None,Baby Care,Dry,No
+CUST01994,2024-01-11,Tier 3,18-24,Google Search,None,Wellness,NA,Yes
+CUST01995,2024-03-09,Tier 1,45+,Marketplace,None,Skin Care,Sensitive,No
+CUST01996,2024-07-28,Tier 2,25-34,Google Search,Gold,Fragrance,Combination,Yes
+CUST01997,2025-01-27,Tier 2,25-34,Marketplace,Silver,Skin Care,Oily,Yes
+CUST01998,2024-07-06,Tier 3,25-34,Instagram,Gold,Wellness,Combination,Yes
+CUST01999,2025-02-14,Tier 3,18-24,Influencer,Gold,Baby Care,Oily,Yes
+CUST02000,2024-01-05,Tier 2,18-24,Google Search,Gold,Hair Care,Combination,Yes
+CUST02001,2025-05-06,Tier 2,18-24,Influencer,Silver,Makeup,Oily,Yes
+CUST02002,2024-06-16,Tier 3,25-34,Marketplace,None,Baby Care,Combination,Yes
+CUST02003,2024-06-22,Tier 3,18-24,Google Search,None,Skin Care,Normal,No
+CUST02004,2025-08-20,Tier 1,25-34,Instagram,None,Skin Care,Oily,Yes
+CUST02005,2024-11-13,Tier 2,25-34,Referral,None,Skin Care,Combination,Yes
+CUST02006,2024-08-18,Tier 1,25-34,Influencer,None,Fragrance,Combination,Yes
+CUST02007,2024-02-04,Tier 2,45+,Organic,Platinum,Skin Care,NA,Yes
+CUST02008,2024-03-21,Tier 1,25-34,Influencer,None,Fragrance,Normal,No
+CUST02009,2024-03-21,Tier 3,35-44,Google Search,Gold,Skin Care,NA,No
+CUST02010,2024-04-29,Tier 1,45+,Referral,None,Skin Care,Oily,Yes
+CUST02011,2024-11-22,Tier 1,35-44,Google Search,None,Makeup,Normal,No
+CUST02012,2025-07-06,Tier 1,18-24,Google Search,Silver,Makeup,NA,No
+CUST02013,2025-07-21,Tier 3,25-34,Marketplace,Silver,Skin Care,Combination,Yes
+CUST02014,2024-12-12,Tier 3,18-24,Google Search,None,Baby Care,Dry,No
+CUST02015,2024-07-13,Tier 2,25-34,Google Search,None,Wellness,Oily,No
+CUST02016,2025-09-11,Tier 3,25-34,Instagram,None,Wellness,NA,Yes
+CUST02017,2024-10-15,Tier 1,35-44,Instagram,Gold,Skin Care,Combination,Yes
+CUST02018,2025-07-28,Tier 1,18-24,Google Search,None,Skin Care,Normal,Yes
+CUST02019,2024-06-11,Tier 1,18-24,Marketplace,None,Skin Care,Combination,No
+CUST02020,2024-02-28,Tier 2,35-44,Marketplace,None,Baby Care,Dry,Yes
+CUST02021,2025-08-09,Tier 1,25-34,Google Search,Gold,Hair Care,Combination,No
+CUST02022,2025-08-13,Tier 1,25-34,Instagram,None,Makeup,Oily,No
+CUST02023,2025-07-22,Tier 1,45+,Influencer,None,Skin Care,Oily,Yes
+CUST02024,2024-01-09,Tier 1,25-34,Referral,Silver,Baby Care,Combination,Yes
+CUST02025,2024-08-09,Tier 2,25-34,Influencer,None,Makeup,NA,Yes
+CUST02026,2024-06-10,Tier 2,35-44,Referral,None,Hair Care,Normal,Yes
+CUST02027,2025-02-05,Tier 2,18-24,Referral,None,Fragrance,Combination,Yes
+CUST02028,2024-11-25,Tier 1,25-34,Marketplace,Gold,Skin Care,Sensitive,No
+CUST02029,2024-12-03,Tier 1,25-34,Referral,Silver,Skin Care,Normal,Yes
+CUST02030,2024-10-16,Tier 1,35-44,Google Search,Gold,Baby Care,NA,Yes
+CUST02031,2025-02-21,Tier 1,25-34,Organic,None,Hair Care,Dry,Yes
+CUST02032,2024-06-06,Tier 3,35-44,Google Search,None,Hair Care,Oily,Yes
+CUST02033,2024-01-05,Tier 1,18-24,Marketplace,Gold,Hair Care,Oily,Yes
+CUST02034,2025-01-17,Tier 1,18-24,Instagram,None,Hair Care,Combination,Yes
+CUST02035,2025-01-09,Tier 2,18-24,Google Search,Gold,Wellness,Normal,Yes
+CUST02036,2024-03-22,Tier 3,35-44,Marketplace,None,Hair Care,NA,No
+CUST02037,2024-12-04,Tier 1,25-34,Instagram,Gold,Makeup,Combination,Yes
+CUST02038,2024-01-08,Tier 2,25-34,Organic,Platinum,Wellness,NA,Yes
+CUST02039,2024-09-07,Tier 3,35-44,Instagram,None,Skin Care,Sensitive,Yes
+CUST02040,2025-09-10,Tier 1,35-44,Marketplace,None,Wellness,Combination,Yes
+CUST02041,2024-11-25,Tier 1,25-34,Google Search,Silver,Wellness,Combination,Yes
+CUST02042,2025-04-29,Tier 2,45+,Marketplace,None,Baby Care,Sensitive,Yes
+CUST02043,2025-08-12,Tier 2,18-24,Instagram,None,Skin Care,Dry,Yes
+CUST02044,2024-03-13,Tier 2,25-34,Organic,None,Makeup,Sensitive,No
+CUST02045,2024-12-16,Tier 1,18-24,Influencer,None,Hair Care,NA,Yes
+CUST02046,2024-01-31,Tier 3,18-24,Organic,Platinum,Skin Care,Dry,Yes
+CUST02047,2024-06-03,Tier 2,45+,Referral,None,Wellness,Combination,No
+CUST02048,2025-02-15,Tier 2,45+,Instagram,Silver,Skin Care,Normal,Yes
+CUST02049,2024-11-16,Tier 2,18-24,Google Search,Silver,Skin Care,Oily,Yes
+CUST02050,2025-05-22,Tier 2,25-34,Organic,None,Makeup,Normal,Yes
+CUST02051,2024-01-03,Tier 2,35-44,Instagram,Gold,Skin Care,Combination,Yes
+CUST02052,2025-02-17,Tier 3,35-44,Influencer,Silver,Skin Care,Combination,Yes
+CUST02053,2025-06-19,Tier 3,45+,Marketplace,None,Hair Care,Normal,No
+CUST02054,2024-03-20,Tier 3,25-34,Referral,None,Makeup,Sensitive,No
+CUST02055,2024-07-31,Tier 1,18-24,Organic,None,Skin Care,NA,Yes
+CUST02056,2024-04-13,Tier 2,18-24,Marketplace,Gold,Fragrance,Oily,Yes
+CUST02057,2024-12-13,Tier 1,25-34,Marketplace,None,Hair Care,NA,Yes
+CUST02058,2025-08-28,Tier 2,45+,Google Search,None,Skin Care,NA,Yes
+CUST02059,2025-05-18,Tier 2,18-24,Referral,None,Wellness,Dry,Yes
+CUST02060,2025-07-13,Tier 1,45+,Google Search,None,Makeup,NA,Yes
+CUST02061,2024-11-09,Tier 3,25-34,Marketplace,Platinum,Wellness,Combination,Yes
+CUST02062,2024-10-02,Tier 3,25-34,Instagram,Silver,Skin Care,Oily,No
+CUST02063,2024-05-02,Tier 2,18-24,Referral,None,Skin Care,Combination,Yes
+CUST02064,2025-04-05,Tier 1,35-44,Google Search,None,Wellness,Combination,Yes
+CUST02065,2024-04-12,Tier 1,45+,Referral,None,Skin Care,Combination,Yes
+CUST02066,2025-06-27,Tier 1,35-44,Instagram,None,Hair Care,Sensitive,Yes
+CUST02067,2024-09-23,Tier 2,18-24,Marketplace,Gold,Skin Care,Dry,Yes
+CUST02068,2025-06-08,Tier 3,35-44,Organic,Gold,Makeup,Combination,Yes
+CUST02069,2024-11-01,Tier 1,35-44,Influencer,None,Hair Care,Dry,Yes
+CUST02070,2025-07-01,Tier 3,25-34,Organic,None,Skin Care,Sensitive,Yes
+CUST02071,2025-09-13,Tier 2,25-34,Organic,Gold,Baby Care,Combination,Yes
+CUST02072,2024-04-22,Tier 1,18-24,Google Search,None,Hair Care,Oily,Yes
+CUST02073,2025-05-18,Tier 2,25-34,Influencer,None,Hair Care,NA,No
+CUST02074,2025-08-21,Tier 2,35-44,Instagram,Silver,Hair Care,Dry,Yes
+CUST02075,2024-02-15,Tier 3,35-44,Google Search,None,Wellness,Dry,Yes
+CUST02076,2024-07-14,Tier 1,35-44,Instagram,None,Hair Care,Combination,Yes
+CUST02077,2024-04-26,Tier 1,25-34,Organic,Silver,Wellness,NA,Yes
+CUST02078,2024-05-12,Tier 1,35-44,Marketplace,Gold,Makeup,Sensitive,Yes
+CUST02079,2024-06-21,Tier 2,45+,Marketplace,None,Baby Care,NA,Yes
+CUST02080,2024-10-26,Tier 1,45+,Organic,None,Makeup,Combination,Yes
+CUST02081,2024-03-29,Tier 3,25-34,Referral,Gold,Makeup,Combination,Yes
+CUST02082,2025-01-05,Tier 2,35-44,Google Search,None,Fragrance,Combination,No
+CUST02083,2025-04-30,Tier 2,18-24,Influencer,None,Skin Care,Dry,Yes
+CUST02084,2025-03-14,Tier 1,25-34,Organic,None,Baby Care,Oily,Yes
+CUST02085,2025-08-17,Tier 1,25-34,Marketplace,None,Hair Care,Sensitive,Yes
+CUST02086,2025-07-11,Tier 2,25-34,Organic,Silver,Hair Care,Oily,Yes
+CUST02087,2025-08-17,Tier 2,25-34,Marketplace,Silver,Hair Care,Combination,No
+CUST02088,2025-02-24,Tier 1,18-24,Instagram,None,Hair Care,Oily,Yes
+CUST02089,2025-09-09,Tier 3,18-24,Marketplace,None,Fragrance,Oily,Yes
+CUST02090,2025-01-31,Tier 3,35-44,Instagram,Silver,Fragrance,Oily,Yes
+CUST02091,2025-09-02,Tier 1,18-24,Referral,None,Hair Care,Dry,Yes
+CUST02092,2024-08-17,Tier 2,25-34,Marketplace,Gold,Makeup,Normal,No
+CUST02093,2025-03-06,Tier 2,25-34,Marketplace,Gold,Makeup,Dry,No
+CUST02094,2025-05-13,Tier 2,25-34,Organic,Gold,Baby Care,Dry,Yes
+CUST02095,2024-11-21,Tier 3,25-34,Google Search,Silver,Baby Care,Normal,Yes
+CUST02096,2024-10-13,Tier 1,25-34,Influencer,None,Skin Care,Oily,Yes
+CUST02097,2024-04-14,Tier 3,35-44,Influencer,Silver,Fragrance,Dry,Yes
+CUST02098,2025-02-06,Tier 2,35-44,Marketplace,Silver,Baby Care,Combination,No
+CUST02099,2024-05-25,Tier 3,25-34,Organic,Silver,Hair Care,Normal,Yes
+CUST02100,2024-01-26,Tier 3,45+,Organic,None,Fragrance,Sensitive,No
+CUST02101,2024-11-22,Tier 2,25-34,Referral,None,Skin Care,Normal,No
+CUST02102,2024-05-30,Tier 1,35-44,Referral,Platinum,Makeup,Dry,Yes
+CUST02103,2025-01-12,Tier 2,45+,Marketplace,Platinum,Skin Care,Dry,Yes
+CUST02104,2025-07-17,Tier 2,25-34,Referral,Silver,Makeup,Oily,No
+CUST02105,2025-04-27,Tier 1,35-44,Marketplace,None,Baby Care,Sensitive,Yes
+CUST02106,2024-04-27,Tier 2,25-34,Google Search,Gold,Fragrance,Oily,Yes
+CUST02107,2024-10-20,Tier 1,35-44,Organic,None,Skin Care,Combination,Yes
+CUST02108,2025-07-29,Tier 2,18-24,Referral,None,Wellness,Normal,No
+CUST02109,2024-09-04,Tier 2,45+,Instagram,None,Wellness,NA,Yes
+CUST02110,2025-08-22,Tier 3,25-34,Instagram,Gold,Hair Care,Combination,Yes
+CUST02111,2025-03-21,Tier 1,45+,Influencer,Silver,Wellness,Sensitive,Yes
+CUST02112,2024-05-11,Tier 2,18-24,Instagram,Silver,Baby Care,Oily,No
+CUST02113,2024-08-14,Tier 2,35-44,Marketplace,None,Hair Care,Combination,Yes
+CUST02114,2025-02-17,Tier 1,18-24,Marketplace,None,Makeup,Sensitive,Yes
+CUST02115,2024-11-10,Tier 3,18-24,Organic,None,Hair Care,Combination,No
+CUST02116,2024-12-31,Tier 2,35-44,Organic,Silver,Hair Care,Dry,Yes
+CUST02117,2024-09-26,Tier 1,35-44,Instagram,None,Fragrance,Normal,Yes
+CUST02118,2024-03-06,Tier 3,35-44,Organic,Silver,Skin Care,Sensitive,No
+CUST02119,2024-07-03,Tier 2,25-34,Referral,None,Makeup,Dry,Yes
+CUST02120,2024-03-26,Tier 2,25-34,Marketplace,None,Hair Care,Oily,Yes
+CUST02121,2025-08-26,Tier 1,35-44,Instagram,Silver,Skin Care,Normal,Yes
+CUST02122,2024-04-07,Tier 1,25-34,Referral,None,Skin Care,Oily,No
+CUST02123,2024-07-30,Tier 1,25-34,Influencer,None,Hair Care,Normal,Yes
+CUST02124,2025-07-15,Tier 2,18-24,Instagram,Silver,Baby Care,Sensitive,Yes
+CUST02125,2025-02-20,Tier 2,25-34,Instagram,Gold,Fragrance,NA,Yes
+CUST02126,2024-09-26,Tier 2,18-24,Instagram,None,Skin Care,Oily,Yes
+CUST02127,2024-12-09,Tier 1,45+,Google Search,Gold,Skin Care,NA,Yes
+CUST02128,2025-05-06,Tier 1,18-24,Google Search,Silver,Baby Care,Oily,Yes
+CUST02129,2025-06-15,Tier 1,18-24,Instagram,None,Wellness,Dry,No
+CUST02130,2025-01-16,Tier 2,25-34,Instagram,Silver,Baby Care,Oily,No
+CUST02131,2024-08-02,Tier 1,25-34,Instagram,None,Skin Care,Combination,No
+CUST02132,2025-09-04,Tier 3,25-34,Google Search,None,Skin Care,Sensitive,Yes
+CUST02133,2025-03-29,Tier 1,25-34,Google Search,None,Hair Care,Sensitive,Yes
+CUST02134,2024-09-10,Tier 2,25-34,Marketplace,Silver,Fragrance,Dry,Yes
+CUST02135,2025-04-28,Tier 1,35-44,Organic,None,Makeup,Combination,No
+CUST02136,2024-03-08,Tier 2,25-34,Google Search,None,Makeup,NA,Yes
+CUST02137,2024-09-29,Tier 3,25-34,Instagram,None,Baby Care,Sensitive,Yes
+CUST02138,2025-02-07,Tier 1,25-34,Instagram,None,Baby Care,NA,Yes
+CUST02139,2025-08-13,Tier 1,25-34,Google Search,None,Fragrance,NA,No
+CUST02140,2024-04-15,Tier 1,25-34,Marketplace,Gold,Makeup,Combination,No
+CUST02141,2024-10-04,Tier 2,18-24,Google Search,None,Makeup,Dry,Yes
+CUST02142,2025-07-05,Tier 2,18-24,Marketplace,None,Baby Care,Normal,No
+CUST02143,2025-05-27,Tier 1,18-24,Organic,Silver,Makeup,Oily,Yes
+CUST02144,2025-01-23,Tier 2,18-24,Organic,Silver,Wellness,Sensitive,Yes
+CUST02145,2024-01-20,Tier 1,25-34,Marketplace,None,Skin Care,Oily,No
+CUST02146,2025-03-28,Tier 1,25-34,Google Search,None,Baby Care,NA,Yes
+CUST02147,2024-07-29,Tier 1,45+,Instagram,None,Wellness,Normal,Yes
+CUST02148,2024-09-25,Tier 2,25-34,Influencer,None,Baby Care,NA,No
+CUST02149,2025-02-23,Tier 2,25-34,Google Search,Gold,Skin Care,Sensitive,Yes
+CUST02150,2024-06-22,Tier 2,25-34,Instagram,None,Makeup,Normal,Yes
+CUST02151,2024-07-18,Tier 1,25-34,Google Search,None,Makeup,Combination,Yes
+CUST02152,2024-04-12,Tier 3,25-34,Referral,Silver,Skin Care,Oily,No
+CUST02153,2024-03-16,Tier 3,45+,Instagram,None,Wellness,Normal,Yes
+CUST02154,2024-02-18,Tier 2,35-44,Influencer,Gold,Skin Care,Normal,Yes
+CUST02155,2025-02-17,Tier 3,45+,Marketplace,None,Baby Care,Oily,Yes
+CUST02156,2024-09-21,Tier 2,25-34,Google Search,None,Fragrance,Oily,Yes
+CUST02157,2025-08-02,Tier 1,45+,Organic,Gold,Skin Care,Normal,Yes
+CUST02158,2024-03-29,Tier 1,35-44,Organic,Silver,Skin Care,NA,Yes
+CUST02159,2025-04-20,Tier 1,35-44,Influencer,None,Fragrance,Oily,Yes
+CUST02160,2024-11-02,Tier 3,25-34,Influencer,None,Wellness,Dry,No
+CUST02161,2024-10-28,Tier 1,35-44,Instagram,None,Wellness,Oily,No
+CUST02162,2025-01-23,Tier 2,18-24,Google Search,None,Skin Care,Sensitive,Yes
+CUST02163,2024-12-09,Tier 1,18-24,Marketplace,None,Makeup,Combination,Yes
+CUST02164,2024-11-26,Tier 2,18-24,Marketplace,Gold,Skin Care,NA,Yes
+CUST02165,2025-04-22,Tier 2,25-34,Marketplace,None,Wellness,Sensitive,Yes
+CUST02166,2025-09-04,Tier 1,25-34,Google Search,Silver,Baby Care,NA,Yes
+CUST02167,2024-08-01,Tier 2,25-34,Google Search,None,Wellness,Combination,Yes
+CUST02168,2025-01-05,Tier 1,25-34,Google Search,None,Skin Care,Oily,Yes
+CUST02169,2024-08-15,Tier 3,18-24,Referral,Gold,Hair Care,Dry,Yes
+CUST02170,2024-04-15,Tier 1,35-44,Marketplace,Silver,Hair Care,Normal,Yes
+CUST02171,2025-05-12,Tier 1,18-24,Referral,None,Hair Care,Oily,Yes
+CUST02172,2024-05-26,Tier 1,25-34,Referral,None,Baby Care,Combination,Yes
+CUST02173,2025-08-28,Tier 1,25-34,Google Search,None,Makeup,Sensitive,Yes
+CUST02174,2024-04-14,Tier 3,35-44,Google Search,None,Fragrance,Sensitive,Yes
+CUST02175,2024-06-17,Tier 2,35-44,Instagram,Gold,Makeup,Combination,Yes
+CUST02176,2025-05-16,Tier 1,25-34,Marketplace,None,Skin Care,Normal,Yes
+CUST02177,2024-10-21,Tier 2,45+,Google Search,None,Baby Care,Dry,No
+CUST02178,2024-09-25,Tier 2,25-34,Organic,None,Fragrance,Dry,Yes
+CUST02179,2024-08-16,Tier 1,18-24,Google Search,Platinum,Baby Care,NA,No
+CUST02180,2024-04-28,Tier 1,35-44,Organic,Silver,Wellness,Combination,Yes
+CUST02181,2025-09-02,Tier 1,25-34,Google Search,None,Hair Care,Combination,No
+CUST02182,2025-07-11,Tier 1,35-44,Organic,None,Hair Care,Combination,Yes
+CUST02183,2025-06-16,Tier 2,25-34,Instagram,None,Skin Care,Sensitive,Yes
+CUST02184,2025-03-30,Tier 1,35-44,Google Search,None,Skin Care,Dry,Yes
+CUST02185,2024-02-29,Tier 1,18-24,Instagram,None,Hair Care,Combination,Yes
+CUST02186,2024-10-02,Tier 2,25-34,Referral,Gold,Hair Care,Oily,Yes
+CUST02187,2024-09-13,Tier 1,18-24,Instagram,None,Skin Care,NA,Yes
+CUST02188,2025-02-11,Tier 1,25-34,Google Search,None,Fragrance,Normal,No
+CUST02189,2025-01-22,Tier 1,18-24,Google Search,None,Wellness,Dry,Yes
+CUST02190,2024-10-25,Tier 3,25-34,Organic,None,Baby Care,Dry,Yes
+CUST02191,2024-05-23,Tier 1,25-34,Influencer,Silver,Baby Care,Combination,Yes
+CUST02192,2024-05-14,Tier 1,18-24,Referral,Gold,Skin Care,Oily,Yes
+CUST02193,2025-09-10,Tier 3,18-24,Organic,None,Wellness,Sensitive,No
+CUST02194,2024-06-09,Tier 1,25-34,Organic,Gold,Skin Care,Dry,Yes
+CUST02195,2024-09-02,Tier 1,25-34,Marketplace,None,Hair Care,Normal,Yes
+CUST02196,2024-12-15,Tier 1,25-34,Instagram,None,Makeup,NA,Yes
+CUST02197,2025-09-06,Tier 2,25-34,Referral,Silver,Fragrance,Dry,Yes
+CUST02198,2024-08-10,Tier 1,18-24,Influencer,Silver,Hair Care,Normal,No
+CUST02199,2024-10-21,Tier 2,35-44,Organic,None,Skin Care,Sensitive,Yes
+CUST02200,2025-04-07,Tier 2,45+,Referral,None,Skin Care,Dry,Yes
+CUST02201,2024-01-28,Tier 1,35-44,Instagram,Silver,Hair Care,Normal,Yes
+CUST02202,2024-06-08,Tier 1,18-24,Instagram,None,Baby Care,Combination,Yes
+CUST02203,2024-12-09,Tier 1,25-34,Marketplace,None,Hair Care,Dry,Yes
+CUST02204,2024-10-18,Tier 1,25-34,Instagram,None,Skin Care,Dry,Yes
+CUST02205,2024-09-07,Tier 1,25-34,Influencer,None,Baby Care,NA,Yes
+CUST02206,2024-09-22,Tier 2,25-34,Marketplace,Gold,Hair Care,Dry,Yes
+CUST02207,2024-04-15,Tier 2,25-34,Organic,None,Hair Care,Oily,No
+CUST02208,2024-02-12,Tier 2,18-24,Marketplace,None,Hair Care,Sensitive,Yes
+CUST02209,2024-08-13,Tier 1,35-44,Organic,None,Wellness,Sensitive,No
+CUST02210,2025-01-09,Tier 1,35-44,Marketplace,Silver,Wellness,Sensitive,Yes
+CUST02211,2024-10-12,Tier 2,35-44,Marketplace,Gold,Skin Care,Combination,Yes
+CUST02212,2025-08-04,Tier 1,25-34,Influencer,Gold,Skin Care,NA,Yes
+CUST02213,2025-03-03,Tier 1,35-44,Influencer,Silver,Makeup,Normal,Yes
+CUST02214,2024-05-21,Tier 2,18-24,Google Search,Gold,Baby Care,Oily,Yes
+CUST02215,2025-07-17,Tier 2,45+,Organic,Silver,Makeup,Sensitive,No
+CUST02216,2024-05-20,Tier 3,25-34,Google Search,Silver,Hair Care,Dry,Yes
+CUST02217,2025-07-22,Tier 3,35-44,Influencer,None,Skin Care,Combination,Yes
+CUST02218,2024-10-03,Tier 2,25-34,Google Search,None,Makeup,Oily,Yes
+CUST02219,2025-06-16,Tier 1,25-34,Instagram,None,Makeup,Dry,Yes
+CUST02220,2025-06-14,Tier 3,25-34,Instagram,Silver,Makeup,Normal,Yes
+CUST02221,2025-08-13,Tier 3,25-34,Referral,Gold,Makeup,Normal,Yes
+CUST02222,2025-01-25,Tier 1,18-24,Marketplace,Silver,Skin Care,Combination,No
+CUST02223,2025-03-05,Tier 2,25-34,Instagram,Gold,Skin Care,Normal,Yes
+CUST02224,2025-01-18,Tier 2,18-24,Organic,None,Skin Care,Sensitive,Yes
+CUST02225,2024-03-02,Tier 1,25-34,Influencer,Silver,Baby Care,NA,No
+CUST02226,2024-03-03,Tier 1,25-34,Google Search,Gold,Hair Care,NA,Yes
+CUST02227,2024-10-08,Tier 1,25-34,Google Search,None,Hair Care,Dry,Yes
+CUST02228,2024-11-21,Tier 2,25-34,Referral,Silver,Baby Care,Oily,Yes
+CUST02229,2024-04-15,Tier 2,25-34,Marketplace,Silver,Skin Care,NA,Yes
+CUST02230,2025-03-10,Tier 2,45+,Referral,None,Baby Care,Combination,Yes
+CUST02231,2024-07-22,Tier 1,18-24,Organic,Silver,Fragrance,Sensitive,No
+CUST02232,2025-07-06,Tier 1,18-24,Google Search,Silver,Baby Care,Dry,Yes
+CUST02233,2025-06-05,Tier 1,18-24,Google Search,None,Hair Care,NA,Yes
+CUST02234,2024-10-01,Tier 2,45+,Referral,Gold,Skin Care,Dry,Yes
+CUST02235,2025-04-18,Tier 2,18-24,Referral,None,Baby Care,Sensitive,Yes
+CUST02236,2024-06-17,Tier 3,25-34,Google Search,None,Skin Care,Dry,Yes
+CUST02237,2024-01-08,Tier 2,25-34,Referral,Gold,Fragrance,NA,Yes
+CUST02238,2024-06-19,Tier 3,45+,Referral,Gold,Wellness,Oily,Yes
+CUST02239,2025-05-07,Tier 3,25-34,Instagram,Silver,Skin Care,Combination,No
+CUST02240,2024-10-12,Tier 1,18-24,Google Search,None,Makeup,Oily,Yes
+CUST02241,2025-04-02,Tier 1,45+,Marketplace,Gold,Makeup,Combination,No
+CUST02242,2025-01-20,Tier 2,25-34,Google Search,None,Makeup,Combination,Yes
+CUST02243,2024-08-28,Tier 2,18-24,Instagram,Silver,Hair Care,Dry,No
+CUST02244,2025-01-23,Tier 1,35-44,Organic,Silver,Wellness,Dry,Yes
+CUST02245,2024-01-14,Tier 1,25-34,Google Search,Silver,Hair Care,Oily,Yes
+CUST02246,2024-12-02,Tier 2,18-24,Instagram,None,Fragrance,Dry,Yes
+CUST02247,2025-07-27,Tier 1,25-34,Google Search,None,Hair Care,Combination,No
+CUST02248,2025-06-03,Tier 1,25-34,Referral,None,Skin Care,Sensitive,Yes
+CUST02249,2024-09-05,Tier 2,45+,Influencer,Platinum,Hair Care,Sensitive,Yes
+CUST02250,2024-04-03,Tier 3,45+,Marketplace,Silver,Hair Care,Sensitive,Yes
+CUST02251,2024-09-27,Tier 2,35-44,Instagram,Silver,Makeup,Sensitive,Yes
+CUST02252,2024-05-24,Tier 1,18-24,Instagram,None,Makeup,Oily,Yes
+CUST02253,2024-08-01,Tier 2,35-44,Instagram,Gold,Skin Care,Oily,No
+CUST02254,2025-03-06,Tier 3,35-44,Google Search,Silver,Fragrance,Dry,No
+CUST02255,2025-08-26,Tier 3,18-24,Marketplace,None,Hair Care,Oily,No
+CUST02256,2024-02-15,Tier 2,18-24,Influencer,None,Wellness,Oily,Yes
+CUST02257,2024-02-21,Tier 1,25-34,Influencer,Silver,Baby Care,Combination,Yes
+CUST02258,2024-01-26,Tier 3,25-34,Instagram,None,Baby Care,Normal,Yes
+CUST02259,2025-04-14,Tier 3,35-44,Organic,Gold,Fragrance,NA,Yes
+CUST02260,2024-12-23,Tier 3,35-44,Marketplace,Silver,Skin Care,Normal,Yes
+CUST02261,2024-10-24,Tier 1,45+,Marketplace,None,Hair Care,NA,Yes
+CUST02262,2024-12-30,Tier 2,25-34,Instagram,Silver,Hair Care,NA,No
+CUST02263,2024-05-08,Tier 2,25-34,Influencer,None,Skin Care,Normal,Yes
+CUST02264,2025-02-10,Tier 3,35-44,Instagram,Gold,Skin Care,Dry,Yes
+CUST02265,2025-06-11,Tier 2,18-24,Instagram,Silver,Skin Care,Combination,No
+CUST02266,2025-09-08,Tier 2,35-44,Influencer,None,Skin Care,Normal,Yes
+CUST02267,2024-12-15,Tier 2,25-34,Instagram,None,Baby Care,Combination,Yes
+CUST02268,2025-01-13,Tier 2,45+,Google Search,Gold,Wellness,Sensitive,Yes
+CUST02269,2024-12-03,Tier 2,25-34,Referral,Gold,Skin Care,Sensitive,No
+CUST02270,2024-03-23,Tier 3,25-34,Google Search,None,Skin Care,NA,Yes
+CUST02271,2024-10-03,Tier 2,25-34,Referral,None,Fragrance,Combination,Yes
+CUST02272,2024-01-18,Tier 2,35-44,Instagram,None,Fragrance,Sensitive,Yes
+CUST02273,2024-02-06,Tier 1,25-34,Marketplace,None,Makeup,Normal,Yes
+CUST02274,2025-02-21,Tier 3,25-34,Marketplace,None,Skin Care,Oily,Yes
+CUST02275,2024-05-19,Tier 3,35-44,Influencer,Silver,Hair Care,Sensitive,Yes
+CUST02276,2024-10-22,Tier 2,45+,Google Search,Gold,Makeup,NA,No
+CUST02277,2025-01-11,Tier 2,45+,Influencer,None,Makeup,Normal,No
+CUST02278,2025-01-16,Tier 1,18-24,Instagram,None,Hair Care,Normal,No
+CUST02279,2025-06-10,Tier 2,18-24,Google Search,None,Skin Care,NA,No
+CUST02280,2025-03-15,Tier 3,25-34,Organic,None,Wellness,Sensitive,Yes
+CUST02281,2025-04-16,Tier 2,25-34,Instagram,None,Baby Care,Dry,Yes
+CUST02282,2025-07-28,Tier 3,18-24,Google Search,None,Wellness,Combination,No
+CUST02283,2024-01-25,Tier 3,35-44,Google Search,None,Wellness,Oily,Yes
+CUST02284,2024-01-09,Tier 1,18-24,Instagram,Platinum,Baby Care,Dry,Yes
+CUST02285,2025-05-16,Tier 3,45+,Marketplace,None,Makeup,Sensitive,Yes
+CUST02286,2024-01-30,Tier 1,18-24,Referral,None,Hair Care,NA,Yes
+CUST02287,2024-01-24,Tier 3,25-34,Instagram,None,Skin Care,Oily,Yes
+CUST02288,2024-08-26,Tier 2,35-44,Marketplace,Gold,Hair Care,Oily,No
+CUST02289,2024-12-27,Tier 1,25-34,Organic,None,Skin Care,Combination,No
+CUST02290,2024-07-06,Tier 1,35-44,Marketplace,None,Hair Care,Normal,Yes
+CUST02291,2024-03-23,Tier 2,25-34,Influencer,Silver,Fragrance,NA,Yes
+CUST02292,2024-11-07,Tier 1,25-34,Marketplace,None,Hair Care,Oily,No
+CUST02293,2024-04-20,Tier 1,25-34,Referral,None,Wellness,Dry,No
+CUST02294,2025-03-09,Tier 2,35-44,Marketplace,Silver,Skin Care,Oily,Yes
+CUST02295,2025-06-07,Tier 2,45+,Google Search,None,Baby Care,Oily,Yes
+CUST02296,2024-01-21,Tier 1,35-44,Marketplace,None,Skin Care,NA,Yes
+CUST02297,2025-08-27,Tier 3,25-34,Instagram,Silver,Makeup,Combination,Yes
+CUST02298,2024-08-08,Tier 1,25-34,Organic,Gold,Baby Care,Oily,Yes
+CUST02299,2024-06-04,Tier 1,18-24,Organic,None,Hair Care,NA,Yes
+CUST02300,2024-09-18,Tier 1,18-24,Google Search,None,Skin Care,Normal,Yes
+CUST02301,2024-10-19,Tier 1,25-34,Instagram,Gold,Skin Care,Sensitive,Yes
+CUST02302,2024-03-27,Tier 2,35-44,Organic,Silver,Baby Care,Combination,Yes
+CUST02303,2025-08-21,Tier 2,18-24,Referral,None,Wellness,Sensitive,No
+CUST02304,2024-04-24,Tier 1,35-44,Marketplace,Silver,Makeup,Combination,Yes
+CUST02305,2024-09-09,Tier 3,25-34,Organic,None,Makeup,Combination,No
+CUST02306,2025-06-10,Tier 2,35-44,Referral,None,Fragrance,NA,Yes
+CUST02307,2024-09-17,Tier 1,25-34,Organic,None,Skin Care,NA,Yes
+CUST02308,2024-02-05,Tier 2,35-44,Google Search,None,Skin Care,Normal,Yes
+CUST02309,2024-02-18,Tier 2,25-34,Marketplace,None,Hair Care,NA,Yes
+CUST02310,2024-05-29,Tier 2,25-34,Referral,None,Fragrance,Normal,Yes
+CUST02311,2024-11-17,Tier 1,18-24,Google Search,None,Hair Care,Dry,Yes
+CUST02312,2024-08-29,Tier 2,18-24,Marketplace,Silver,Skin Care,NA,Yes
+CUST02313,2025-03-01,Tier 1,35-44,Referral,Silver,Skin Care,NA,Yes
+CUST02314,2025-06-06,Tier 1,25-34,Referral,None,Skin Care,Oily,Yes
+CUST02315,2024-02-21,Tier 3,45+,Referral,None,Skin Care,Sensitive,No
+CUST02316,2025-09-13,Tier 1,25-34,Referral,None,Skin Care,Oily,No
+CUST02317,2024-11-07,Tier 3,25-34,Referral,None,Baby Care,Sensitive,Yes
+CUST02318,2025-05-25,Tier 2,18-24,Marketplace,Silver,Makeup,NA,Yes
+CUST02319,2025-08-21,Tier 1,25-34,Marketplace,Silver,Hair Care,Combination,Yes
+CUST02320,2025-04-14,Tier 2,18-24,Organic,None,Skin Care,Oily,Yes
+CUST02321,2024-10-22,Tier 3,35-44,Google Search,Silver,Fragrance,Dry,Yes
+CUST02322,2024-04-23,Tier 2,18-24,Organic,Silver,Skin Care,NA,Yes
+CUST02323,2025-02-10,Tier 2,45+,Instagram,Gold,Skin Care,Oily,No
+CUST02324,2025-01-31,Tier 3,25-34,Influencer,None,Baby Care,Dry,Yes
+CUST02325,2024-08-21,Tier 1,25-34,Organic,Silver,Baby Care,Dry,No
+CUST02326,2025-08-31,Tier 2,18-24,Referral,None,Hair Care,Dry,Yes
+CUST02327,2024-05-28,Tier 1,25-34,Referral,None,Skin Care,Combination,Yes
+CUST02328,2025-08-20,Tier 3,35-44,Marketplace,Gold,Hair Care,NA,Yes
+CUST02329,2024-09-15,Tier 2,35-44,Google Search,Silver,Baby Care,Oily,Yes
+CUST02330,2024-04-23,Tier 3,25-34,Organic,Platinum,Hair Care,NA,Yes
+CUST02331,2024-01-10,Tier 2,25-34,Marketplace,Silver,Wellness,NA,Yes
+CUST02332,2024-04-06,Tier 2,18-24,Influencer,Gold,Hair Care,Dry,No
+CUST02333,2025-09-15,Tier 2,25-34,Referral,None,Baby Care,Dry,Yes
+CUST02334,2025-08-22,Tier 2,18-24,Influencer,Silver,Skin Care,Dry,Yes
+CUST02335,2024-12-22,Tier 2,18-24,Instagram,None,Fragrance,NA,Yes
+CUST02336,2025-04-26,Tier 2,25-34,Google Search,None,Fragrance,Sensitive,Yes
+CUST02337,2025-09-07,Tier 1,25-34,Referral,None,Skin Care,NA,Yes
+CUST02338,2025-08-23,Tier 3,25-34,Instagram,Gold,Wellness,Dry,Yes
+CUST02339,2024-12-16,Tier 3,18-24,Instagram,Silver,Makeup,Sensitive,Yes
+CUST02340,2024-09-17,Tier 3,35-44,Organic,Gold,Skin Care,NA,No
+CUST02341,2025-07-09,Tier 2,25-34,Google Search,None,Fragrance,NA,No
+CUST02342,2024-08-10,Tier 2,35-44,Instagram,Silver,Hair Care,Combination,Yes
+CUST02343,2025-08-24,Tier 2,25-34,Google Search,Silver,Baby Care,Dry,Yes
+CUST02344,2025-09-11,Tier 2,35-44,Referral,Silver,Fragrance,Sensitive,Yes
+CUST02345,2024-03-06,Tier 1,18-24,Influencer,None,Wellness,Combination,Yes
+CUST02346,2024-10-27,Tier 2,45+,Instagram,None,Skin Care,Dry,No
+CUST02347,2024-08-23,Tier 1,35-44,Marketplace,None,Makeup,Combination,Yes
+CUST02348,2024-11-13,Tier 1,25-34,Organic,None,Fragrance,Dry,Yes
+CUST02349,2025-01-11,Tier 2,18-24,Referral,None,Fragrance,Oily,Yes
+CUST02350,2024-12-10,Tier 1,25-34,Marketplace,None,Skin Care,Combination,Yes
+CUST02351,2024-07-16,Tier 1,25-34,Organic,None,Fragrance,Oily,Yes
+CUST02352,2025-01-29,Tier 2,35-44,Organic,None,Baby Care,Sensitive,Yes
+CUST02353,2024-06-28,Tier 3,18-24,Google Search,None,Hair Care,Normal,Yes
+CUST02354,2025-08-06,Tier 1,25-34,Google Search,None,Skin Care,Oily,Yes
+CUST02355,2024-01-17,Tier 3,35-44,Organic,None,Skin Care,NA,No
+CUST02356,2025-06-08,Tier 1,35-44,Instagram,Silver,Makeup,Normal,Yes
+CUST02357,2024-04-14,Tier 2,45+,Google Search,Gold,Skin Care,Oily,Yes
+CUST02358,2024-10-18,Tier 2,25-34,Google Search,Silver,Skin Care,Sensitive,Yes
+CUST02359,2024-01-23,Tier 1,25-34,Influencer,Gold,Baby Care,Normal,No
+CUST02360,2025-05-06,Tier 3,35-44,Google Search,None,Wellness,Combination,Yes
+CUST02361,2025-04-26,Tier 1,25-34,Referral,Silver,Baby Care,Oily,Yes
+CUST02362,2025-07-17,Tier 2,25-34,Influencer,Platinum,Makeup,Normal,Yes
+CUST02363,2025-04-05,Tier 2,25-34,Google Search,None,Makeup,Combination,Yes
+CUST02364,2025-03-19,Tier 1,25-34,Google Search,None,Skin Care,Oily,No
+CUST02365,2025-04-03,Tier 1,18-24,Organic,None,Makeup,Oily,Yes
+CUST02366,2024-01-21,Tier 1,35-44,Marketplace,None,Fragrance,NA,Yes
+CUST02367,2025-03-21,Tier 1,25-34,Organic,Platinum,Skin Care,Oily,Yes
+CUST02368,2024-08-22,Tier 1,25-34,Instagram,Silver,Wellness,Dry,No
+CUST02369,2025-08-24,Tier 1,18-24,Referral,None,Skin Care,Dry,Yes
+CUST02370,2024-11-27,Tier 3,35-44,Referral,None,Hair Care,Sensitive,Yes
+CUST02371,2024-09-12,Tier 1,25-34,Google Search,Silver,Fragrance,Oily,Yes
+CUST02372,2024-03-27,Tier 1,18-24,Organic,None,Baby Care,Normal,Yes
+CUST02373,2024-10-28,Tier 2,25-34,Google Search,Gold,Wellness,Combination,Yes
+CUST02374,2024-08-09,Tier 1,25-34,Instagram,None,Hair Care,Sensitive,Yes
+CUST02375,2025-06-04,Tier 1,35-44,Marketplace,None,Skin Care,Oily,Yes
+CUST02376,2025-03-07,Tier 2,18-24,Marketplace,None,Fragrance,Oily,No
+CUST02377,2025-03-14,Tier 1,18-24,Instagram,None,Hair Care,Normal,Yes
+CUST02378,2025-09-11,Tier 2,25-34,Organic,Platinum,Fragrance,Normal,Yes
+CUST02379,2025-05-29,Tier 1,35-44,Google Search,None,Makeup,Sensitive,No
+CUST02380,2025-05-02,Tier 1,25-34,Referral,None,Fragrance,Oily,No
+CUST02381,2025-09-03,Tier 1,25-34,Instagram,None,Hair Care,Dry,Yes
+CUST02382,2024-02-03,Tier 1,25-34,Organic,Silver,Makeup,Sensitive,Yes
+CUST02383,2024-09-26,Tier 2,25-34,Influencer,None,Baby Care,Sensitive,Yes
+CUST02384,2024-05-13,Tier 2,45+,Instagram,Silver,Wellness,Oily,No
+CUST02385,2025-08-07,Tier 1,35-44,Marketplace,Silver,Baby Care,NA,Yes
+CUST02386,2025-09-04,Tier 2,25-34,Google Search,None,Skin Care,Normal,Yes
+CUST02387,2025-04-03,Tier 1,35-44,Referral,None,Hair Care,Combination,Yes
+CUST02388,2025-06-07,Tier 1,25-34,Marketplace,Silver,Hair Care,NA,Yes
+CUST02389,2024-01-17,Tier 2,35-44,Google Search,None,Baby Care,Sensitive,Yes
+CUST02390,2024-08-26,Tier 1,35-44,Instagram,Silver,Hair Care,Sensitive,No
+CUST02391,2025-07-01,Tier 3,25-34,Instagram,None,Skin Care,Oily,Yes
+CUST02392,2024-09-06,Tier 2,18-24,Instagram,None,Makeup,Sensitive,Yes
+CUST02393,2024-01-03,Tier 2,18-24,Google Search,None,Fragrance,NA,Yes
+CUST02394,2024-08-19,Tier 3,35-44,Referral,Silver,Makeup,Combination,Yes
+CUST02395,2024-04-07,Tier 3,18-24,Influencer,None,Makeup,Oily,Yes
+CUST02396,2025-03-04,Tier 2,35-44,Instagram,None,Baby Care,Normal,No
+CUST02397,2025-07-17,Tier 1,25-34,Marketplace,Silver,Fragrance,Normal,Yes
+CUST02398,2024-06-23,Tier 2,45+,Google Search,None,Hair Care,Oily,Yes
+CUST02399,2024-07-29,Tier 1,45+,Instagram,None,Wellness,Oily,Yes
+CUST02400,2024-07-19,Tier 1,45+,Google Search,None,Skin Care,NA,Yes
