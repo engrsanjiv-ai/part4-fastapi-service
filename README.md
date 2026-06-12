@@ -1,4 +1,4 @@
-Part 4 — FastAPI Churn Scoring Service
+# Part 4 — FastAPI Churn Scoring Service
 
 This repository contains a minimal FastAPI service that loads a saved churn model and exposes prediction endpoints for single and batch scoring. The implementation files include:
 
@@ -8,17 +8,31 @@ This repository contains a minimal FastAPI service that loads a saved churn mode
 - `tests/test_api.py` — pytest tests for the endpoints.
 - `monitoring_plan.md` — monitoring and responsible-use notes.
 
-Quick start
+## Setup
 
-1. Create a virtual environment and activate it.
+1. Clone the repository and change into the project folder.
+
+```powershell
+git clone https://github.com/<your-org>/<your-repo>.git
+cd part4-fastapi-service
+```
+
+2. Use Python 3.x (preferred) and create a virtual environment.
 
 ```powershell
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
+```
+
+3. Install dependencies.
+
+```powershell
 pip install -r requirements.txt
 ```
 
-2. (Optional) Train or re-train the model. The script looks for data files under the `data/` folder and will save `model.pkl` by default.
+## Quick start
+
+1. (Optional) Train or re-train the model. The script looks for data files under the `data/` folder and will save `model.pkl` by default.
 
 ```powershell
 python train_model.py --out model.pkl
@@ -30,7 +44,7 @@ python train_model.py --out model.pkl
 uvicorn app.main:app --reload --port 8000
 ```
 
-Project structure
+## Project structure
 
 - app/
 	- main.py
@@ -42,7 +56,7 @@ Project structure
 - monitoring_plan.md
 - requirements.txt
 
-Endpoints
+## Endpoints
 
 - `GET /health`
 	- Response: `{ "status": "ok" }`
@@ -76,7 +90,7 @@ Endpoints
 	- Input: list of customer feature payloads (same schema as `/predict`).
 	- Response: `{ "predictions": [ { "customer_id": ..., "churn_probability": ..., "predicted_class": ..., "risk_level": ... }, ... ] }`
 
-Run tests
+## Run tests
 
 ```powershell
 pytest -q

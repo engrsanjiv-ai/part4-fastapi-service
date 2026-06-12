@@ -1,30 +1,67 @@
-Monitoring Plan — Churn Scoring Service
+# Monitoring Plan — Churn Scoring Service
 
-1. Data Drift
-- Monitor feature distribution (mean, std, percentiles) for key features: `recency_days`, `total_orders`, `total_amount`, `support_ticket_count` weekly.
-- Alert if population KS statistic > 0.2 vs training baseline for any feature.
+## 1. Data Drift
+- Monitor feature distributions for the actual model inputs used by `train_model.py` and `app/main.py`:
+  - `total_orders`
+  - `total_amount`
+  - `avg_order_value`
+  - `recency_days`
+  - `support_ticket_count`
+- Source data files:
+  - `data/orders.csv`
+  - `data/support_tickets.csv`
+  - `data/churn_labels.csv`
+- For each feature, compare current production distribution to the training baseline using summary statistics and a population KS statistic.
+- Alert if KS > 0.2 or if any feature mean shifts by more than 20% from baseline.
 
-2. Prediction Distribution
-- Track churn_probability histogram and rate of predicted positives daily. Alert if predicted positive rate deviates > 2x expected.
+## 2. Prediction Distribution
+- Track the distribution of `churn_probability` produced by the model.
+- Monitor the daily rate of positive churn predictions (`predicted_class == 1`).
+- Alert if the positive prediction rate is more than 2x or less than 0.5x the historical expected rate.
 
-3. Business Outcomes
-- Track retention campaign lift: conversion and revenue lift for customers flagged as high-risk. Evaluate weekly.
+## 3. Business Outcomes
+- Track downstream retention and revenue metrics for customers flagged as medium/high risk.
+- Key metrics:
+  - campaign conversion rate for flagged customers
+  - revenue retention lift versus a control group
+  - churn reduction over time
+- Review weekly and compare with the baseline outcome period.
 
-4. API Health
-- Track request success rate, latency (p95), and error rates. Alert on >1% 5xx or p95 latency > 500ms.
+## 4. API Health
+- Monitor the FastAPI service in `app/main.py` via `/health`, `/predict`, and `/batch_predict`.
+- Track:
+  - request success rate
+  - p95 latency
+  - 5xx error rate
+- Alert if:
+  - 5xx > 1%
+  - p95 latency > 500ms
+  - health endpoint returns non-`ok`
 
-5. Retraining / Triggers
-- Retrain when: (a) label distribution shifts by >10% vs baseline, (b) performance (AUC/PR-AUC) drops by >0.05, or (c) feature drift alerts repeatedly over 2 weeks.
+## 5. Retraining / Triggers
+- Retrain the model when one or more of the following conditions occur:
+  - label distribution shifts by >10% vs training baseline
+  - end-to-end performance drops by >0.05 (AUC or PR-AUC)
+  - feature drift alerts persist for more than two consecutive weeks
+- Note: if `data/churn_labels.csv` is missing, `train_model.py` falls back to a synthetic demo model rather than a production model.
 
-6. Logging
-- Store inputs, model probabilities, model version, timestamp, request id, and request latency for all requests to enable audits and error analysis.
-- Persist logs to a durable store (S3, blob storage, or a logging DB) with partitioning by date.
+## 6. Logging
+- Log request inputs, `churn_probability`, `predicted_class`, risk level, model version, timestamp, and request latency.
+- Persist logs to a durable storage system with daily partitioning.
+- Ensure logs include enough context for audit and troubleshooting:
+  - customer identifier when available
+  - payload feature values
+  - response values
+  - model load status
 
-Related files
+## Related files
 - API implementation: `app/main.py`
 - Training script: `train_model.py`
-- Tests: `tests/test_api.py`
+- API tests: `tests/test_api.py`
+- Data dictionary: `data/DATA_DICTIONARY.md`
 
-Responsible-use note
-- Predictions are advisory. Require human review for VIP customers and any automated discounting. Do not use churn score as the sole gate for irreversible actions (e.g., account termination).
+## Responsible-use note
+- This churn score is advisory only.
+- Require human review before taking automated or irreversible actions, especially for VIP customers.
+- Do not use the score as the sole gate for account closure, credit denial, or similar high-impact decisions.
 
