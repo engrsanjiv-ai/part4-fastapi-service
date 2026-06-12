@@ -13,7 +13,7 @@ This repository contains a minimal FastAPI service that loads a saved churn mode
 1. Clone the repository and change into the project folder.
 
 ```powershell
-git clone https://github.com/<your-org>/<your-repo>.git
+git clone https://github.com/engrsanjiv-ai/part4-fastapi-service.git
 cd part4-fastapi-service
 ```
 
