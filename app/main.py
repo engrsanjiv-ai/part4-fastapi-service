@@ -137,7 +137,7 @@ async def telemetry_middleware(request: Request, call_next):
 
 
 class CustomerFeatures(BaseModel):
-    customer_id: Optional[str] = None
+    customer_id: str
     total_orders: Optional[int] = Field(0, ge=0)
     total_amount: Optional[float] = Field(0.0, ge=0.0)
     avg_order_value: Optional[float] = Field(0.0, ge=0.0)
