@@ -193,6 +193,7 @@ Derived signals and alerts (configure in your metrics backend):
 ```
 
 	- Example Response:
+```json
 {
       "customer_id": "C123",
       "churn_probability": 0.4321,
@@ -207,7 +208,7 @@ Derived signals and alerts (configure in your metrics backend):
       "risk_level": "high",
       "risk_explanation": "High recency and low purchase activity"
 }
-
+```
 ## Run tests
 
 ```powershell
