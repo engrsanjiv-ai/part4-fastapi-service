@@ -1,10 +1,10 @@
 # Part 4 — FastAPI Churn Scoring Service
 
-This repository contains a minimal FastAPI service that loads a saved churn model and exposes prediction endpoints for single and batch scoring. The implementation files include:
+This repository contains FastAPI service that loads a saved churn model and exposes prediction endpoints for single and batch scoring. The implementation files include:
 
 - `app/main.py` — FastAPI application with `/health`, `/predict`, and `/batch_predict` endpoints.
 - `train_model.py` — training script that attempts to build simple aggregated features from `data/` and save `model.pkl`. If no labels are present, it creates a synthetic fallback model so the API can run.
-- `model.pkl` — example saved model (may be present in the repo). You can remove it and re-train if desired.
+- `model.pkl` —  saved model 
 - `tests/test_api.py` — pytest tests for the endpoints.
 - `monitoring_plan.md` — monitoring and responsible-use notes.
 
@@ -43,6 +43,54 @@ python train_model.py --out model.pkl
 ```powershell
 uvicorn app.main:app --reload --port 8000
 ```
+
+## OpenTelemetry (OTEL) Integration
+
+This service includes optional OpenTelemetry instrumentation for traces, metrics, and logs. To enable OTEL exporting, install the extra dependencies and set the OTLP exporter endpoint before starting the service.
+
+Example environment variables (defaults export to console if not set):
+
+```powershell
+set OTEL_EXPORTER_OTLP_ENDPOINT=http://localhost:4318
+set OTEL_SERVICE_NAME=churn-scoring-service
+set OTEL_EXPORTER_OTLP_INSECURE=true
+```
+
+Then run the API as usual:
+
+```powershell
+uvicorn app.main:app --reload --port 8000
+```
+
+See `app/otel.py` and `app/main.py` for the instrumentation implementation and `monitoring_plan.md` for monitoring guidance.
+
+## Docker
+
+This repository includes Docker support and a local OpenTelemetry collector for development.
+
+- `Dockerfile` — container image for the FastAPI app
+- `docker-compose.yml` — starts the app and a local `otel-collector` for OTLP ingestion
+- `otel-collector-config.yaml` — basic collector config that logs received telemetry
+
+Quick start with Docker Compose:
+
+```powershell
+docker compose up --build
+```
+
+The app will be reachable at `http://localhost:8000` and the collector will expose OTLP endpoints on `4317` (gRPC) and `4318` (HTTP).
+
+## Drift check script
+
+There is a small KS-based drift check script at `scripts/drift_check.py` that compares `data/baseline_features.csv` to `data/recent_features.csv` and writes results to `metrics/drift_metrics.json`.
+
+Run it locally with:
+
+```powershell
+& ".venv/Scripts/python.exe" scripts/drift_check.py --baseline data/baseline_features.csv --recent data/recent_features.csv
+```
+
+In production you should run a scheduled job that writes the results to your monitoring backend (OTEL collector or metrics API) and triggers alerts based on thresholds in `monitoring_plan.md`.
 
 ## Project structure
 

@@ -1,0 +1,22 @@
+version: '3.8'
+services:
+  app:
+    build: .
+    ports:
+      - '8000:8000'
+    environment:
+      - OTEL_EXPORTER_OTLP_ENDPOINT=http://otel-collector:4318
+      - OTEL_SERVICE_NAME=churn-scoring-service
+      - OTEL_EXPORTER_OTLP_INSECURE=true
+    depends_on:
+      - otel-collector
+
+  otel-collector:
+    image: otel/opentelemetry-collector-contrib:0.89.0
+    volumes:
+      - ./otel-collector-config.yaml:/etc/otel-collector-config.yaml:ro
+    command: ["--config", "/etc/otel-collector-config.yaml"]
+    ports:
+      - '4318:4318'
+      - '4317:4317'
+    restart: unless-stopped
