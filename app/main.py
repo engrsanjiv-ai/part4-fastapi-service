@@ -9,6 +9,8 @@ import numpy as np
 import pandas as pd
 from fastapi import FastAPI, HTTPException, Request
 from opentelemetry import metrics, trace
+
+"""FastAPI churn scoring service with OpenTelemetry instrumentation."""
 from opentelemetry.exporter.otlp.proto.grpc.metric_exporter import OTLPMetricExporter
 from opentelemetry.exporter.otlp.proto.grpc.trace_exporter import OTLPSpanExporter
 from opentelemetry.exporter.otlp.proto.grpc._log_exporter import OTLPLogExporter
@@ -34,6 +36,7 @@ app = FastAPI(title='Churn Scoring Service')
 
 
 def configure_otel() -> None:
+    """Configure OpenTelemetry tracing, metrics, and logging providers."""
     service_name = os.getenv('OTEL_SERVICE_NAME', 'churn-scoring-service')
     resource = Resource.create({'service.name': service_name})
     otlp_endpoint = os.getenv('OTEL_EXPORTER_OTLP_ENDPOINT')
@@ -81,12 +84,13 @@ def configure_otel() -> None:
 configure_otel()
 
 meter = metrics.get_meter('churn-scoring-service', version='1.0.0')
+# Core API metrics
 request_counter = meter.create_counter('http.server.requests', description='Total incoming HTTP requests')
 request_latency_histogram = meter.create_histogram('http.server.duration_ms', unit='ms', description='HTTP request latency in milliseconds')
 prediction_counter = meter.create_counter('model.predictions.total', description='Total model predictions')
 batch_prediction_counter = meter.create_counter('model.batch_predictions.total', description='Total batch model predictions')
 error_counter = meter.create_counter('http.server.errors', description='Total internal server errors')
-# additional metrics
+# Prediction-specific metrics
 churn_histogram = meter.create_histogram('model.churn_probability', description='Distribution of churn probability', unit='1')
 positive_predictions = meter.create_counter('model.predictions.positive', description='Count of positive churn predictions')
 total_predictions = meter.create_counter('model.predictions.total', description='Total number of model predictions')
@@ -100,6 +104,7 @@ churn_lift_histogram = meter.create_histogram('business.churn_lift', unit='1', d
 
 @app.middleware('http')
 async def telemetry_middleware(request: Request, call_next):
+    """Collect telemetry for every incoming HTTP request."""
     start_time = time.time()
     status_code = 500
     try:
@@ -155,6 +160,7 @@ class ModelLoadError(Exception):
 
 
 def load_model(path: Path):
+    """Load a serialized scikit-learn pipeline from disk."""
     if not path.exists():
         raise FileNotFoundError(f'Model not found at {path}')
     return joblib.load(path)
@@ -175,6 +181,7 @@ except Exception:
 
 
 def predict_proba_from_features(m, df: pd.DataFrame) -> np.ndarray:
+    """Compute churn probabilities from a trained model, with safe fallbacks."""
     try:
         return m.predict_proba(df)[:, 1]
     except Exception:
@@ -187,11 +194,13 @@ def predict_proba_from_features(m, df: pd.DataFrame) -> np.ndarray:
 
 @app.get('/health')
 def health():
+    """Health check endpoint returns basic service status."""
     return {'status': 'ok'}
 
 
 @app.post('/predict')
 def predict(payload: CustomerFeatures):
+    """Run a single customer churn prediction and emit metrics."""
     logger.info('Single prediction request received', extra={'customer_id': payload.customer_id, 'payload': payload.model_dump()})
     if model is None:
         raise HTTPException(status_code=503, detail='Model not loaded. Run `python train_model.py` to create model.pkl')
@@ -251,6 +260,7 @@ def predict(payload: CustomerFeatures):
 
 @app.post('/business_outcomes')
 def business_outcomes(payload: BusinessOutcome):
+    """Ingest business outcome events and export associated metrics."""
     labels = {
         'campaign_id': payload.campaign_id or 'unknown',
         'risk_level': payload.risk_level or 'unknown',
@@ -281,6 +291,7 @@ def business_outcomes(payload: BusinessOutcome):
 
 @app.post('/batch_predict')
 def batch_predict(payload: List[CustomerFeatures]):
+    """Run batch prediction for multiple customers and record aggregate metrics."""
     ids = [p.customer_id for p in payload]
     logger.info('Batch prediction request received', extra={'batch_size': len(payload), 'customer_ids': ids})
     if model is None:

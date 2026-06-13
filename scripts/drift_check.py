@@ -30,6 +30,7 @@ OUT_DIR.mkdir(exist_ok=True)
 
 
 def ks_check(series1, series2):
+    """Compute the Kolmogorov-Smirnov statistic and p-value for two distributions."""
     try:
         stat, p = stats.ks_2samp(series1.dropna(), series2.dropna())
         return float(stat), float(p)
@@ -38,6 +39,7 @@ def ks_check(series1, series2):
 
 
 def setup_meter(otlp_endpoint: str, insecure: bool = True, interval_ms: int = 2000):
+    """Create and register an OTLP meter provider for drift metrics."""
     exporter = OTLPMetricExporter(endpoint=otlp_endpoint, insecure=insecure)
     reader = PeriodicExportingMetricReader(exporter, export_interval_millis=interval_ms)
     provider = MeterProvider(metric_readers=[reader])
@@ -46,6 +48,7 @@ def setup_meter(otlp_endpoint: str, insecure: bool = True, interval_ms: int = 20
 
 
 def main():
+    """Run the drift comparison and optionally export metrics via OTLP."""
     parser = argparse.ArgumentParser()
     parser.add_argument('--baseline', default=str(BASELINE))
     parser.add_argument('--recent', default=str(RECENT))

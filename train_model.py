@@ -20,6 +20,7 @@ import joblib
 
 
 def find_label_column(df: pd.DataFrame):
+    """Choose the label column by searching for churn or label keywords."""
     for col in df.columns:
         if 'churn' in col.lower() or 'label' in col.lower():
             return col
@@ -28,6 +29,7 @@ def find_label_column(df: pd.DataFrame):
 
 
 def build_features(base_path: Path):
+    """Build training features from orders and support ticket CSVs."""
     orders_path = base_path / 'orders.csv'
     support_path = base_path / 'support_tickets.csv'
     labels_path = base_path / 'churn_labels.csv'
@@ -146,6 +148,7 @@ def build_features(base_path: Path):
 
 
 def main(out_path: Path):
+    """Train a churn model and save it to the provided output path."""
     base = Path('data')
     labels_path = base / 'churn_labels.csv'
     if labels_path.exists():

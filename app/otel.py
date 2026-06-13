@@ -1,3 +1,9 @@
+"""OpenTelemetry helper module for the churn scoring service.
+
+This module configures OTEL tracing, metrics, and logs when available,
+and exposes helper functions for emitting request and prediction telemetry.
+"""
+
 import logging
 import os
 from typing import Any, Dict, Optional
@@ -20,6 +26,7 @@ risk_level_counter = None
 
 
 def _get_otlp_endpoint(export_type: str) -> str:
+    """Resolve the OTLP endpoint for a specific signal type."""
     if env := os.environ.get(f"OTEL_EXPORTER_OTLP_{export_type.upper()}_ENDPOINT"):
         return env
     if root := os.environ.get("OTEL_EXPORTER_OTLP_ENDPOINT"):
@@ -28,10 +35,12 @@ def _get_otlp_endpoint(export_type: str) -> str:
 
 
 def _build_labels(**kwargs: Any) -> Dict[str, Any]:
+    """Build a OTEL label dictionary, omitting values that are None."""
     return {k: v for k, v in kwargs.items() if v is not None}
 
 
 def setup_otel(app: Any, service_name: str = "churn-scoring-service", service_version: str = "1.0.0") -> None:
+    """Initialize OpenTelemetry tracing, metrics, and request instrumentation."""
     global otel_enabled, request_counter, request_latency_histogram, prediction_counter, risk_level_counter
 
     try:
@@ -112,6 +121,7 @@ def record_request(
     duration_ms: float,
     customer_id: Optional[str] = None,
 ) -> None:
+    """Emit request metrics with optional customer-level context."""
     labels = _build_labels(
         http_route=route,
         http_method=method,
@@ -140,6 +150,7 @@ def record_prediction(
     risk_level: str,
     customer_id: Optional[str] = None,
 ) -> None:
+    """Emit prediction-level metrics and risk level counters."""
     labels = _build_labels(
         route=route,
         predicted_class=str(predicted_class),
@@ -162,6 +173,7 @@ def record_prediction(
 
 
 def record_batch_prediction(route: str, total_records: int, positive_records: int) -> None:
+    """Emit aggregated metrics for batched prediction requests."""
     labels = _build_labels(route=route)
     if prediction_counter:
         prediction_counter.add(total_records, labels)
