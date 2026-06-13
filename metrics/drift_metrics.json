@@ -1,0 +1,32 @@
+{
+  "total_orders": {
+    "ks_stat": 0.018683862433862435,
+    "p_value": 0.9946764390936895,
+    "baseline_mean": 4.147569444444445,
+    "recent_mean": 4.229166666666667
+  },
+  "total_amount": {
+    "ks_stat": 0.032407407407407406,
+    "p_value": 0.6759303623669676,
+    "baseline_mean": 3080.5538020833333,
+    "recent_mean": 3158.4570833333337
+  },
+  "avg_order_value": {
+    "ks_stat": 0.028769841269841268,
+    "p_value": 0.8057536104643926,
+    "baseline_mean": 741.7942319753339,
+    "recent_mean": 741.5188917045256
+  },
+  "recency_days": {
+    "ks_stat": 0.028439153439153438,
+    "p_value": 0.816684210523128,
+    "baseline_mean": 105.36400462962963,
+    "recent_mean": 106.03571428571429
+  },
+  "support_ticket_count": {
+    "ks_stat": 0.002728174603174603,
+    "p_value": 1.0,
+    "baseline_mean": 0.8003472222222222,
+    "recent_mean": 0.8005952380952381
+  }
+}

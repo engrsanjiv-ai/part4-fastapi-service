@@ -282,13 +282,15 @@ See `app/otel.py` and `app/main.py` for the instrumentation implementation and `
 # 📉 Data Drift 
 There is a small KS-based drift check script at `scripts/drift_check.py` that compares `data/baseline_features.csv` to `data/recent_features.csv` and writes results to `metrics/drift_metrics.json`.
 
+If those CSV files are missing, the script now attempts to generate them automatically from raw source data in `data/orders.csv`, `data/support_tickets.csv`, and `data/churn_labels.csv`.
+
 Run it locally with:
 
 ```powershell
 & ".venv/Scripts/python.exe" scripts/drift_check.py --baseline data/baseline_features.csv --recent data/recent_features.csv
 ```
 
-In production you should run a scheduled job that writes the results to your monitoring backend (OTEL collector or metrics API) and triggers alerts based on thresholds in `monitoring_plan.md`.
+When raw data is available, the command will create the required feature CSVs and then compute drift. In production you should run a scheduled job that writes the results to your monitoring backend (OTEL collector or metrics API) and triggers alerts based on thresholds in `monitoring_plan.md`.
 
 # 🐳Docker + CI/CD Ready Structure
 

@@ -25,8 +25,63 @@ from opentelemetry.sdk.metrics.export import PeriodicExportingMetricReader
 ROOT = Path(__file__).resolve().parents[1]
 BASELINE = ROOT / 'data' / 'baseline_features.csv'
 RECENT = ROOT / 'data' / 'recent_features.csv'
+RAW_ORDERS = ROOT / 'data' / 'orders.csv'
+RAW_SUPPORT = ROOT / 'data' / 'support_tickets.csv'
+LABELS_CSV = ROOT / 'data' / 'churn_labels.csv'
 OUT_DIR = ROOT / 'metrics'
 OUT_DIR.mkdir(exist_ok=True)
+
+
+def build_feature_frame(customer_ids=None):
+    orders = pd.read_csv(RAW_ORDERS, parse_dates=['order_date'])
+    support = pd.read_csv(RAW_SUPPORT, parse_dates=['ticket_date'])
+
+    snapshot_date = orders['order_date'].max()
+    order_features = (
+        orders.groupby('customer_id')
+        .agg(
+            total_orders=('order_id', 'count'),
+            total_amount=('gross_amount', 'sum'),
+            avg_order_value=('gross_amount', 'mean'),
+            last_order_date=('order_date', 'max'),
+        )
+    )
+    support_counts = support.groupby('customer_id').size().rename('support_ticket_count').to_frame()
+
+    features = order_features.join(support_counts, how='outer').fillna(0)
+    features['recency_days'] = (
+        snapshot_date - pd.to_datetime(features['last_order_date'], errors='coerce')
+    ).dt.days.fillna(9999).astype(int)
+    features = features[['total_orders', 'total_amount', 'avg_order_value', 'recency_days', 'support_ticket_count']]
+
+    if customer_ids is not None:
+        features = features.loc[features.index.isin(customer_ids)]
+
+    return features.reset_index()
+
+
+def generate_drift_feature_csvs(baseline_path: Path, recent_path: Path) -> bool:
+    if not RAW_ORDERS.exists() or not RAW_SUPPORT.exists() or not LABELS_CSV.exists():
+        return False
+
+    labels = pd.read_csv(LABELS_CSV)
+    if 'customer_id' not in labels.columns or 'split' not in labels.columns:
+        return False
+
+    baseline_ids = labels.loc[labels['split'] == 'train', 'customer_id'].dropna().unique()
+    recent_ids = labels.loc[labels['split'].isin(['validation', 'test']), 'customer_id'].dropna().unique()
+
+    if len(baseline_ids) == 0 or len(recent_ids) == 0:
+        return False
+
+    baseline_features = build_feature_frame(baseline_ids)
+    recent_features = build_feature_frame(recent_ids)
+
+    baseline_path.parent.mkdir(parents=True, exist_ok=True)
+    baseline_features.to_csv(baseline_path, index=False)
+    recent_features.to_csv(recent_path, index=False)
+    print(f'Generated drift feature files: {baseline_path} and {recent_path}')
+    return True
 
 
 def ks_check(series1, series2):
@@ -61,8 +116,12 @@ def main():
     recent_path = Path(args.recent)
 
     if not baseline_path.exists() or not recent_path.exists():
-        print('Missing baseline or recent data; create CSVs at data/baseline_features.csv and data/recent_features.csv')
-        return
+        if generate_drift_feature_csvs(baseline_path, recent_path):
+            print('Baseline and recent CSV files were missing and have been generated from raw data.')
+        else:
+            print('Missing baseline or recent data; create CSVs at data/baseline_features.csv and data/recent_features.csv')
+            print('To auto-generate them, ensure data/orders.csv, data/support_tickets.csv, and data/churn_labels.csv exist.')
+            return
 
     b = pd.read_csv(baseline_path)
     r = pd.read_csv(recent_path)
