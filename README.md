@@ -211,9 +211,6 @@ Derived signals and alerts (configure in your metrics backend):
 ```
 ## Run tests
 
-```powershell
-
-```
 
 Run tests using the project's virtual environment (recommended):
 
