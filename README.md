@@ -234,7 +234,7 @@ The service and supporting scripts emit the following metrics (OTLP):
 - Business outcome metrics:
 	- `business.campaign_interactions.total` — campaign interaction counts (labels: `campaign_id`, `risk_level`)
 	- `business.campaign_conversion.total` — campaign conversions (labels: `campaign_id`, `risk_level`)
-	- `business.revenue.retained` — revenue retained after intervention (histogram, USD)
+	- `business.revenue.retained` — revenue retained after intervention (histogram)
 	- `business.churn_lift` — observed churn-lift values (histogram)
 
 Derived signals and alerts (configure in your metrics backend):
