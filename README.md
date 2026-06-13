@@ -172,7 +172,41 @@ Derived signals and alerts (configure in your metrics backend):
 
 - `POST /batch_predict`
 	- Input: list of customer feature payloads (same schema as `/predict`).
-	- Response: `{ "predictions": [ { "customer_id": ..., "churn_probability": ..., "predicted_class": ..., "risk_level": ... }, ... ] }`
+```json
+{
+	"customer_id": "C123",
+	"total_orders": 2,
+	"total_amount": 120.0,
+	"avg_order_value": 60.0,
+	"recency_days": 45,
+	"support_ticket_count": 1
+}
+,
+{
+    "customer_id": "C456",
+    "total_orders": 1,
+    "total_amount": 50.0,
+    "avg_order_value": 50.0,
+    "recency_days": 400,
+    "support_ticket_count": 3
+}
+```
+
+	- Example Response:
+{
+      "customer_id": "C123",
+      "churn_probability": 0.4321,
+      "predicted_class": 0,
+      "risk_level": "medium",
+      "risk_explanation": "No immediate risk signals"
+},
+{
+      "customer_id": "C456",
+      "churn_probability": 0.8912,
+      "predicted_class": 1,
+      "risk_level": "high",
+      "risk_explanation": "High recency and low purchase activity"
+}
 
 ## Run tests
 
@@ -191,6 +225,14 @@ Or, if you have already activated the virtual environment:
 ```powershell
 pytest -q
 ```
+
+For CI/CD pipelines, generate an XML coverage report that can be consumed by SonarQube or other quality gate tools:
+
+```powershell
+& ".venv/Scripts/python.exe" -m pytest --junitxml=reports/test-results.xml --cov=app --cov-report=xml:reports/coverage.xml
+```
+
+Define the `--cov` target and output paths as needed for your project structure.
 
 ## Notes
 
