@@ -180,7 +180,19 @@ Derived signals and alerts (configure in your metrics backend):
 
 ```
 
-Notes and guidance
+Run tests using the project's virtual environment (recommended):
+
+```powershell
+& ".venv/Scripts/python.exe" -m pytest -q
+```
+
+Or, if you have already activated the virtual environment:
+
+```powershell
+pytest -q
+```
+
+## Notes
 
 - If `model.pkl` exists in the repo, the API will load it at startup. To regenerate the model, remove or overwrite `model.pkl` then run `python train_model.py --out model.pkl`.
 - The `train_model.py` script uses simple aggregations; for production use replace with a proper feature pipeline and adhere to leakage constraints (only use data available at snapshot date).
