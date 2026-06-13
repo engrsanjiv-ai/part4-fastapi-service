@@ -96,6 +96,38 @@ Run it locally with:
 
 In production you should run a scheduled job that writes the results to your monitoring backend (OTEL collector or metrics API) and triggers alerts based on thresholds in `monitoring_plan.md`.
 
+## Monitoring metrics
+
+The service and supporting scripts emit the following metrics (OTLP):
+
+- API health / request metrics:
+	- `http.server.requests` — count of incoming requests
+	- `http.server.duration_ms` — request latency histogram (derive p95, p50)
+	- `http.server.errors` — count of internal/5xx errors
+
+- Model prediction metrics:
+	- `model.predictions.total` — total predictions (single + batch)
+	- `model.predictions.positive` — count of positive churn predictions
+	- `model.churn_probability` — histogram of churn probability scores
+	- `model.batch_predictions.total` — batch prediction counts
+
+- Data drift metrics (from `scripts/drift_check.py`):
+	- `drift.ks_stat` — KS statistic per feature (attribute: `feature`)
+	- `drift.mean_shift` — absolute mean shift per feature (attribute: `feature`)
+
+- Business outcome metrics:
+	- `business.campaign_interactions.total` — campaign interaction counts (labels: `campaign_id`, `risk_level`)
+	- `business.campaign_conversion.total` — campaign conversions (labels: `campaign_id`, `risk_level`)
+	- `business.revenue.retained` — revenue retained after intervention (histogram, USD)
+	- `business.churn_lift` — observed churn-lift values (histogram)
+
+Derived signals and alerts (configure in your metrics backend):
+
+- Positive prediction rate = `model.predictions.positive / model.predictions.total`
+- p95 latency from `http.server.duration_ms`
+- Drift alert when `drift.ks_stat > 0.2` or mean-shift exceeds policy threshold
+- Retraining triggers based on label/performance shifts (configure in backend)
+
 ## Project structure
 
 - app/
