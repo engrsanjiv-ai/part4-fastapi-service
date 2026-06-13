@@ -1,5 +1,8 @@
 # Part 4 — FastAPI Churn Scoring Service
 
+## D2C Customer Churn Intelligence — Capstone Project
+
+### Overview
 This repository contains FastAPI service that loads a saved churn model and exposes prediction endpoints for single and batch scoring. The implementation files include:
 
 - `app/main.py` — FastAPI application with `/health`, `/predict`, and `/batch_predict` endpoints.
@@ -7,6 +10,7 @@ This repository contains FastAPI service that loads a saved churn model and expo
 - `model.pkl` —  saved model 
 - `tests/test_api.py` — pytest tests for the endpoints.
 - `monitoring_plan.md` — monitoring and responsible-use notes.
+---
 
 ## Setup
 
@@ -141,7 +145,7 @@ In production you should run a scheduled job that writes the results to your mon
 ## Run tests
 
 ```powershell
-pytest -q
+
 ```
 
 Notes and guidance
