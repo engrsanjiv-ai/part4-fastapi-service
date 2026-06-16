@@ -19,7 +19,7 @@ It provides:
 
 ---
 
-# ⚙️ Setup Instructions
+# ⚙️ Setup Instructions (Tested on Python 3.11.9)
 
 ## 1. Clone repository
 
@@ -176,13 +176,7 @@ pytest --cov=app --cov-report=xml
 
 ---
 
-# 📦 Install Dependencies Command
 
-```bash
-pip install -r requirements.txt
-```
-
----
 
 # 🧠 Model / Data Source Notes
 
@@ -311,7 +305,7 @@ The app will be reachable at `http://localhost:8000` and the collector will expo
 
 # 📌 Summary
 
-This project demonstrates:
+This project demonstrates: (Tested on Python 3.11.9)
 
 - FastAPI ML deployment
 - Batch + real-time inference
